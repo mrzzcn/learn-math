@@ -1,0 +1,56 @@
+# 推送 v* 标签（如 v1.0.0）时生成 PDF，建 GitHub Release 并附上 PDF。
+# 也可以在 Actions 页面手动运行，给已有标签补传 PDF。
+name: Release PDF
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: '要附加 PDF 的标签，如 v1.0.0'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  pdf:
+    runs-on: ubuntu-latest
+    env:
+      TAG: ${{ github.event.inputs.tag || github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TAG }}
+
+      - uses: pnpm/action-setup@v4          # 版本取 package.json 的 packageManager
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: 生成 PDF
+        run: pnpm pdf
+
+      # 书名和附件名取自 site.config.mjs
+      - name: 读取站点配置
+        run: |
+          echo "TITLE=$(node -e "import('./site.config.mjs').then(m => console.log(m.default.title))")" >> "$GITHUB_ENV"
+          echo "SLUG=$(node -e "import('./site.config.mjs').then(m => console.log(m.default.slug))")" >> "$GITHUB_ENV"
+
+      # 附件名用英文：GitHub 会把附件名里的中文替换掉
+      - name: 整理附件
+        run: cp "output/${TITLE}.pdf" "${SLUG}-guide-${TAG}.pdf"
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.TAG }}
+          name: ${{ env.TITLE }} ${{ env.TAG }}
+          body: |
+            A4 纵向 PDF，内容和网页版相同，带目录、页码和可点击的交叉引用。
+          files: ${{ env.SLUG }}-guide-${{ env.TAG }}.pdf
+          fail_on_unmatched_files: true

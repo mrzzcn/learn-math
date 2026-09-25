@@ -1,0 +1,6 @@
+node_modules/
+dist/
+guide.md
+.DS_Store
+output/
+tools/fonts/
