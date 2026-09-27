@@ -180,3 +180,26 @@ a:hover { text-decoration: underline; }
 
 /* 句中加粗：珊瑚色强调（规则见 build.mjs 的 markInlineEmphasis） */
 .markdown strong.hl { color: var(--emph); }
+
+/* 数学公式（MathJax SVG） */
+.markdown .math svg { overflow: visible; }
+.markdown .math-display { margin: 0 0 16px; overflow-x: auto; overflow-y: hidden; text-align: center; padding: 4px 0; }
+.markdown .math-display svg { max-width: none; }
+
+/* 表格第一列合并的单元格（见 build.mjs 的 mergeFirstColumn） */
+.markdown td[rowspan] { vertical-align: middle; border-right: 1px solid var(--line); }
+
+/* 真题的答案：默认收起，点按钮展开（见 build.mjs 的 foldAnswers） */
+.markdown details.answer { margin: 0 0 20px; }
+.markdown details.answer > summary {
+  display: inline-block; cursor: pointer; list-style: none; user-select: none;
+  padding: 4px 14px; border: 1px solid var(--line); border-radius: 6px;
+  font-size: .9em; color: var(--link, #1f5fa8); background: var(--bg-soft);
+}
+.markdown details.answer > summary::-webkit-details-marker { display: none; }
+.markdown details.answer > summary:hover { border-color: currentColor; }
+.markdown details.answer > summary .hide,
+.markdown details.answer[open] > summary .show { display: none; }
+.markdown details.answer[open] > summary .hide { display: inline; }
+.markdown details.answer[open] > summary { margin-bottom: 12px; }
+@media print { .markdown details.answer > summary { display: none; } }
