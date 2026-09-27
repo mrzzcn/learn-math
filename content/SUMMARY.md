@@ -102,6 +102,7 @@
 - [2024 年河南中考数学](appendix/exam-2024.md)
 - [2023 年河南中考数学](appendix/exam-2023.md)
 - [2022 年河南中考数学](appendix/exam-2022.md)
+- [学习工具](appendix/tools.md)
 
 ## 下载
 

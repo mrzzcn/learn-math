@@ -18,6 +18,7 @@
   },
   "packageManager": "pnpm@11.1.2",
   "devDependencies": {
-    "pdfmake": "0.3.11"
+    "pdfmake": "0.3.11",
+    "qrcode": "^1.5.4"
   }
 }
