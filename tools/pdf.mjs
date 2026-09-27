@@ -392,15 +392,13 @@ async function render({ pages, allPages, out, cover, toc = true, title = SITE_TI
 
   const content = [];
 
-  // 封面：配置了封面图就整页铺满。图要事先裁成 A4 比例（宽:高 = 1:1.414），不能超出页面，
-  // 否则有的阅读器缩放后不再显示。样张和没有封面图时用文字封面
+  // 封面：配置了封面图就整页铺满。图放在第一页的 background 里画（见下面 docDefinition.background），
+  // 不放进正文：正文里绝对定位的整页图，有的阅读器缩放后不再显示。正文只占一个空白页。
+  // 样张和没有封面图时用文字封面
   const coverFile = config.cover && path.join(ROOT, config.cover);
-  if (cover === 'image' && coverFile && fs.existsSync(coverFile)) {
-    content.push(
-      { image: coverFile, width: PAGE.width, height: PAGE.height, absolutePosition: { x: 0, y: 0 } },
-      { text: '', pageBreak: 'after' },
-    );
-  } else content.push(
+  const coverImage = cover === 'image' && coverFile && fs.existsSync(coverFile) ? coverFile : null;
+  if (coverImage) content.push({ text: ' ', pageBreak: 'after' });
+  else content.push(
     { text: cover.title || SITE_TITLE, style: 'coverTitle', margin: [0, 230, 0, 12] },
     ...(cover.lines || [config.subtitle, `面向${config.audience}`]).map((t, k) => ({ text: t, style: 'coverSub', margin: [0, k ? 6 : 0, 0, 0] })),
     { text: `生成日期：${new Date().toISOString().slice(0, 10)}`, style: 'coverDate', absolutePosition: { x: MARGIN[0], y: PAGE.height - 110 } },
@@ -550,6 +548,10 @@ async function render({ pages, allPages, out, cover, toc = true, title = SITE_TI
         // 页眉必须放得进上边距，放不下 pdfmake 会整个丢掉；思源黑体行高偏大，这里把行高设为 1
         fontSize: 8.5, lineHeight: 1, color: C.soft, margin: [MARGIN[0], 4 * MM, MARGIN[2], 0],
       };
+    },
+    background(currentPage) {
+      if (currentPage !== 1 || !coverImage) return null;
+      return [{ image: coverImage, width: PAGE.width, height: PAGE.height, absolutePosition: { x: 0, y: 0 } }];
     },
     footer(currentPage) {
       if (currentPage === 1) return null;
