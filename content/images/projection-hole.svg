@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 232" width="320" height="232" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="30,170 150,170 150,110 30,110" fill="#ffffff" stroke="#1f2328" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="30,110 150,110 178.3,81.7 58.3,81.7" fill="#eef1f4" stroke="#1f2328" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="150,170 178.3,141.7 178.3,81.7 150,110" fill="#dde2e8" stroke="#1f2328" stroke-width="1.8" stroke-linejoin="round"/>
+<ellipse cx="104.1" cy="95.9" rx="20" ry="7.1" fill="#ffffff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="90" y="192" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">木块</text>
+<rect x="200" y="50" width="96" height="48" fill="none" stroke="#1f2328" stroke-width="2"/>
+<line x1="232" y1="50" x2="232" y2="98" stroke="#cd4b30" stroke-width="1.8" stroke-dasharray="5 4"/>
+<line x1="264" y1="50" x2="264" y2="98" stroke="#cd4b30" stroke-width="1.8" stroke-dasharray="5 4"/>
+<text x="248" y="118" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">主视图</text>
+<rect x="200" y="138" width="96" height="64" fill="none" stroke="#1f2328" stroke-width="2"/>
+<circle cx="248" cy="170" r="16" fill="none" stroke="#1f2328" stroke-width="2"/>
+<text x="248" y="222" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">俯视图</text>
+</svg>

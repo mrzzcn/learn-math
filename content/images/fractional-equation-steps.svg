@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 295" width="460" height="295" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<rect x="190" y="12" width="80" height="32" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/><text x="230" y="33" fill="#1f2328" stroke="none" text-anchor="middle">分式方程</text>
+<rect x="190" y="82" width="80" height="32" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/><text x="230" y="103" fill="#1f2328" stroke="none" text-anchor="middle">整式方程</text>
+<rect x="134" y="152" width="192" height="32" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/><text x="230" y="173" fill="#1f2328" stroke="none" text-anchor="middle">整式方程的解 x = a</text>
+<line x1="230" y1="44" x2="230" y2="73" stroke="#57606a" stroke-width="1.5"/><polygon points="230,82 226,73 234,73" fill="#57606a" stroke="none"/>
+<text x="242" y="67" fill="#57606a" stroke="none" font-size="13">两边乘最简公分母</text>
+<line x1="230" y1="114" x2="230" y2="143" stroke="#57606a" stroke-width="1.5"/><polygon points="230,152 226,143 234,143" fill="#57606a" stroke="none"/>
+<text x="242" y="137" fill="#57606a" stroke="none" font-size="13">解整式方程</text>
+<text x="230" y="210" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">检验：x = a 时最简公分母等于 0 吗？</text>
+<line x1="210" y1="218" x2="128.4" y2="250.7" stroke="#1f5fa8" stroke-width="1.5"/><polygon points="120,254 126.9,246.9 129.8,254.4" fill="#1f5fa8" stroke="none"/>
+<line x1="250" y1="218" x2="331.6" y2="250.7" stroke="#cd4b30" stroke-width="1.5"/><polygon points="340,254 330.2,254.4 333.1,246.9" fill="#cd4b30" stroke="none"/>
+<text x="150" y="238" fill="#1f5fa8" stroke="none" text-anchor="end" font-size="12">不等于 0</text>
+<text x="310" y="238" fill="#cd4b30" stroke="none" font-size="12">等于 0</text>
+<rect x="66" y="254" width="108" height="32" rx="6" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5"/><text x="120" y="275" fill="#1f5fa8" stroke="none" text-anchor="middle">是原方程的解</text>
+<rect x="286" y="254" width="108" height="32" rx="6" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="1.5"/><text x="340" y="275" fill="#cd4b30" stroke="none" text-anchor="middle">是增根，舍去</text>
+</svg>

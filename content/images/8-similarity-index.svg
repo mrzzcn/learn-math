@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 275" width="480" height="275" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<rect x="35" y="23" width="170" height="34" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/><text x="120" y="45" fill="#1f2328" stroke="none" text-anchor="middle">平行线分线段成比例</text>
+<rect x="320" y="23" width="120" height="34" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/><text x="380" y="45" fill="#1f2328" stroke="none" text-anchor="middle">全等三角形</text>
+<rect x="185" y="128" width="130" height="34" rx="6" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="2"/><text x="250" y="150" fill="#cd4b30" stroke="none" text-anchor="middle">相似三角形</text>
+<rect x="25" y="233" width="130" height="34" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/><text x="90" y="255" fill="#1f2328" stroke="none" text-anchor="middle">锐角三角函数</text>
+<rect x="205" y="233" width="90" height="34" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/><text x="250" y="255" fill="#1f2328" stroke="none" text-anchor="middle">位似</text>
+<rect x="365" y="233" width="90" height="34" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/><text x="410" y="255" fill="#1f2328" stroke="none" text-anchor="middle">投影</text>
+<line x1="140" y1="57" x2="213.3" y2="122" stroke="#1f5fa8" stroke-width="1.5"/><polygon points="220,128 210.6,125 215.9,119" fill="#1f5fa8" stroke="none"/>
+<text x="150" y="98" fill="#1f5fa8" stroke="none" text-anchor="end" font-size="12">推出判定</text>
+<line x1="365" y1="57" x2="286.9" y2="122.2" stroke="#1f5fa8" stroke-width="1.5"/><polygon points="280,128 284.3,119.2 289.5,125.3" fill="#1f5fa8" stroke="none"/>
+<text x="342" y="98" fill="#1f5fa8" stroke="none" font-size="12">边相等换成边成比例</text>
+<line x1="220" y1="162" x2="117.6" y2="228.1" stroke="#cd4b30" stroke-width="1.5"/><polygon points="110,233 115.4,224.8 119.7,231.5" fill="#cd4b30" stroke="none"/>
+<text x="132" y="196" fill="#cd4b30" stroke="none" text-anchor="end" font-size="12">直角三角形：</text>
+<text x="132" y="212" fill="#cd4b30" stroke="none" text-anchor="end" font-size="12">角定了，边的比就定了</text>
+<line x1="250" y1="162" x2="250" y2="224" stroke="#cd4b30" stroke-width="1.5"/><polygon points="250,233 246,224 254,224" fill="#cd4b30" stroke="none"/>
+<text x="256" y="204" fill="#cd4b30" stroke="none" font-size="12">位置特殊</text>
+<line x1="280" y1="162" x2="382.4" y2="228.1" stroke="#cd4b30" stroke-width="1.5"/><polygon points="390,233 380.3,231.5 384.6,224.8" fill="#cd4b30" stroke="none"/>
+<text x="352" y="196" fill="#cd4b30" stroke="none" font-size="12">光线平行或共点：</text>
+<text x="352" y="212" fill="#cd4b30" stroke="none" font-size="12">影长成比例</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 330" width="330" height="330" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="30" y1="320" x2="30" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="60" y1="320" x2="60" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="120" y1="320" x2="120" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="150" y1="320" x2="150" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="180" y1="320" x2="180" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="210" y1="320" x2="210" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="240" y1="320" x2="240" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="270" y1="320" x2="270" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="15" y1="320" x2="285" y2="320" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="15" y1="290" x2="285" y2="290" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="15" y1="260" x2="285" y2="260" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="15" y1="230" x2="285" y2="230" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="15" y1="200" x2="285" y2="200" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="15" y1="140" x2="285" y2="140" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="15" y1="110" x2="285" y2="110" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="15" y1="80" x2="285" y2="80" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="15" y1="50" x2="285" y2="50" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="15" y1="170" x2="285" y2="170" stroke="#57606a" stroke-width="1.5"/>
+<line x1="90" y1="320" x2="90" y2="35" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="293,170 285,166 285,174" fill="#57606a" stroke="none"/>
+<polygon points="90,27 86,35 94,35" fill="#57606a" stroke="none"/>
+<text x="289" y="188" fill="#57606a" stroke="none" font-style="italic">x</text>
+<text x="98" y="33" fill="#57606a" stroke="none" font-style="italic">y</text>
+<text x="84" y="186" fill="#57606a" stroke="none" text-anchor="end" font-style="italic" font-size="12">O</text>
+<text x="30" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−2</text>
+<text x="60" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−1</text>
+<text x="120" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">1</text>
+<text x="150" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">2</text>
+<text x="180" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">3</text>
+<text x="210" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">4</text>
+<text x="240" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">5</text>
+<text x="270" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">6</text>
+<text x="84" y="324" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−5</text>
+<text x="84" y="294" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−4</text>
+<text x="84" y="264" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−3</text>
+<text x="84" y="234" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−2</text>
+<text x="84" y="204" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−1</text>
+<text x="84" y="144" fill="#57606a" stroke="none" text-anchor="end" font-size="11">1</text>
+<text x="84" y="114" fill="#57606a" stroke="none" text-anchor="end" font-size="11">2</text>
+<text x="84" y="84" fill="#57606a" stroke="none" text-anchor="end" font-size="11">3</text>
+<text x="84" y="54" fill="#57606a" stroke="none" text-anchor="end" font-size="11">4</text>
+<line x1="105" y1="260" x2="150" y2="170" stroke="#1f5fa8" stroke-width="2.5"/>
+<line x1="150" y1="170" x2="216" y2="38" stroke="#cd4b30" stroke-width="3.5"/>
+<line x1="150" y1="170" x2="279" y2="170" stroke="#cd4b30" stroke-width="5" opacity="0.45"/>
+<circle cx="150" cy="170" r="5" fill="#cd4b30" stroke="none"/>
+<text x="142" y="162" fill="#cd4b30" stroke="none" text-anchor="end" font-size="12">(2, 0)</text>
+<text x="222" y="50" fill="#1f5fa8" stroke="none" font-size="13">y = 2x − 4</text>
+<text x="219" y="160" fill="#cd4b30" stroke="none" font-size="13">x > 2</text>
+</svg>

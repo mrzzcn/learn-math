@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 200" width="450" height="200" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="20" y1="170" x2="420" y2="170" stroke="#1f2328" stroke-width="1.8"/>
+<polygon points="430,170 420,165 420,175" fill="#1f2328" stroke="none"/>
+<line x1="40" y1="165" x2="40" y2="170" stroke="#1f2328" stroke-width="1.5"/>
+<text x="40" y="190" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">−1</text>
+<line x1="140" y1="165" x2="140" y2="170" stroke="#1f2328" stroke-width="1.5"/>
+<text x="140" y="190" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">0</text>
+<line x1="240" y1="165" x2="240" y2="170" stroke="#1f2328" stroke-width="1.5"/>
+<text x="240" y="190" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">1</text>
+<line x1="340" y1="165" x2="340" y2="170" stroke="#1f2328" stroke-width="1.5"/>
+<text x="340" y="190" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">2</text>
+<polygon points="140,170 240,170 240,70 140,70" fill="none" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M 240 70 A 141.4 141.4 0 0 1 281.4 170" stroke="#57606a" stroke-width="1.2" stroke-dasharray="5 4" fill="none"/>
+<line x1="140" y1="170" x2="240" y2="70" stroke="#cd4b30" stroke-width="2.5"/>
+<g transform="rotate(45 140 170)"><line x1="140" y1="170" x2="240" y2="70" stroke="#cd4b30" stroke-width="2.5" stroke-dasharray="6 4"/><animateTransform attributeName="transform" type="rotate" values="0 140 170;0 140 170;45 140 170;45 140 170;0 140 170" keyTimes="0;0.2;0.55;0.85;1" dur="7s" repeatCount="indefinite"/></g>
+<circle cx="281.4" cy="170" r="5" fill="#cd4b30" stroke="none"/>
+<circle cx="240" cy="70" r="3.5" fill="#1f2328" stroke="none"/>
+<text x="134" y="162" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">O</text>
+<text x="234" y="162" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">A</text>
+<text x="246" y="66" fill="#1f2328" stroke="none" font-style="italic">B</text>
+<text x="134" y="66" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">C</text>
+<text x="285.4" y="160" fill="#cd4b30" stroke="none" font-style="italic">P</text>
+<text x="281.4" y="190" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="13">√2</text>
+</svg>

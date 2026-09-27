@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 275" width="480" height="275" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<rect x="18" y="23" width="124" height="34" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/><text x="80" y="45" fill="#1f2328" stroke="none" text-anchor="middle">二元一次方程组</text>
+<rect x="168" y="23" width="124" height="34" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/><text x="230" y="45" fill="#1f2328" stroke="none" text-anchor="middle">分式方程</text>
+<rect x="318" y="23" width="124" height="34" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/><text x="380" y="45" fill="#1f2328" stroke="none" text-anchor="middle">一元二次方程</text>
+<rect x="168" y="133" width="124" height="34" rx="6" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="2"/><text x="230" y="155" fill="#cd4b30" stroke="none" text-anchor="middle">一元一次方程</text>
+<line x1="80" y1="57" x2="180.6" y2="127.8" stroke="#1f5fa8" stroke-width="1.5"/><polygon points="188,133 178.3,131.1 182.9,124.5" fill="#1f5fa8" stroke="none"/>
+<text x="126" y="99" fill="#1f5fa8" stroke="none" text-anchor="end" font-size="13">消元</text>
+<line x1="230" y1="57" x2="230" y2="124" stroke="#1f5fa8" stroke-width="1.5"/><polygon points="230,133 226,124 234,124" fill="#1f5fa8" stroke="none"/>
+<text x="238" y="99" fill="#1f5fa8" stroke="none" text-anchor="start" font-size="13">去分母</text>
+<line x1="380" y1="57" x2="279.4" y2="127.8" stroke="#1f5fa8" stroke-width="1.5"/><polygon points="272,133 277.1,124.5 281.7,131.1" fill="#1f5fa8" stroke="none"/>
+<text x="334" y="99" fill="#1f5fa8" stroke="none" text-anchor="start" font-size="13">降次</text>
+<rect x="365" y="133" width="110" height="34" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/><text x="420" y="155" fill="#1f2328" stroke="none" text-anchor="middle">不等式（组）</text>
+<line x1="365" y1="150" x2="302" y2="150" stroke="#57606a" stroke-width="1.5" stroke-dasharray="5 4"/><polygon points="293,150 302,146 302,154" fill="#57606a" stroke="none"/>
+<line x1="293" y1="150" x2="356" y2="150" stroke="#57606a" stroke-width="1.5" stroke-dasharray="5 4"/><polygon points="365,150 356,154 356,146" fill="#57606a" stroke="none"/>
+<text x="329" y="142" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">类比</text>
+<rect x="185" y="228" width="90" height="34" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/><text x="230" y="250" fill="#1f2328" stroke="none" text-anchor="middle">x = a</text>
+<line x1="230" y1="167" x2="230" y2="219" stroke="#cd4b30" stroke-width="1.5"/><polygon points="230,228 226,219 234,219" fill="#cd4b30" stroke="none"/>
+<text x="240" y="201.5" fill="#cd4b30" stroke="none" font-size="13">等式的性质</text>
+<rect x="375" y="228" width="90" height="34" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/><text x="420" y="250" fill="#1f2328" stroke="none" text-anchor="middle">x > a</text>
+<line x1="420" y1="167" x2="420" y2="219" stroke="#57606a" stroke-width="1.5"/><polygon points="420,228 416,219 424,219" fill="#57606a" stroke="none"/>
+<text x="410" y="201.5" fill="#57606a" stroke="none" text-anchor="end" font-size="13">不等式的性质</text>
+</svg>

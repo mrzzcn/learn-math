@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 292" width="480" height="292" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<rect x="20" y="14" width="440" height="44" rx="8" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5"/>
+<text x="240" y="33" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="15">三种数学语言</text>
+<text x="240" y="52" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">文字 · 符号 · 图形：把话说清楚</text>
+<rect x="180" y="90" width="120" height="44" rx="8" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="240" y="109" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">命题</text>
+<text x="240" y="128" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">如果……那么……</text>
+<line x1="240" y1="58" x2="240" y2="81" stroke="#1f5fa8" stroke-width="1.5"/>
+<polygon points="240,90 236,81 244,81" fill="#1f5fa8" stroke="none"/>
+<rect x="20" y="160" width="110" height="40" rx="8" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="1.5"/>
+<text x="75" y="185" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="15">定义</text>
+<rect x="20" y="214" width="110" height="40" rx="8" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="1.5"/>
+<text x="75" y="239" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="15">基本事实</text>
+<text x="75" y="150" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">推理的起点</text>
+<rect x="180" y="180" width="120" height="44" rx="8" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="240" y="199" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">证明</text>
+<text x="240" y="218" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">每一步都有依据</text>
+<rect x="350" y="180" width="110" height="44" rx="8" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="405" y="199" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">定理</text>
+<text x="405" y="218" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">证实了的真命题</text>
+<line x1="240" y1="134" x2="240" y2="171" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="240,180 236,171 244,171" fill="#57606a" stroke="none"/>
+<line x1="130" y1="180" x2="171.4" y2="193.3" stroke="#cd4b30" stroke-width="1.5"/>
+<polygon points="180,196 170.2,197.1 172.6,189.4" fill="#cd4b30" stroke="none"/>
+<line x1="130" y1="234" x2="171.8" y2="215.6" stroke="#cd4b30" stroke-width="1.5"/>
+<polygon points="180,212 173.4,219.3 170.2,212" fill="#cd4b30" stroke="none"/>
+<line x1="300" y1="202" x2="341" y2="202" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="350,202 341,206 341,198" fill="#57606a" stroke="none"/>
+<path d="M 405 224 C 405 272, 260 272, 250 230" stroke="#57606a" stroke-width="1.5" fill="none" stroke-dasharray="5 4"/>
+<polygon points="249,224 245.5,233 254,232" fill="#57606a" stroke="none"/>
+<text x="330" y="280" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">作为新的依据</text>
+</svg>

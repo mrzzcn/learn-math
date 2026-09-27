@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 215" width="390" height="215" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<path d="M 50 190 L 86 190 A 36 36 0 0 0 72.5 161.9 Z" fill="rgba(205,75,48,0.12)" stroke="none"/>
+<path d="M 170 40 L 134 40 A 36 36 0 0 0 147.5 68.1 Z" fill="rgba(205,75,48,0.12)" stroke="none"/>
+<path d="M 330 190 L 303.7 165.4 A 36 36 0 0 0 294 190 Z" fill="rgba(31,95,168,0.10)" stroke="none"/>
+<path d="M 170 40 L 196.3 64.6 A 36 36 0 0 0 206 40 Z" fill="rgba(31,95,168,0.10)" stroke="none"/>
+<path d="M 170 40 L 153.8 60.3 A 26 26 0 0 0 189 57.8 Z" fill="rgba(87,96,106,0.16)" stroke="none"/>
+<g><path d="M 50 190 L 86 190 A 36 36 0 0 0 72.5 161.9 Z" fill="rgba(205,75,48,0.12)" stroke="none"/><path d="M 86 190 A 36 36 0 0 0 72.5 161.9" stroke="#cd4b30" stroke-width="2" fill="none"/><animateTransform attributeName="transform" type="rotate" values="0 110 115;0 110 115;180 110 115;180 110 115" keyTimes="0;0.2;0.55;1" dur="8s" repeatCount="indefinite"/></g>
+<g><path d="M 330 190 L 303.7 165.4 A 36 36 0 0 0 294 190 Z" fill="rgba(31,95,168,0.10)" stroke="none"/><path d="M 303.7 165.4 A 36 36 0 0 0 294 190" stroke="#1f5fa8" stroke-width="2" fill="none"/><animateTransform attributeName="transform" type="rotate" values="0 250 115;0 250 115;180 250 115;180 250 115" keyTimes="0;0.2;0.55;1" dur="8s" repeatCount="indefinite"/></g>
+<polygon points="170,40 50,190 330,190" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="20" y1="40" x2="370" y2="40" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="6 4"/>
+<path d="M 134 40 A 36 36 0 0 0 147.5 68.1" stroke="#cd4b30" stroke-width="2" fill="none"/>
+<path d="M 196.3 64.6 A 36 36 0 0 0 206 40" stroke="#1f5fa8" stroke-width="2" fill="none"/>
+<text x="124.9" y="66.7" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="13">1</text>
+<text x="216.5" y="63.4" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="13">2</text>
+<text x="170" y="30" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="40" y="206" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="340" y="206" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="20" y="32" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<text x="370" y="32" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">E</text>
+</svg>

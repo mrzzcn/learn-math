@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 200" width="490" height="200" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<circle cx="85" cy="95" r="58" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<path d="M 114 145.2 A 58 58 0 0 0 139.5 75.2" stroke="#cd4b30" stroke-width="3.5" fill="none"/>
+<line x1="30.5" y1="114.8" x2="114" y2="145.2" stroke="#1f2328" stroke-width="2"/>
+<line x1="30.5" y1="114.8" x2="139.5" y2="75.2" stroke="#1f2328" stroke-width="2"/>
+<line x1="85" y1="95" x2="114" y2="145.2" stroke="#1f5fa8" stroke-width="1.5"/>
+<line x1="85" y1="95" x2="139.5" y2="75.2" stroke="#1f5fa8" stroke-width="1.5"/>
+<path d="M 45.5 120.3 A 16 16 0 0 0 45.5 109.4" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<path d="M 91 105.4 A 12 12 0 0 0 96.3 90.9" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<circle cx="30.5" cy="114.8" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="114" cy="145.2" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="139.5" cy="75.2" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="85" cy="95" r="3" fill="#1f2328" stroke="none"/>
+<text x="19.2" y="123.9" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="120" y="160.6" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="150.8" y="76.1" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="83" y="87" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic" font-size="13">O</text>
+<text x="85" y="187" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">① 圆心在角的一边上</text>
+<circle cx="245" cy="95" r="58" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<path d="M 289.4 132.3 A 58 58 0 0 0 274 44.8" stroke="#cd4b30" stroke-width="3.5" fill="none"/>
+<line x1="197.5" y1="128.3" x2="292.5" y2="61.7" stroke="#57606a" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="292.5" cy="61.7" r="3" fill="#57606a" stroke="none"/>
+<text x="302.3" y="59.8" fill="#57606a" stroke="none" text-anchor="middle" font-style="italic" font-size="13">D</text>
+<line x1="197.5" y1="128.3" x2="289.4" y2="132.3" stroke="#1f2328" stroke-width="2"/>
+<line x1="197.5" y1="128.3" x2="274" y2="44.8" stroke="#1f2328" stroke-width="2"/>
+<line x1="245" y1="95" x2="289.4" y2="132.3" stroke="#1f5fa8" stroke-width="1.5"/>
+<line x1="245" y1="95" x2="274" y2="44.8" stroke="#1f5fa8" stroke-width="1.5"/>
+<path d="M 213.5 129 A 16 16 0 0 0 208.3 116.5" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<path d="M 254.2 102.7 A 12 12 0 0 0 251 84.6" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<circle cx="197.5" cy="128.3" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="289.4" cy="132.3" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="274" cy="44.8" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="245" cy="95" r="3" fill="#1f2328" stroke="none"/>
+<text x="187.7" y="140.2" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="298.6" y="145" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="280" y="39.4" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="233" y="99" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic" font-size="13">O</text>
+<text x="245" y="187" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">② 圆心在角的内部</text>
+<circle cx="405" cy="95" r="58" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<path d="M 429.5 147.6 A 58 58 0 0 0 461 110" stroke="#cd4b30" stroke-width="3.5" fill="none"/>
+<line x1="350.5" y1="114.8" x2="459.5" y2="75.2" stroke="#57606a" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="459.5" cy="75.2" r="3" fill="#57606a" stroke="none"/>
+<text x="470.8" y="76.1" fill="#57606a" stroke="none" text-anchor="middle" font-style="italic" font-size="13">D</text>
+<line x1="350.5" y1="114.8" x2="429.5" y2="147.6" stroke="#1f2328" stroke-width="2"/>
+<line x1="350.5" y1="114.8" x2="461" y2="110" stroke="#1f2328" stroke-width="2"/>
+<line x1="405" y1="95" x2="429.5" y2="147.6" stroke="#1f5fa8" stroke-width="1.5"/>
+<line x1="405" y1="95" x2="461" y2="110" stroke="#1f5fa8" stroke-width="1.5"/>
+<path d="M 365.3 121 A 16 16 0 0 0 366.5 114.1" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<path d="M 410.1 105.9 A 12 12 0 0 0 416.6 98.1" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<circle cx="350.5" cy="114.8" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="429.5" cy="147.6" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="461" cy="110" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="405" cy="95" r="3" fill="#1f2328" stroke="none"/>
+<text x="339.2" y="123.9" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="434.6" y="163.4" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="472.6" y="118.1" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="403" y="87" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic" font-size="13">O</text>
+<text x="405" y="187" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">③ 圆心在角的外部</text>
+</svg>

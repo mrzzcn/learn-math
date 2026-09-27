@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 205" width="360" height="205" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="14" y1="170" x2="320" y2="170" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="328,170 320,166 320,174" fill="#57606a" stroke="none"/>
+<line x1="50" y1="170" x2="50" y2="165" stroke="#57606a" stroke-width="1.5"/>
+<text x="50" y="188" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">0</text>
+<line x1="110" y1="170" x2="110" y2="165" stroke="#57606a" stroke-width="1.5"/>
+<text x="110" y="188" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">1</text>
+<line x1="170" y1="170" x2="170" y2="165" stroke="#57606a" stroke-width="1.5"/>
+<text x="170" y="188" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">2</text>
+<line x1="230" y1="170" x2="230" y2="165" stroke="#57606a" stroke-width="1.5"/>
+<text x="230" y="188" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">3</text>
+<line x1="290" y1="170" x2="290" y2="165" stroke="#57606a" stroke-width="1.5"/>
+<text x="290" y="188" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">4</text>
+<path d="M 230 50 A 216.3 216.3 0 0 1 266.3 170" stroke="#57606a" stroke-width="1.5" stroke-dasharray="5 4" fill="none"/>
+<line x1="230" y1="170" x2="230" y2="50" stroke="#1f2328" stroke-width="2"/>
+<line x1="50" y1="170" x2="230" y2="50" stroke="#cd4b30" stroke-width="2.5"/>
+<polyline points="220,170 220,160 230,160" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<circle cx="50" cy="170" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="230" cy="50" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="266.3" cy="170" r="5" fill="#cd4b30" stroke="none"/>
+<text x="40" y="162" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+<text x="242" y="162" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="240" y="44" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="278.3" y="162" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic">P</text>
+<text x="238" y="114" fill="#1f2328" stroke="none">2</text>
+<text x="128" y="106" fill="#cd4b30" stroke="none" text-anchor="middle">√13</text>
+</svg>

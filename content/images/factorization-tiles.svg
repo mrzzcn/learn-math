@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 230" width="480" height="230" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="270,24 370,24 370,124 270,124" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="320" y="79" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic" font-size="13">x²</text>
+<polygon points="390,24 422,24 422,124 390,124" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="406" y="79" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic" font-size="13">x</text>
+<polygon points="432,24 464,24 464,124 432,124" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="448" y="79" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic" font-size="13">x</text>
+<polygon points="270,150 370,150 370,182 270,182" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="320" y="171" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic" font-size="13">x</text>
+<polygon points="390,150 422,150 422,182 390,182" fill="rgba(87,96,106,0.12)" stroke="#57606a" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="406" y="171" fill="#57606a" stroke="none" text-anchor="middle" font-style="italic" font-size="13">1</text>
+<polygon points="432,150 464,150 464,182 432,182" fill="rgba(87,96,106,0.12)" stroke="#57606a" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="448" y="171" fill="#57606a" stroke="none" text-anchor="middle" font-style="italic" font-size="13">1</text>
+<g><polygon points="60,40 160,40 160,140 60,140" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round"/><text x="110" y="95" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic">x²</text><animateTransform attributeName="transform" type="translate" values="210 -16;210 -16;0 0;0 0;210 -16" keyTimes="0;0.2;0.5;0.8;1" dur="8s" repeatCount="indefinite"/></g>
+<g><polygon points="160,40 192,40 192,140 160,140" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round"/><text x="176" y="95" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">x</text><animateTransform attributeName="transform" type="translate" values="230 -16;230 -16;0 0;0 0;230 -16" keyTimes="0;0.2;0.5;0.8;1" dur="8s" repeatCount="indefinite"/></g>
+<g><polygon points="192,40 224,40 224,140 192,140" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round"/><text x="208" y="95" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">x</text><animateTransform attributeName="transform" type="translate" values="240 -16;240 -16;0 0;0 0;240 -16" keyTimes="0;0.2;0.5;0.8;1" dur="8s" repeatCount="indefinite"/></g>
+<g><polygon points="60,140 160,140 160,172 60,172" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round"/><text x="110" y="161" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">x</text><animateTransform attributeName="transform" type="translate" values="210 10;210 10;0 0;0 0;210 10" keyTimes="0;0.2;0.5;0.8;1" dur="8s" repeatCount="indefinite"/></g>
+<g><polygon points="160,140 192,140 192,172 160,172" fill="rgba(87,96,106,0.12)" stroke="#57606a" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round"/><text x="176" y="161" fill="#57606a" stroke="none" text-anchor="middle" font-style="italic">1</text><animateTransform attributeName="transform" type="translate" values="230 10;230 10;0 0;0 0;230 10" keyTimes="0;0.2;0.5;0.8;1" dur="8s" repeatCount="indefinite"/></g>
+<g><polygon points="192,140 224,140 224,172 192,172" fill="rgba(87,96,106,0.12)" stroke="#57606a" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round"/><text x="208" y="161" fill="#57606a" stroke="none" text-anchor="middle" font-style="italic">1</text><animateTransform attributeName="transform" type="translate" values="240 10;240 10;0 0;0 0;240 10" keyTimes="0;0.2;0.5;0.8;1" dur="8s" repeatCount="indefinite"/></g>
+<line x1="60" y1="186" x2="224" y2="186" stroke="#1f2328" stroke-width="1"/>
+<line x1="60" y1="181" x2="60" y2="191" stroke="#1f2328" stroke-width="1"/>
+<line x1="224" y1="181" x2="224" y2="191" stroke="#1f2328" stroke-width="1"/>
+<text x="142" y="206" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">x + 2</text>
+<line x1="46" y1="40" x2="46" y2="172" stroke="#1f2328" stroke-width="1"/>
+<line x1="41" y1="40" x2="51" y2="40" stroke="#1f2328" stroke-width="1"/>
+<line x1="41" y1="172" x2="51" y2="172" stroke="#1f2328" stroke-width="1"/>
+<text x="40" y="111" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">x + 1</text>
+</svg>

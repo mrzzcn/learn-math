@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 215" width="470" height="215" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="40,170 180,170 180,60 40,60" fill="rgba(31,95,168,0.10)" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="40,170 180,170 226.5,70.3 86.5,70.3" fill="none" stroke="#1f5fa8" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round"><animate attributeName="points" values="40,170 180,170 226.5,70.3 86.5,70.3;40,170 180,170 226.5,70.3 86.5,70.3;40,170 180,170 180,60 40,60;40,170 180,170 133.5,70.3 -6.5,70.3;40,170 180,170 133.5,70.3 -6.5,70.3;40,170 180,170 180,60 40,60;40,170 180,170 226.5,70.3 86.5,70.3" keyTimes="0;0.1;0.3;0.5;0.6;0.8;1" dur="8s" repeatCount="indefinite"/></polygon>
+<circle cx="40" cy="170" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="180" cy="170" r="4" fill="#1f2328" stroke="none"/>
+<text x="110" y="200" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">四边形：形状会变</text>
+<polygon points="360,60 290,170 430,170" fill="rgba(205,75,48,0.12)" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="360" cy="60" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="290" cy="170" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="430" cy="170" r="4" fill="#1f2328" stroke="none"/>
+<text x="360" y="200" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">三角形：形状不变</text>
+</svg>

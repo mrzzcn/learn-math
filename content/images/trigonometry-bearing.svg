@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 225" width="370" height="225" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="200" y1="200" x2="340" y2="200" stroke="#57606a" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="280" y1="61.4" x2="280" y2="200" stroke="#57606a" stroke-width="1.5" stroke-dasharray="6 4"/>
+<polyline points="272,200 272,192 280,192" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<line x1="40" y1="200" x2="40" y2="50" stroke="#57606a" stroke-width="1.2"/>
+<polygon points="40,42 36,52 44,52" fill="#57606a" stroke="none"/>
+<text x="40" y="36" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">北</text>
+<line x1="200" y1="200" x2="200" y2="50" stroke="#57606a" stroke-width="1.2"/>
+<polygon points="200,42 196,52 204,52" fill="#57606a" stroke="none"/>
+<text x="200" y="36" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">北</text>
+<line x1="40" y1="200" x2="200" y2="200" stroke="#cd4b30" stroke-width="3"/>
+<line x1="40" y1="200" x2="280" y2="61.4" stroke="#1f2328" stroke-width="2"/>
+<line x1="200" y1="200" x2="280" y2="61.4" stroke="#1f2328" stroke-width="2"/>
+<path d="M 78.1 178 A 44 44 0 0 0 40 156" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<path d="M 217 170.6 A 34 34 0 0 0 200 166" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<text x="66" y="152" fill="#1f5fa8" stroke="none" font-size="12">60°</text>
+<text x="212" y="150" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">30°</text>
+<text x="34" y="218" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="200" y="218" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="288" y="55.4" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="286" y="218" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">H</text>
+<text x="120" y="218" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">20 海里</text>
+<text x="344" y="205" fill="#57606a" stroke="none" font-size="12">东</text>
+</svg>

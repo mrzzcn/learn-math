@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 225" width="320" height="225" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="30" y1="200" x2="300" y2="200" stroke="#1f2328" stroke-width="2"/>
+<line x1="30" y1="200" x2="281.6" y2="36.6" stroke="#1f2328" stroke-width="2"/>
+<line x1="130.6" y1="134.6" x2="130.6" y2="200" stroke="#cd4b30" stroke-width="2.5"/>
+<polyline points="122.6,200 122.6,192 130.6,192" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<text x="122.6" y="126.6" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="130.6" y="218" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<line x1="197.7" y1="91.1" x2="197.7" y2="200" stroke="#1f2328" stroke-width="1.5"/>
+<polyline points="189.7,200 189.7,192 197.7,192" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<text x="189.7" y="83.1" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B′</text>
+<text x="197.7" y="218" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C′</text>
+<line x1="264.8" y1="47.5" x2="264.8" y2="200" stroke="#1f2328" stroke-width="1.5"/>
+<polyline points="256.8,200 256.8,192 264.8,192" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<text x="256.8" y="39.5" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B″</text>
+<text x="264.8" y="218" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C″</text>
+<line x1="130.6" y1="134.6" x2="130.6" y2="200" stroke="#cd4b30" stroke-width="2.5"><animate attributeName="x1" values="130.6;130.6;273.2;273.2;130.6" keyTimes="0;0.15;0.5;0.7;1" dur="8s" repeatCount="indefinite"/><animate attributeName="x2" values="130.6;130.6;273.2;273.2;130.6" keyTimes="0;0.15;0.5;0.7;1" dur="8s" repeatCount="indefinite"/><animate attributeName="y1" values="134.6;134.6;42.1;42.1;134.6" keyTimes="0;0.15;0.5;0.7;1" dur="8s" repeatCount="indefinite"/></line>
+<path d="M 56 200 A 26 26 0 0 0 51.8 185.8" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<text x="20" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+</svg>

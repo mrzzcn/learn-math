@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 235" width="380" height="235" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="242.1,40.4 40,210 340,210" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 199.7 66.9 A 50 50 0 0 0 272.9 79.8" fill="none" stroke="#57606a" stroke-width="1.2"/>
+<path d="M 209.7 117.2 A 45 45 0 0 0 244.1 92.6" fill="none" stroke="#57606a" stroke-width="1.2"/>
+<path d="M 222.4 88.7 A 45 45 0 0 0 246.3 123.6" fill="none" stroke="#57606a" stroke-width="1.2"/>
+<line x1="242.1" y1="40.4" x2="212.2" y2="210" stroke="#cd4b30" stroke-width="2.2"/>
+<circle cx="203.8" cy="72.6" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="267.1" cy="83.7" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="230" cy="109.2" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="212.2" cy="210" r="4" fill="#1f2328" stroke="none"/>
+<text x="242.1" y="30.4" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="30" y="226" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="350" y="226" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="212.2" y="230" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<text x="187.8" y="74.6" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">M</text>
+<text x="279.1" y="87.7" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">N</text>
+<text x="246" y="114.2" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">P</text>
+<path d="M 70 210 A 30 30 0 0 0 63 190.7" stroke="#1f5fa8" stroke-width="1.8" fill="none"/>
+<path d="M 327 187.5 A 26 26 0 0 0 314 210" stroke="#1f5fa8" stroke-width="1.8" fill="none"/>
+<text x="78" y="202" fill="#1f5fa8" stroke="none" font-size="12">40°</text>
+<text x="304" y="200" fill="#1f5fa8" stroke="none" text-anchor="end" font-size="12">60°</text>
+</svg>

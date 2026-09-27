@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 250" width="320" height="250" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<path d="M 130 125 L 225.1 155.9 A 100 100 0 0 0 130 25 Z" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="176.9" y="88.9" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">篮球</text>
+<text x="176.9" y="103.9" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="11">30%</text>
+<path d="M 130 125 L 99.1 220.1 A 100 100 0 0 0 225.1 155.9 Z" fill="rgba(31,95,168,0.22)" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="158.1" y="178.2" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">乒乓球</text>
+<text x="158.1" y="193.2" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">25%</text>
+<path d="M 130 125 L 30 125 A 100 100 0 0 0 99.1 220.1 Z" fill="rgba(31,95,168,0.12)" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="79.8" y="159.4" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">足球</text>
+<text x="79.8" y="174.4" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">20%</text>
+<path d="M 130 125 L 71.2 44.1 A 100 100 0 0 0 30 125 Z" fill="rgba(87,96,106,0.16)" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="74.8" y="94.9" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">跳绳</text>
+<text x="74.8" y="109.9" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">15%</text>
+<path d="M 130 125 L 130 25 A 100 100 0 0 0 71.2 44.1 Z" fill="rgba(87,96,106,0.06)" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="110.8" y="64" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">其他</text>
+<text x="110.8" y="79" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">10%</text>
+<path d="M 130 103 A 22 22 0 0 1 150.9 131.8" stroke="#cd4b30" stroke-width="2"/>
+<text x="144.2" y="93.8" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">108°</text>
+</svg>

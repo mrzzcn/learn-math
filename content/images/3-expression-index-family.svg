@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 256" width="470" height="256" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="240" y1="54" x2="90" y2="102" stroke="#57606a" stroke-width="1.5"/>
+<line x1="240" y1="54" x2="250" y2="102" stroke="#57606a" stroke-width="1.5"/>
+<line x1="240" y1="54" x2="400" y2="102" stroke="#57606a" stroke-width="1.5"/>
+<line x1="90" y1="138" x2="45" y2="186" stroke="#57606a" stroke-width="1.5"/>
+<line x1="90" y1="138" x2="140" y2="186" stroke="#57606a" stroke-width="1.5"/>
+<rect x="185" y="18" width="110" height="36" rx="6" fill="none" stroke="#1f2328" stroke-width="2"/><text x="240" y="41" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">代数式</text>
+<rect x="40" y="102" width="100" height="36" rx="6" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="2"/><text x="90" y="125" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="15">整式</text>
+<rect x="200" y="102" width="100" height="36" rx="6" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="2"/><text x="250" y="125" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="15">分式</text>
+<rect x="345" y="102" width="110" height="36" rx="6" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="2"/><text x="400" y="125" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="15">二次根式</text>
+<rect x="5" y="186" width="80" height="36" rx="6" fill="none" stroke="#1f5fa8" stroke-width="2"/><text x="45" y="209" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="15">单项式</text>
+<rect x="100" y="186" width="80" height="36" rx="6" fill="none" stroke="#1f5fa8" stroke-width="2"/><text x="140" y="209" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="15">多项式</text>
+<text x="45" y="240" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">如 3a²b</text>
+<text x="140" y="240" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">如 x² − 2x + 1</text>
+<text x="250" y="160" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">整式 ÷ 整式</text>
+<text x="250" y="178" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">如 1/x</text>
+<text x="400" y="160" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">对式子开平方</text>
+<text x="400" y="178" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">如 √x</text>
+</svg>

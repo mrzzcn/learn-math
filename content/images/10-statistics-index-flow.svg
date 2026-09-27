@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 205" width="480" height="205" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="20,44 92,44 92,78 20,78" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="56" y="66" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">收集</text>
+<text x="56" y="96" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">调查、抽样</text>
+<polygon points="114,44 186,44 186,78 114,78" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="150" y="66" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">整理</text>
+<text x="150" y="96" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">频数、频率</text>
+<line x1="94" y1="61" x2="105" y2="61" stroke="#57606a" stroke-width="1.5"/><polygon points="112,61 105,57 105,65" fill="#57606a" stroke="none"/>
+<polygon points="208,44 280,44 280,78 208,78" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="244" y="66" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">描述</text>
+<text x="244" y="96" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">统计图</text>
+<line x1="188" y1="61" x2="199" y2="61" stroke="#57606a" stroke-width="1.5"/><polygon points="206,61 199,57 199,65" fill="#57606a" stroke="none"/>
+<polygon points="302,44 374,44 374,78 302,78" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="338" y="66" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">分析</text>
+<text x="338" y="96" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">统计量</text>
+<line x1="282" y1="61" x2="293" y2="61" stroke="#57606a" stroke-width="1.5"/><polygon points="300,61 293,57 293,65" fill="#57606a" stroke="none"/>
+<polygon points="396,44 468,44 468,78 396,78" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="432" y="66" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">推断</text>
+<text x="432" y="96" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">估计、决策</text>
+<line x1="376" y1="61" x2="387" y2="61" stroke="#57606a" stroke-width="1.5"/><polygon points="394,61 387,57 387,65" fill="#57606a" stroke="none"/>
+<line x1="20" y1="34" x2="280" y2="34" stroke="#1f5fa8" stroke-width="1.5"/><line x1="20" y1="39" x2="20" y2="34" stroke="#1f5fa8" stroke-width="1.5"/><line x1="280" y1="39" x2="280" y2="34" stroke="#1f5fa8" stroke-width="1.5"/><text x="150" y="27" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">数据的收集、整理与描述</text>
+<line x1="302" y1="34" x2="468" y2="34" stroke="#cd4b30" stroke-width="1.5"/><line x1="302" y1="39" x2="302" y2="34" stroke="#cd4b30" stroke-width="1.5"/><line x1="468" y1="39" x2="468" y2="34" stroke="#cd4b30" stroke-width="1.5"/><text x="385" y="27" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">数据的分析</text>
+<polygon points="150,160 270,160 270,194 150,194" fill="rgba(87,96,106,0.10)" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="210" y="182" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">概率</text>
+<line x1="150" y1="104" x2="176.6" y2="151.9" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="4 3"/><polygon points="180,158 180.1,149.9 173.1,153.8" fill="#1f2328" stroke="none"/>
+<text x="148" y="130" fill="#57606a" stroke="none" text-anchor="end" font-size="11">试验次数很多时</text>
+<text x="148" y="145" fill="#57606a" stroke="none" text-anchor="end" font-size="11">频率稳定在概率附近</text>
+<line x1="270" y1="177" x2="425.6" y2="106.9" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="4 3"/><polygon points="432,104 424,103.2 427.3,110.5" fill="#1f2328" stroke="none"/>
+<text x="374" y="150" fill="#57606a" stroke="none" text-anchor="start" font-size="11">用概率做判断</text>
+</svg>

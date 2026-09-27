@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 310" width="320" height="310" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="30,110 150,110 90,30" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="190,110 310,110 250,30" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="90" y1="30" x2="90" y2="110" stroke="#57606a" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="96" y="76" fill="#57606a" stroke="none" font-size="13">4</text>
+<text x="90" y="128" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">6</text>
+<circle cx="90" cy="215" r="60" fill="none" stroke="#1f2328" stroke-width="2"/>
+<circle cx="90" cy="215" r="3" fill="#1f2328" stroke="none"/>
+<text x="90" y="150" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">主视图</text>
+<text x="250" y="150" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">左视图</text>
+<text x="90" y="300" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">俯视图</text>
+</svg>

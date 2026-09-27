@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 205" width="400" height="205" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="250" y1="180" x2="380" y2="180" stroke="#1f2328" stroke-width="2"/>
+<line x1="250" y1="180" x2="309.5" y2="75.8" stroke="#57606a" stroke-width="1.5" stroke-dasharray="6 4"/>
+<polygon points="120,40 40,180 250,180" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 120 40 L 106.1 64.3 A 28 28 0 0 0 139.1 60.5 Z" fill="rgba(205,75,48,0.12)" stroke="none"/>
+<path d="M 106.1 64.3 A 28 28 0 0 0 139.1 60.5" stroke="#cd4b30" stroke-width="2" fill="none"/>
+<path d="M 40 180 L 70 180 A 30 30 0 0 0 54.9 154 Z" fill="rgba(31,95,168,0.10)" stroke="none"/>
+<path d="M 70 180 A 30 30 0 0 0 54.9 154" stroke="#1f5fa8" stroke-width="2" fill="none"/>
+<path d="M 250 180 L 230.9 159.5 A 28 28 0 0 1 263.9 155.7 Z" fill="rgba(205,75,48,0.12)" stroke="none"/>
+<path d="M 230.9 159.5 A 28 28 0 0 1 263.9 155.7" stroke="#cd4b30" stroke-width="2" fill="none"/>
+<path d="M 250 180 L 264.9 154 A 30 30 0 0 1 280 180 Z" fill="rgba(31,95,168,0.10)" stroke="none"/>
+<path d="M 264.9 154 A 30 30 0 0 1 280 180" stroke="#1f5fa8" stroke-width="2" fill="none"/>
+<text x="120" y="30" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="30" y="196" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="250" y="200" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="380" y="200" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<text x="317.5" y="71.8" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">E</text>
+</svg>

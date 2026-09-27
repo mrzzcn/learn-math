@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 230" width="340" height="230" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<circle cx="170" cy="115" r="95" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<line x1="75" y1="115" x2="265" y2="115" stroke="#cd4b30" stroke-width="2.5"/>
+<line x1="217.5" y1="32.7" x2="75" y2="115" stroke="#1f2328" stroke-width="1.5"/>
+<line x1="217.5" y1="32.7" x2="265" y2="115" stroke="#1f2328" stroke-width="1.5"/>
+<polyline points="209.7,37.2 214.2,45 222,40.5" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<circle cx="217.5" cy="32.7" r="4" fill="#1f2328" stroke="none"/>
+<text x="225" y="24.7" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<line x1="111.5" y1="40.1" x2="75" y2="115" stroke="#1f2328" stroke-width="1.5"/>
+<line x1="111.5" y1="40.1" x2="265" y2="115" stroke="#1f2328" stroke-width="1.5"/>
+<polyline points="107.6,48.2 115.7,52.2 119.6,44.1" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<circle cx="111.5" cy="40.1" r="4" fill="#1f2328" stroke="none"/>
+<text x="102.3" y="33.3" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<line x1="129.9" y1="201.1" x2="75" y2="115" stroke="#1f2328" stroke-width="1.5"/>
+<line x1="129.9" y1="201.1" x2="265" y2="115" stroke="#1f2328" stroke-width="1.5"/>
+<polyline points="125,193.5 132.6,188.7 137.4,196.3" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<circle cx="129.9" cy="201.1" r="4" fill="#1f2328" stroke="none"/>
+<text x="123.5" y="219.7" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">E</text>
+<circle cx="75" cy="115" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="265" cy="115" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="170" cy="115" r="4" fill="#1f2328" stroke="none"/>
+<text x="60" y="120" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="280" y="120" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="170" y="135" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+</svg>

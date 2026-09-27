@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 230" width="320" height="230" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<circle cx="120" cy="125" r="75" fill="none" stroke="#1f2328" stroke-width="2"/>
+<line x1="103.5" y1="-11.3" x2="235.3" y2="145.7" stroke="#cd4b30" stroke-width="2"/>
+<line x1="120" y1="125" x2="177.5" y2="76.8" stroke="#1f2328" stroke-width="2"/>
+<line x1="120" y1="125" x2="129.2" y2="19.3" stroke="#1f5fa8" stroke-width="1.5" stroke-dasharray="5 4"/>
+<polyline points="169.8,83.2 176.2,90.9 183.9,84.5" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<circle cx="120" cy="125" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="177.5" cy="76.8" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="129.2" cy="19.3" r="4" fill="#1f5fa8" stroke="none"/>
+<text x="116" y="145" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+<text x="191.5" y="86.8" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="115.2" y="21.3" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="243.3" y="145.7" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic">l</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 285" width="350" height="285" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="50" y1="120" x2="312" y2="120" stroke="#57606a" stroke-width="1.5"/><polygon points="320,120 312,116 312,124" fill="#57606a" stroke="none"/><line x1="60" y1="116" x2="60" y2="124" stroke="#57606a" stroke-width="1.2"/><text x="60" y="138" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">5</text><line x1="100" y1="116" x2="100" y2="124" stroke="#57606a" stroke-width="1.2"/><text x="100" y="138" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">6</text><line x1="140" y1="116" x2="140" y2="124" stroke="#57606a" stroke-width="1.2"/><text x="140" y="138" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">7</text><line x1="180" y1="116" x2="180" y2="124" stroke="#57606a" stroke-width="1.2"/><text x="180" y="138" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">8</text><line x1="220" y1="116" x2="220" y2="124" stroke="#57606a" stroke-width="1.2"/><text x="220" y="138" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">9</text><line x1="260" y1="116" x2="260" y2="124" stroke="#57606a" stroke-width="1.2"/><text x="260" y="138" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">10</text><line x1="300" y1="116" x2="300" y2="124" stroke="#57606a" stroke-width="1.2"/><text x="300" y="138" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">11</text>
+<polygon points="140,120 180,120 180,80 140,80" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="180,120 220,120 220,80 180,80" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="180" y1="25" x2="180" y2="120" stroke="#1f2328" stroke-width="1.2" stroke-dasharray="6 4"/>
+<circle cx="140" cy="120" r="4.5" fill="#1f2328" stroke="none"/>
+<circle cx="180" cy="120" r="4.5" fill="#1f2328" stroke="none"/>
+<circle cx="180" cy="120" r="4.5" fill="#1f2328" stroke="none"/>
+<circle cx="180" cy="120" r="4.5" fill="#1f2328" stroke="none"/>
+<circle cx="220" cy="120" r="4.5" fill="#1f2328" stroke="none"/>
+<text x="188" y="112" fill="#57606a" stroke="none" font-size="11">×3</text>
+<text x="28" y="125" fill="#1f2328" stroke="none" text-anchor="end" font-size="14">甲</text>
+<text x="324" y="70" fill="#cd4b30" stroke="none" text-anchor="end" font-size="13">方差 0.4</text>
+<line x1="50" y1="255" x2="312" y2="255" stroke="#57606a" stroke-width="1.5"/><polygon points="320,255 312,251 312,259" fill="#57606a" stroke="none"/><line x1="60" y1="251" x2="60" y2="259" stroke="#57606a" stroke-width="1.2"/><text x="60" y="273" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">5</text><line x1="100" y1="251" x2="100" y2="259" stroke="#57606a" stroke-width="1.2"/><text x="100" y="273" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">6</text><line x1="140" y1="251" x2="140" y2="259" stroke="#57606a" stroke-width="1.2"/><text x="140" y="273" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">7</text><line x1="180" y1="251" x2="180" y2="259" stroke="#57606a" stroke-width="1.2"/><text x="180" y="273" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">8</text><line x1="220" y1="251" x2="220" y2="259" stroke="#57606a" stroke-width="1.2"/><text x="220" y="273" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">9</text><line x1="260" y1="251" x2="260" y2="259" stroke="#57606a" stroke-width="1.2"/><text x="260" y="273" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">10</text><line x1="300" y1="251" x2="300" y2="259" stroke="#57606a" stroke-width="1.2"/><text x="300" y="273" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">11</text>
+<polygon points="100,255 180,255 180,175 100,175" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="180,255 260,255 260,175 180,175" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="140,255 180,255 180,215 140,215" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="180,255 220,255 220,215 180,215" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="180" y1="160" x2="180" y2="255" stroke="#1f2328" stroke-width="1.2" stroke-dasharray="6 4"/>
+<circle cx="100" cy="255" r="4.5" fill="#1f2328" stroke="none"/>
+<circle cx="140" cy="255" r="4.5" fill="#1f2328" stroke="none"/>
+<circle cx="180" cy="255" r="4.5" fill="#1f2328" stroke="none"/>
+<circle cx="220" cy="255" r="4.5" fill="#1f2328" stroke="none"/>
+<circle cx="260" cy="255" r="4.5" fill="#1f2328" stroke="none"/>
+<text x="28" y="260" fill="#1f2328" stroke="none" text-anchor="end" font-size="14">乙</text>
+<text x="324" y="205" fill="#cd4b30" stroke="none" text-anchor="end" font-size="13">方差 2</text>
+<text x="180" y="18" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">平均数 8</text>
+</svg>

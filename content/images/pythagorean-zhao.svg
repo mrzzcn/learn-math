@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 240" width="340" height="240" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="70,220 270,220 270,20 70,20" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="70,220 270,220 198,124" fill="#dbe5f1" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="270,220 270,20 174,92" fill="#dbe5f1" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="270,20 70,20 142,116" fill="#dbe5f1" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="70,20 70,220 166,148" fill="#dbe5f1" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="198,124 174,92 142,116 166,148" fill="#ffffff" stroke="#1f5fa8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="191.6,128.8 196.4,135.2 202.8,130.4" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<text x="130" y="164" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">b</text>
+<text x="244" y="174" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">a</text>
+<text x="170" y="238" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic">c</text>
+<text x="208" y="94" fill="#1f5fa8" stroke="none" text-anchor="start" font-size="12">b − a</text>
+<line x1="206" y1="90" x2="178" y2="112" stroke="#1f5fa8" stroke-width="1"/>
+</svg>

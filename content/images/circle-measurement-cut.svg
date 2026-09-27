@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 180" width="490" height="180" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<circle cx="85" cy="80" r="62" fill="none" stroke="#57606a" stroke-width="1"/>
+<polygon points="85,18 31.3,49 31.3,111 85,142 138.7,111 138.7,49" fill="none" stroke="#cd4b30" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="85" cy="80" r="3" fill="#1f2328" stroke="none"/>
+<text x="85" y="172" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">正 6 边形</text>
+<circle cx="245" cy="80" r="62" fill="none" stroke="#57606a" stroke-width="1"/>
+<polygon points="245,18 214,26.3 191.3,49 183,80 191.3,111 214,133.7 245,142 276,133.7 298.7,111 307,80 298.7,49 276,26.3" fill="none" stroke="#cd4b30" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="245" cy="80" r="3" fill="#1f2328" stroke="none"/>
+<text x="245" y="172" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">正 12 边形</text>
+<circle cx="405" cy="80" r="62" fill="none" stroke="#57606a" stroke-width="1"/>
+<polygon points="405,18 389,20.1 374,26.3 361.2,36.2 351.3,49 345.1,64 343,80 345.1,96 351.3,111 361.2,123.8 374,133.7 389,139.9 405,142 421,139.9 436,133.7 448.8,123.8 458.7,111 464.9,96 467,80 464.9,64 458.7,49 448.8,36.2 436,26.3 421,20.1" fill="none" stroke="#cd4b30" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="405" cy="80" r="3" fill="#1f2328" stroke="none"/>
+<text x="405" y="172" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">正 24 边形</text>
+</svg>

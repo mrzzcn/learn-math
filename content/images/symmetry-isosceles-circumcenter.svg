@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 328" width="360" height="328" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<circle cx="180" cy="175.3" r="144.2" fill="none" stroke="#e3e6ea" stroke-width="1.5"/>
+<polygon points="130,40 40,210 320,210" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="65.6" y1="114.7" x2="204.7" y2="188.4" stroke="#57606a" stroke-width="1.2" stroke-dasharray="5 4"/>
+<polyline points="81.3,132.1 88.3,135.8 92.1,128.7" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<line x1="180" y1="232" x2="180" y2="147.3" stroke="#57606a" stroke-width="1.2" stroke-dasharray="5 4"/>
+<polyline points="188,210 188,202 180,202" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<line x1="239.7" y1="108.6" x2="161.3" y2="196.2" stroke="#57606a" stroke-width="1.2" stroke-dasharray="5 4"/>
+<polyline points="219,119.7 213.7,125.6 219.7,131" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<line x1="180" y1="175.3" x2="130" y2="40" stroke="#cd4b30" stroke-width="2"/>
+<line x1="180" y1="175.3" x2="40" y2="210" stroke="#cd4b30" stroke-width="2"/>
+<line x1="180" y1="175.3" x2="320" y2="210" stroke="#cd4b30" stroke-width="2"/>
+<circle cx="180" cy="175.3" r="4" fill="#cd4b30" stroke="none"/>
+<text x="116" y="38" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="30" y="226" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="330" y="226" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="186" y="163.3" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+</svg>

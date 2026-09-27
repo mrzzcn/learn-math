@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 200" width="420" height="200" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="110,22 52.8,113.6 186.3,144.1" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="90.9" y1="52.5" x2="135.4" y2="62.7" stroke="#1f5fa8" stroke-width="2.5"/>
+<path d="M 98.3 40.7 A 14 14 0 0 1 104.6 55.6" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<path d="M 61.2 100 A 16 16 0 0 1 68.4 117.2" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<circle cx="110" cy="22" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="52.8" cy="113.6" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="186.3" cy="144.1" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="90.9" cy="52.5" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="135.4" cy="62.7" r="3" fill="#1f2328" stroke="none"/>
+<text x="110" y="14" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="44.8" y="119.6" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">B</text>
+<text x="194.3" y="150.1" fill="#1f2328" stroke="none" font-style="italic">C</text>
+<text x="82.9" y="54.5" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">D</text>
+<text x="143.4" y="64.7" fill="#1f5fa8" stroke="none" font-style="italic">E</text>
+<text x="110" y="174" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">DE ∥ BC</text>
+<polygon points="310,22 252.8,113.6 386.3,144.1" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="290.9" y1="52.5" x2="324.3" y2="44.9" stroke="#cd4b30" stroke-width="2.5"/>
+<path d="M 298.3 40.7 A 14 14 0 0 1 304.6 49.4" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<path d="M 377.8 130.6 A 16 16 0 0 0 370.7 140.6" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<circle cx="310" cy="22" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="252.8" cy="113.6" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="386.3" cy="144.1" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="290.9" cy="52.5" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="324.3" cy="44.9" r="3" fill="#1f2328" stroke="none"/>
+<text x="310" y="14" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="244.8" y="119.6" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">B</text>
+<text x="394.3" y="150.1" fill="#1f2328" stroke="none" font-style="italic">C</text>
+<text x="282.9" y="54.5" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">D</text>
+<text x="332.3" y="46.9" fill="#cd4b30" stroke="none" font-style="italic">E</text>
+<text x="310" y="174" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">∠ADE = ∠C</text>
+</svg>

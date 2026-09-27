@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 170" width="480" height="170" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="28.4" y1="70" x2="451.6" y2="70" stroke="#1f2328" stroke-width="1.8"/>
+<polygon points="461.6,70 451.6,65 451.6,75" fill="#1f2328" stroke="none"/>
+<line x1="56" y1="65" x2="56" y2="70" stroke="#1f2328" stroke-width="1.5"/>
+<text x="56" y="90" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">−4</text>
+<line x1="102" y1="65" x2="102" y2="70" stroke="#1f2328" stroke-width="1.5"/>
+<text x="102" y="90" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">−3</text>
+<line x1="148" y1="65" x2="148" y2="70" stroke="#1f2328" stroke-width="1.5"/>
+<text x="148" y="90" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">−2</text>
+<line x1="194" y1="65" x2="194" y2="70" stroke="#1f2328" stroke-width="1.5"/>
+<text x="194" y="90" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">−1</text>
+<line x1="240" y1="65" x2="240" y2="70" stroke="#1f2328" stroke-width="1.5"/>
+<text x="240" y="90" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">0</text>
+<line x1="286" y1="65" x2="286" y2="70" stroke="#1f2328" stroke-width="1.5"/>
+<text x="286" y="90" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">1</text>
+<line x1="332" y1="65" x2="332" y2="70" stroke="#1f2328" stroke-width="1.5"/>
+<text x="332" y="90" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">2</text>
+<line x1="378" y1="65" x2="378" y2="70" stroke="#1f2328" stroke-width="1.5"/>
+<text x="378" y="90" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">3</text>
+<line x1="424" y1="65" x2="424" y2="70" stroke="#1f2328" stroke-width="1.5"/>
+<text x="424" y="90" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">4</text>
+<line x1="79" y1="22" x2="401" y2="22" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="410,22 401,17 401,27" fill="#57606a" stroke="none"/>
+<text x="240" y="14" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">越往右，数越大</text>
+<line x1="102" y1="120" x2="240" y2="120" stroke="#cd4b30" stroke-width="2"/><line x1="102" y1="115" x2="102" y2="125" stroke="#cd4b30" stroke-width="1.5"/><line x1="240" y1="115" x2="240" y2="125" stroke="#cd4b30" stroke-width="1.5"/><text x="171" y="113" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="13">3</text>
+<line x1="194" y1="150" x2="240" y2="150" stroke="#1f5fa8" stroke-width="2"/><line x1="194" y1="145" x2="194" y2="155" stroke="#1f5fa8" stroke-width="1.5"/><line x1="240" y1="145" x2="240" y2="155" stroke="#1f5fa8" stroke-width="1.5"/><text x="217" y="143" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="13">1</text>
+<line x1="102" y1="98" x2="102" y2="120" stroke="#cd4b30" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="194" y1="98" x2="194" y2="150" stroke="#1f5fa8" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="102" cy="70" r="5" fill="#cd4b30" stroke="none"/>
+<circle cx="194" cy="70" r="5" fill="#1f5fa8" stroke="none"/>
+<circle cx="332" cy="70" r="5" fill="#1f2328" stroke="none"/>
+</svg>

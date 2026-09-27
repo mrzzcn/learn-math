@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 190" width="400" height="190" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="40,70 160,160 40,160" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="230,70 350,160 230,160" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="240,160 240,150 230,150" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<text x="54" y="148" fill="#cd4b30" stroke="none">?</text>
+<text x="30" y="119" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">b</text><text x="100" y="180" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">a</text><text x="110" y="111" fill="#1f2328" stroke="none" font-style="italic">c</text><text x="40" y="62" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text><text x="170" y="176" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text><text x="30" y="176" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="220" y="119" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">b</text><text x="290" y="180" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">a</text><text x="300" y="111" fill="#1f5fa8" stroke="none" font-style="italic">c′</text><text x="230" y="62" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A′</text><text x="360" y="176" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B′</text><text x="220" y="176" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C′</text>
+<line x1="46" y1="115" x2="34" y2="115" stroke="#cd4b30" stroke-width="2"/>
+<line x1="236" y1="115" x2="224" y2="115" stroke="#cd4b30" stroke-width="2"/>
+<line x1="97.5" y1="154" x2="97.5" y2="166" stroke="#cd4b30" stroke-width="2"/><line x1="102.5" y1="154" x2="102.5" y2="166" stroke="#cd4b30" stroke-width="2"/>
+<line x1="287.5" y1="154" x2="287.5" y2="166" stroke="#cd4b30" stroke-width="2"/><line x1="292.5" y1="154" x2="292.5" y2="166" stroke="#cd4b30" stroke-width="2"/>
+</svg>

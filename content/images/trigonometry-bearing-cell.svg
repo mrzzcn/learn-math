@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 125" width="170" height="125" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="85" y1="64" x2="85" y2="16" stroke="#57606a" stroke-width="1.2"/>
+<text x="85" y="12" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">北</text>
+<line x1="85" y1="64" x2="85" y2="112" stroke="#57606a" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="85" y="125" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">南</text>
+<line x1="85" y1="64" x2="133" y2="64" stroke="#57606a" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="138" y="68" fill="#57606a" stroke="none" text-anchor="start" font-size="12">东</text>
+<line x1="85" y1="64" x2="37" y2="64" stroke="#57606a" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="32" y="68" fill="#57606a" stroke="none" text-anchor="end" font-size="12">西</text>
+<line x1="85" y1="64" x2="131.8" y2="37" stroke="#cd4b30" stroke-width="2.2"/>
+<circle cx="131.8" cy="37" r="3" fill="#cd4b30" stroke="none"/>
+<path d="M 85 42 A 22 22 0 0 1 104.1 53" stroke="#1f5fa8" stroke-width="1.8" fill="none"/>
+<text x="102" y="37.7" fill="#1f5fa8" stroke="none" font-size="11">60°</text>
+<circle cx="85" cy="64" r="4" fill="#1f2328" stroke="none"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" width="360" height="250" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="180" y1="30" x2="180" y2="229.2" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>
+<line x1="80" y1="203.2" x2="252.5" y2="103.6" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>
+<line x1="280" y1="203.2" x2="107.5" y2="103.6" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>
+<polygon points="180,30 80,203.2 280,203.2" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="135.2" y1="119.6" x2="124.8" y2="113.6" stroke="#cd4b30" stroke-width="2"/>
+<line x1="180" y1="197.2" x2="180" y2="209.2" stroke="#cd4b30" stroke-width="2"/>
+<line x1="224.8" y1="119.6" x2="235.2" y2="113.6" stroke="#cd4b30" stroke-width="2"/>
+<path d="M 171 45.6 A 18 18 0 0 0 189 45.6" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<path d="M 98 203.2 A 18 18 0 0 0 89 187.6" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<path d="M 271 187.6 A 18 18 0 0 0 262 203.2" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<text x="193.5" y="84.2" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">60°</text>
+<text x="116.8" y="170.4" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">60°</text>
+<text x="229.8" y="193.7" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">60°</text>
+<text x="180" y="20" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="68" y="217.2" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="292" y="217.2" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+</svg>

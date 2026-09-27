@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 270" width="340" height="270" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<rect x="46" y="10" width="14" height="230" fill="#e3e6ea" stroke="none"/>
+<line x1="60" y1="10" x2="60" y2="240" stroke="#1f2328" stroke-width="2"/>
+<line x1="46" y1="240" x2="330" y2="240" stroke="#1f2328" stroke-width="2"/>
+<line x1="60" y1="24" x2="123" y2="240" stroke="#57606a" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="60" y1="60" x2="195" y2="240" stroke="#cd4b30" stroke-width="3"/>
+<line x1="60" y1="60" x2="195" y2="240" stroke="#1f5fa8" stroke-width="3" opacity="0"><animate attributeName="y1" values="24;24;28.5;33;37.5;42;46.5;51;55.5;60;60;55.5;51;46.5;42;37.5;33;28.5;24;24" keyTimes="0;0.1;0.1;0.2;0.2;0.3;0.3;0.4;0.4;0.4;0.6;0.6;0.6;0.7;0.7;0.8;0.8;0.9;0.9;1" dur="8s" repeatCount="indefinite"/><animate attributeName="x2" values="123;123;136.8;148.2;158.1;166.9;174.8;182.1;188.8;195;195;188.8;182.1;174.8;166.9;158.1;148.2;136.8;123;123" keyTimes="0;0.1;0.1;0.2;0.2;0.3;0.3;0.4;0.4;0.4;0.6;0.6;0.6;0.7;0.7;0.8;0.8;0.9;0.9;1" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1" dur="8s" repeatCount="indefinite"/></line>
+<polyline points="70,240 70,230 60,230" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<circle cx="60" cy="24" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="123" cy="240" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="60" cy="60" r="4" fill="#cd4b30" stroke="none"/>
+<circle cx="195" cy="240" r="4" fill="#cd4b30" stroke="none"/>
+<text x="50" y="258" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+<text x="38" y="30" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="123" y="260" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="38" y="66" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic">A′</text>
+<text x="195" y="260" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic">B′</text>
+<text x="90" y="47" fill="#57606a" stroke="none" font-size="12">下滑 4 m</text>
+<text x="159" y="232" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">？</text>
+</svg>

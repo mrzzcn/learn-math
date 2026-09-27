@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 270" width="310" height="270" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="50,40 200,40 200,100 50,100" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="2" stroke-linejoin="round"/>
+<text x="125" y="75" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">ab</text>
+<polygon points="200,40 260,40 260,190 200,190" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="2" stroke-linejoin="round"/>
+<text x="230" y="120" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">ab</text>
+<polygon points="110,190 260,190 260,250 110,250" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="2" stroke-linejoin="round"/>
+<text x="185" y="225" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">ab</text>
+<polygon points="50,100 110,100 110,250 50,250" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="2" stroke-linejoin="round"/>
+<text x="80" y="180" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">ab</text>
+<polygon points="110,100 200,100 200,190 110,190" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="2" stroke-linejoin="round"/>
+<text x="155" y="150" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic" font-size="16">(a − b)²</text>
+<text x="125" y="30" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">a</text>
+<text x="230" y="30" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">b</text>
+<text x="38" y="75" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">b</text>
+<text x="38" y="180" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">a</text>
+</svg>

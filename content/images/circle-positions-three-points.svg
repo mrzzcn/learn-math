@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 260" width="330" height="260" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<circle cx="165" cy="135" r="100" fill="none" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="78.4,185 147.6,36.5 251.6,185" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="85.8" y1="98.1" x2="228.4" y2="164.6" stroke="#1f5fa8" stroke-width="1.5" stroke-dasharray="6 4"/>
+<polyline points="116.4,103.5 123.6,106.9 120.3,114.1" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<line x1="90.3" y1="145.3" x2="101.1" y2="150.4" stroke="#cd4b30" stroke-width="2"/>
+<line x1="124.9" y1="71.1" x2="135.8" y2="76.2" stroke="#cd4b30" stroke-width="2"/>
+<line x1="224.2" y1="93.6" x2="107.7" y2="175.2" stroke="#1f5fa8" stroke-width="1.5" stroke-dasharray="6 4"/>
+<polyline points="204.2,117.3 197.7,121.9 193.1,115.3" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<line x1="177.1" y1="68.2" x2="167.3" y2="75" stroke="#cd4b30" stroke-width="2"/><line x1="180" y1="72.2" x2="170.1" y2="79.1" stroke="#cd4b30" stroke-width="2"/>
+<line x1="229.1" y1="142.4" x2="219.3" y2="149.3" stroke="#cd4b30" stroke-width="2"/><line x1="232" y1="146.5" x2="222.1" y2="153.4" stroke="#cd4b30" stroke-width="2"/>
+<circle cx="78.4" cy="185" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="147.6" cy="36.5" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="251.6" cy="185" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="165" cy="135" r="4" fill="#cd4b30" stroke="none"/>
+<text x="65.4" y="197.5" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="145" y="26.7" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="264.6" y="197.5" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="165" y="155" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic">O</text>
+</svg>

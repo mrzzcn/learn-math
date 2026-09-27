@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" width="400" height="220" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polyline points="50,130 200,40 350,110" fill="none" stroke="#57606a" stroke-width="1.5" stroke-dasharray="6 4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="50,130 55,131.2 60,132.5 65,133.8 70,135.1 75,136.5 80,137.9 85,139.4 90,140.9 95,142.6 100,144.3 105,146.2 110,148.1 115,150.2 120,152.3 125,154.5 130,156.8 135,159.2 140,161.6 145,164.1 150,166.6 155,169.2 160,171.8 165,174.3 170,176.8 175,179.3 180,181.7 185,184 190,186.1 195,188.1 200,190 205,191.7 210,193.1 215,194.3 220,195.3 225,195.9 230,196.3 235,196.4 240,196.1 245,195.6 250,194.6 255,193.3 260,191.7 265,189.6 270,187.2 275,184.5 280,181.4 285,177.9 290,174.2 295,170.1 300,165.7 305,161 310,156 315,150.8 320,145.4 325,139.8 330,134 335,128.1 340,122.1 345,116.1 350,110" fill="none" stroke="#57606a" stroke-width="1.5" stroke-dasharray="6 4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="50" y1="130" x2="350" y2="110" stroke="#cd4b30" stroke-width="3"/>
+<circle cx="50" cy="130" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="350" cy="110" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="200" cy="40" r="3.5" fill="#57606a" stroke="none"/>
+<text x="42" y="135" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">A</text>
+<text x="358" y="115" fill="#1f2328" stroke="none" font-style="italic">B</text>
+<text x="200" y="30" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 195" width="490" height="195" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<circle cx="85" cy="75" r="50" fill="none" stroke="#1f2328" stroke-width="2"/>
+<line x1="10" y1="147" x2="160" y2="147" stroke="#cd4b30" stroke-width="2"/>
+<line x1="85" y1="75" x2="85" y2="147" stroke="#1f5fa8" stroke-width="1.5" stroke-dasharray="5 4"/>
+<polyline points="92,147 92,140 85,140" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<line x1="85" y1="75" x2="44" y2="46.3" stroke="#57606a" stroke-width="1.5"/>
+<text x="62.5" y="55.7" fill="#57606a" stroke="none" text-anchor="middle" font-style="italic">r</text>
+<text x="93" y="117" fill="#1f5fa8" stroke="none" font-style="italic">d</text>
+<circle cx="85" cy="75" r="4" fill="#1f2328" stroke="none"/>
+<text x="73" y="79" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic" font-size="13">O</text>
+<text x="163" y="151" fill="#cd4b30" stroke="none" font-style="italic">l</text>
+<text x="85" y="180" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">相离：d &gt; r</text>
+<circle cx="245" cy="75" r="50" fill="none" stroke="#1f2328" stroke-width="2"/>
+<line x1="170" y1="125" x2="320" y2="125" stroke="#cd4b30" stroke-width="2"/>
+<line x1="245" y1="75" x2="245" y2="125" stroke="#1f5fa8" stroke-width="1.5" stroke-dasharray="5 4"/>
+<polyline points="252,125 252,118 245,118" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<line x1="245" y1="75" x2="204" y2="46.3" stroke="#57606a" stroke-width="1.5"/>
+<text x="222.5" y="55.7" fill="#57606a" stroke="none" text-anchor="middle" font-style="italic">r</text>
+<text x="253" y="106" fill="#1f5fa8" stroke="none" font-style="italic">d</text>
+<circle cx="245" cy="125" r="4" fill="#cd4b30" stroke="none"/>
+<circle cx="245" cy="75" r="4" fill="#1f2328" stroke="none"/>
+<text x="233" y="79" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic" font-size="13">O</text>
+<text x="323" y="129" fill="#cd4b30" stroke="none" font-style="italic">l</text>
+<text x="245" y="180" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">相切：d = r</text>
+<circle cx="405" cy="75" r="50" fill="none" stroke="#1f2328" stroke-width="2"/>
+<line x1="330" y1="101" x2="480" y2="101" stroke="#cd4b30" stroke-width="2"/>
+<line x1="405" y1="75" x2="405" y2="101" stroke="#1f5fa8" stroke-width="1.5" stroke-dasharray="5 4"/>
+<polyline points="412,101 412,94 405,94" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<line x1="405" y1="75" x2="364" y2="46.3" stroke="#57606a" stroke-width="1.5"/>
+<text x="382.5" y="55.7" fill="#57606a" stroke="none" text-anchor="middle" font-style="italic">r</text>
+<text x="413" y="90" fill="#1f5fa8" stroke="none" font-style="italic">d</text>
+<circle cx="362.3" cy="101" r="4" fill="#cd4b30" stroke="none"/>
+<circle cx="447.7" cy="101" r="4" fill="#cd4b30" stroke="none"/>
+<circle cx="405" cy="75" r="4" fill="#1f2328" stroke="none"/>
+<text x="393" y="79" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic" font-size="13">O</text>
+<text x="483" y="105" fill="#cd4b30" stroke="none" font-style="italic">l</text>
+<text x="405" y="180" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">相交：d &lt; r</text>
+</svg>

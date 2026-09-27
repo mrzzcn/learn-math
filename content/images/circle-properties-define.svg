@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<path d="M 240 110 A 80 80 0 1 0 80 110 A 80 80 0 1 0 240 110" stroke="#1f2328" stroke-width="2" stroke-dasharray="502.7 502.7" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="502.7;0;0" keyTimes="0;0.75;1" dur="8s" repeatCount="indefinite"/></path>
+<g transform="rotate(0 160 110)"><line x1="160" y1="110" x2="240" y2="110" stroke="#cd4b30" stroke-width="2.5"/><circle cx="240" cy="110" r="4" fill="#cd4b30" stroke="none"/><animateTransform attributeName="transform" type="rotate" values="0 160 110;-360 160 110;-360 160 110" keyTimes="0;0.75;1" dur="8s" repeatCount="indefinite"/></g>
+<circle cx="160" cy="110" r="4" fill="#1f2328" stroke="none"/>
+<text x="156" y="130" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+<text x="254" y="115" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="200" y="102" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic">r</text>
+</svg>

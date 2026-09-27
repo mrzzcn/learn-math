@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" width="420" height="280" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="100" y1="230" x2="100" y2="27.5" stroke="#e3e6ea" stroke-width="1"/>
+<text x="100" y="248" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">10</text>
+<line x1="140" y1="230" x2="140" y2="27.5" stroke="#e3e6ea" stroke-width="1"/>
+<text x="140" y="248" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">20</text>
+<line x1="180" y1="230" x2="180" y2="27.5" stroke="#e3e6ea" stroke-width="1"/>
+<text x="180" y="248" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">30</text>
+<line x1="220" y1="230" x2="220" y2="27.5" stroke="#e3e6ea" stroke-width="1"/>
+<text x="220" y="248" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">40</text>
+<line x1="260" y1="230" x2="260" y2="27.5" stroke="#e3e6ea" stroke-width="1"/>
+<text x="260" y="248" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">50</text>
+<line x1="300" y1="230" x2="300" y2="27.5" stroke="#e3e6ea" stroke-width="1"/>
+<text x="300" y="248" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">60</text>
+<line x1="340" y1="230" x2="340" y2="27.5" stroke="#e3e6ea" stroke-width="1"/>
+<text x="340" y="248" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">70</text>
+<line x1="380" y1="230" x2="380" y2="27.5" stroke="#e3e6ea" stroke-width="1"/>
+<text x="380" y="248" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">80</text>
+<line x1="60" y1="185" x2="400" y2="185" stroke="#e3e6ea" stroke-width="1"/>
+<text x="54" y="189" fill="#57606a" stroke="none" text-anchor="end" font-size="11">1</text>
+<line x1="60" y1="140" x2="400" y2="140" stroke="#e3e6ea" stroke-width="1"/>
+<text x="54" y="144" fill="#57606a" stroke="none" text-anchor="end" font-size="11">2</text>
+<line x1="60" y1="95" x2="400" y2="95" stroke="#e3e6ea" stroke-width="1"/>
+<text x="54" y="99" fill="#57606a" stroke="none" text-anchor="end" font-size="11">3</text>
+<line x1="60" y1="50" x2="400" y2="50" stroke="#e3e6ea" stroke-width="1"/>
+<text x="54" y="54" fill="#57606a" stroke="none" text-anchor="end" font-size="11">4</text>
+<line x1="60" y1="230" x2="412" y2="230" stroke="#57606a" stroke-width="1.5"/>
+<line x1="60" y1="230" x2="60" y2="14" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="420,230 412,226 412,234" fill="#57606a" stroke="none"/>
+<polygon points="60,6 56,14 64,14" fill="#57606a" stroke="none"/>
+<text x="412" y="266" fill="#57606a" stroke="none" text-anchor="end" font-size="12">时间 x（分）</text>
+<text x="68" y="12" fill="#57606a" stroke="none" font-size="12">离家距离 y（千米）</text>
+<text x="54" y="246" fill="#57606a" stroke="none" text-anchor="end" font-size="11">0</text>
+<polyline points="60,230 140,50 260,50 380,230" fill="none" stroke="#1f5fa8" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="140" cy="50" r="4" fill="#1f5fa8" stroke="none"/>
+<circle cx="260" cy="50" r="4" fill="#1f5fa8" stroke="none"/>
+<circle cx="380" cy="230" r="4" fill="#1f5fa8" stroke="none"/>
+<line x1="60" y1="140" x2="376" y2="140" stroke="#cd4b30" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="100" y1="140" x2="100" y2="230" stroke="#57606a" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="320" y1="140" x2="320" y2="230" stroke="#57606a" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="100" cy="140" r="4.5" fill="#cd4b30" stroke="none"/>
+<circle cx="320" cy="140" r="4.5" fill="#cd4b30" stroke="none"/>
+<text x="108" y="158" fill="#1f2328" stroke="none" font-size="12">(10, 2)</text>
+<text x="328" y="134" fill="#1f2328" stroke="none" font-size="12">(65, 2)</text>
+<text x="384" y="144" fill="#cd4b30" stroke="none" font-size="12">y = 2</text>
+<text x="200" y="40" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">在图书馆</text>
+</svg>

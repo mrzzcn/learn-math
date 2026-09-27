@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 285" width="360" height="285" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<rect x="125" y="60" width="130" height="156" fill="rgba(31,95,168,0.10)" stroke="none"/>
+<line x1="65" y1="60" x2="125" y2="60" stroke="#1f2328" stroke-width="1.5"/>
+<line x1="255" y1="60" x2="315" y2="60" stroke="#1f2328" stroke-width="1.5"/>
+<polyline points="125,60 125,216 255,216 255,60" stroke="#1f2328" stroke-width="1.5" fill="none"/>
+<line x1="125" y1="60" x2="255" y2="60" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="190" y1="216" x2="190" y2="47" stroke="#57606a" stroke-width="2" stroke-dasharray="6 4"/>
+<g transform="rotate(22.6 190 216)"><line x1="190" y1="216" x2="190" y2="47" stroke="#1f2328" stroke-width="3"/><animateTransform attributeName="transform" type="rotate" values="0 190 216;0 190 216;22.6 190 216;22.6 190 216;0 190 216" keyTimes="0;0.15;0.45;0.85;1" dur="7s" repeatCount="indefinite"/></g>
+<line x1="190" y1="216" x2="255" y2="60" stroke="#cd4b30" stroke-width="2"/>
+<polyline points="200,60 200,70 190,70" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<circle cx="190" cy="216" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="190" cy="60" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="255" cy="60" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="190" cy="47" r="4" fill="#1f2328" stroke="none"/>
+<text x="190" y="236" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="178" y="76" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="267" y="54" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="202" y="45" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<text x="182" y="59" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">1</text>
+<line x1="125" y1="252" x2="255" y2="252" stroke="#57606a" stroke-width="1"/>
+<line x1="125" y1="247" x2="125" y2="257" stroke="#57606a" stroke-width="1"/>
+<line x1="255" y1="247" x2="255" y2="257" stroke="#57606a" stroke-width="1"/>
+<text x="190" y="270" fill="#57606a" stroke="none" text-anchor="middle">10</text>
+</svg>

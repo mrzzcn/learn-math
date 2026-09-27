@@ -3,15 +3,17 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node tools/pdf.mjs && node tools/build.mjs",
-    "build:site": "node tools/build.mjs",
+    "build": "node tools/figures/index.mjs && node tools/pdf.mjs && node tools/build.mjs",
+    "build:site": "node tools/figures/index.mjs && node tools/build.mjs",
     "pdf": "node tools/pdf.mjs",
     "pdf:sample": "node tools/pdf.mjs --sample",
     "merge": "node tools/build.mjs --merge guide.md",
-    "preview": "node tools/build.mjs && pnpm dlx serve dist -l 8788"
+    "preview": "node tools/build.mjs && pnpm dlx serve dist -l 8788",
+    "figures": "node tools/figures/index.mjs"
   },
   "dependencies": {
-    "markdown-it": "^14.1.0"
+    "markdown-it": "^14.1.0",
+    "mathjax-full": "3.2.2"
   },
   "packageManager": "pnpm@11.1.2",
   "devDependencies": {

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 140" width="360" height="140" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="40,30 130,30 130,62 40,62" fill="rgba(205,75,48,0.12)" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="130,30 220,30 220,62 130,62" fill="rgba(205,75,48,0.12)" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="220,30 310,30 310,62 220,62" fill="none" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="40,90 85,90 85,122 40,122" fill="rgba(31,95,168,0.10)" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="85,90 130,90 130,122 85,122" fill="rgba(31,95,168,0.10)" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="130,90 175,90 175,122 130,122" fill="rgba(31,95,168,0.10)" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="175,90 220,90 220,122 175,122" fill="rgba(31,95,168,0.10)" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="220,90 265,90 265,122 220,122" fill="none" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="265,90 310,90 310,122 265,122" fill="none" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="220" y1="20" x2="220" y2="132" stroke="#57606a" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="326" y="51" fill="#cd4b30" stroke="none" font-size="15">2/3</text>
+<text x="326" y="111" fill="#1f5fa8" stroke="none" font-size="15">4/6</text>
+</svg>

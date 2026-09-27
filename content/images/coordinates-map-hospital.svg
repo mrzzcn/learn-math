@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 350" width="350" height="350" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="50" y1="305" x2="50" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="80" y1="305" x2="80" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="110" y1="305" x2="110" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="140" y1="305" x2="140" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="200" y1="305" x2="200" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="230" y1="305" x2="230" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="260" y1="305" x2="260" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="290" y1="305" x2="290" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="320" y1="305" x2="320" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="35" y1="290" x2="320" y2="290" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="35" y1="260" x2="320" y2="260" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="35" y1="230" x2="320" y2="230" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="35" y1="200" x2="320" y2="200" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="35" y1="140" x2="320" y2="140" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="35" y1="110" x2="320" y2="110" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="35" y1="80" x2="320" y2="80" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="35" y1="50" x2="320" y2="50" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="35" y1="170" x2="320" y2="170" stroke="#57606a" stroke-width="1.5"/>
+<line x1="170" y1="305" x2="170" y2="35" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="328,170 320,166 320,174" fill="#57606a" stroke="none"/>
+<polygon points="170,27 166,35 174,35" fill="#57606a" stroke="none"/>
+<text x="324" y="188" fill="#57606a" stroke="none" font-style="italic">x</text>
+<text x="178" y="33" fill="#57606a" stroke="none" font-style="italic">y</text>
+<text x="164" y="186" fill="#57606a" stroke="none" text-anchor="end" font-style="italic" font-size="12">O</text>
+<text x="50" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−4</text>
+<text x="80" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−3</text>
+<text x="110" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−2</text>
+<text x="140" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−1</text>
+<text x="200" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">1</text>
+<text x="230" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">2</text>
+<text x="260" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">3</text>
+<text x="290" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">4</text>
+<text x="320" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">5</text>
+<text x="164" y="294" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−4</text>
+<text x="164" y="264" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−3</text>
+<text x="164" y="234" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−2</text>
+<text x="164" y="204" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−1</text>
+<text x="164" y="144" fill="#57606a" stroke="none" text-anchor="end" font-size="11">1</text>
+<text x="164" y="114" fill="#57606a" stroke="none" text-anchor="end" font-size="11">2</text>
+<text x="164" y="84" fill="#57606a" stroke="none" text-anchor="end" font-size="11">3</text>
+<text x="164" y="54" fill="#57606a" stroke="none" text-anchor="end" font-size="11">4</text>
+<line x1="170" y1="170" x2="170" y2="260" stroke="#1f5fa8" stroke-width="2.5"/>
+<line x1="170" y1="260" x2="80" y2="260" stroke="#1f5fa8" stroke-width="2.5"/>
+<polyline points="170,250 160,250 160,260" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<line x1="170" y1="170" x2="80" y2="260" stroke="#cd4b30" stroke-width="2.5"/>
+<path d="M 170 196 A 26 26 0 0 1 151.6 188.4" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<text x="158" y="216" fill="#cd4b30" stroke="none" text-anchor="end" font-size="12">45°</text>
+<text x="178" y="220" fill="#1f5fa8" stroke="none" font-size="12">300 m</text>
+<text x="125" y="278" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">300 m</text>
+<circle cx="170" cy="170" r="5" fill="#1f2328" stroke="none"/>
+<text x="178" y="162" fill="#1f2328" stroke="none" font-size="13">学校</text>
+<circle cx="80" cy="260" r="5" fill="#cd4b30" stroke="none"/>
+<text x="72" y="265" fill="#cd4b30" stroke="none" text-anchor="end" font-size="13">医院</text>
+<line x1="296" y1="258" x2="296" y2="222" stroke="#1f2328" stroke-width="1.5"/>
+<polygon points="296,214 291,224 301,224" fill="#1f2328" stroke="none"/>
+<text x="296" y="209" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">北</text>
+<text x="320" y="339" fill="#57606a" stroke="none" text-anchor="end" font-size="12">每格 100 m</text>
+</svg>

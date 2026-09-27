@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="120" y1="200" x2="120" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<text x="120" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">10</text>
+<line x1="180" y1="200" x2="180" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<text x="180" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">20</text>
+<line x1="240" y1="200" x2="240" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<text x="240" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">30</text>
+<line x1="300" y1="200" x2="300" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<text x="300" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">40</text>
+<line x1="360" y1="200" x2="360" y2="35" stroke="#e3e6ea" stroke-width="1"/>
+<text x="360" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">50</text>
+<line x1="60" y1="170" x2="372" y2="170" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="60" y1="140" x2="372" y2="140" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="60" y1="110" x2="372" y2="110" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="60" y1="80" x2="372" y2="80" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="60" y1="50" x2="372" y2="50" stroke="#e3e6ea" stroke-width="1"/>
+<text x="54" y="174" fill="#57606a" stroke="none" text-anchor="end" font-size="11">1600</text>
+<text x="54" y="114" fill="#57606a" stroke="none" text-anchor="end" font-size="11">1800</text>
+<text x="54" y="54" fill="#57606a" stroke="none" text-anchor="end" font-size="11">2000</text>
+<line x1="60" y1="200" x2="378" y2="200" stroke="#57606a" stroke-width="1.5"/>
+<line x1="60" y1="200" x2="60" y2="26" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="386,200 378,196 378,204" fill="#57606a" stroke="none"/>
+<polygon points="60,18 56,26 64,26" fill="#57606a" stroke="none"/>
+<polyline points="60,194 55,190 65,184 60,180" fill="none" stroke="#57606a" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="382" y="218" fill="#57606a" stroke="none" font-style="italic">m</text>
+<text x="68" y="24" fill="#57606a" stroke="none" font-style="italic">W</text>
+<text x="54" y="216" fill="#57606a" stroke="none" text-anchor="end" font-size="11">0</text>
+<line x1="60" y1="50" x2="360" y2="200" stroke="#57606a" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="180" y1="110" x2="258" y2="149" stroke="#1f5fa8" stroke-width="2.5"/>
+<circle cx="180" cy="110" r="2.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="186" cy="113" r="2.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="192" cy="116" r="2.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="198" cy="119" r="2.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="204" cy="122" r="2.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="210" cy="125" r="2.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="216" cy="128" r="2.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="222" cy="131" r="2.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="228" cy="134" r="2.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="234" cy="137" r="2.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="240" cy="140" r="2.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="246" cy="143" r="2.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="252" cy="146" r="2.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="258" cy="149" r="2.5" fill="#1f5fa8" stroke="none"/>
+<line x1="180" y1="110" x2="180" y2="200" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="258" y1="149" x2="258" y2="200" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="60" y1="149" x2="258" y2="149" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="258" y="216" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="11">33</text>
+<text x="54" y="153" fill="#cd4b30" stroke="none" text-anchor="end" font-size="11">1670</text>
+<circle cx="258" cy="149" r="5" fill="#cd4b30" stroke="none"/>
+<text x="108" y="66" fill="#57606a" stroke="none" font-size="12">W = 2000 − 10m</text>
+</svg>

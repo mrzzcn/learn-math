@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 340" width="410" height="340" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="40" y1="310" x2="40" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="60" y1="310" x2="60" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="80" y1="310" x2="80" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="100" y1="310" x2="100" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="120" y1="310" x2="120" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="140" y1="310" x2="140" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="160" y1="310" x2="160" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="200" y1="310" x2="200" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="220" y1="310" x2="220" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="240" y1="310" x2="240" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="260" y1="310" x2="260" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="280" y1="310" x2="280" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="300" y1="310" x2="300" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="320" y1="310" x2="320" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="40" y1="310" x2="320" y2="310" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="40" y1="290" x2="320" y2="290" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="40" y1="270" x2="320" y2="270" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="40" y1="250" x2="320" y2="250" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="40" y1="230" x2="320" y2="230" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="40" y1="210" x2="320" y2="210" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="40" y1="190" x2="320" y2="190" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="40" y1="150" x2="320" y2="150" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="40" y1="130" x2="320" y2="130" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="40" y1="110" x2="320" y2="110" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="40" y1="90" x2="320" y2="90" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="40" y1="70" x2="320" y2="70" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="40" y1="50" x2="320" y2="50" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="40" y1="30" x2="320" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="40" y1="170" x2="320" y2="170" stroke="#57606a" stroke-width="1.5"/>
+<line x1="180" y1="310" x2="180" y2="30" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="328,170 320,166 320,174" fill="#57606a" stroke="none"/>
+<polygon points="180,22 176,30 184,30" fill="#57606a" stroke="none"/>
+<text x="324" y="188" fill="#57606a" stroke="none" font-style="italic">x</text>
+<text x="188" y="28" fill="#57606a" stroke="none" font-style="italic">y</text>
+<text x="174" y="186" fill="#57606a" stroke="none" text-anchor="end" font-style="italic" font-size="12">O</text>
+<circle cx="180" cy="170" r="100" fill="none" stroke="#1f2328" stroke-width="2"/>
+<text x="284" y="186" fill="#57606a" stroke="none" font-size="12">5</text>
+<text x="76" y="186" fill="#57606a" stroke="none" text-anchor="end" font-size="12">−5</text>
+<line x1="40" y1="110" x2="320" y2="110" stroke="#cd4b30" stroke-width="2"/>
+<text x="328" y="115" fill="#cd4b30" stroke="none" font-style="italic" font-size="13">y = 3</text>
+<line x1="40" y1="70" x2="320" y2="70" stroke="#1f5fa8" stroke-width="2"/>
+<text x="328" y="75" fill="#1f5fa8" stroke="none" font-style="italic" font-size="13">y = 5</text>
+<line x1="40" y1="290" x2="320" y2="290" stroke="#1f2328" stroke-width="2"/>
+<text x="328" y="295" fill="#1f2328" stroke="none" font-style="italic" font-size="13">y = −6</text>
+<circle cx="100" cy="110" r="4" fill="#cd4b30" stroke="none"/>
+<circle cx="260" cy="110" r="4" fill="#cd4b30" stroke="none"/>
+<circle cx="180" cy="70" r="4" fill="#1f5fa8" stroke="none"/>
+<text x="96" y="102" fill="#cd4b30" stroke="none" text-anchor="end" font-size="12">(−4, 3)</text>
+<text x="264" y="102" fill="#cd4b30" stroke="none" font-size="12">(4, 3)</text>
+</svg>

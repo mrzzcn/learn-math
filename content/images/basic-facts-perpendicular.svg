@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 220" width="410" height="220" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="30" y1="170" x2="380" y2="170" stroke="#1f2328" stroke-width="2"/>
+<line x1="200" y1="30" x2="200" y2="200" stroke="#cd4b30" stroke-width="2.5"/>
+<polyline points="210,170 210,160 200,160" stroke="#cd4b30" stroke-width="1.2" fill="none"/>
+<g transform="rotate(35 200 60)"><line x1="200" y1="20" x2="200" y2="220" stroke="#1f5fa8" stroke-width="1.5" stroke-dasharray="6 4"/><animateTransform attributeName="transform" type="rotate" values="35 200 60;0 200 60;0 200 60;-35 200 60;0 200 60;0 200 60;35 200 60" keyTimes="0;0.2;0.35;0.55;0.75;0.9;1" dur="8s" repeatCount="indefinite"/></g>
+<circle cx="200" cy="60" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="200" cy="170" r="4" fill="#1f2328" stroke="none"/>
+<text x="190" y="56" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">P</text>
+<text x="208" y="190" fill="#1f2328" stroke="none" font-style="italic">O</text>
+<text x="380" y="190" fill="#1f2328" stroke="none" font-style="italic">l</text>
+</svg>

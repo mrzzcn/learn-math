@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 186" width="380" height="186" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="92" y1="72" x2="148" y2="124" stroke="#1f5fa8" stroke-width="2"/>
+<line x1="92" y1="124" x2="148" y2="72" stroke="#cd4b30" stroke-width="2"/>
+<text x="70" y="71" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic" font-size="17">2x</text>
+<text x="70" y="141" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic" font-size="17">x</text>
+<text x="170" y="71" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic" font-size="17">−1</text>
+<text x="170" y="141" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic" font-size="17">3</text>
+<text x="230" y="76" fill="#1f5fa8" stroke="none" font-style="italic">2x · 3 = 6x</text>
+<text x="230" y="136" fill="#cd4b30" stroke="none" font-style="italic">x · (−1) = −x</text>
+<line x1="230" y1="150" x2="350" y2="150" stroke="#57606a" stroke-width="1"/>
+<text x="230" y="172" fill="#1f2328" stroke="none" font-style="italic">6x + (−x) = 5x</text>
+<text x="40" y="24" fill="#57606a" stroke="none" font-size="12">横着读：2x − 1 和 x + 3 是两个因式</text>
+</svg>

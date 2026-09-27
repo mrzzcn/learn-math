@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 280" width="310" height="280" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="40" y1="250" x2="40" y2="40" stroke="#e3e6ea" stroke-width="1.5"/>
+<line x1="40" y1="250" x2="250" y2="250" stroke="#e3e6ea" stroke-width="1.5"/>
+<line x1="110" y1="250" x2="110" y2="40" stroke="#e3e6ea" stroke-width="1.5"/>
+<line x1="40" y1="180" x2="250" y2="180" stroke="#e3e6ea" stroke-width="1.5"/>
+<line x1="180" y1="250" x2="180" y2="40" stroke="#e3e6ea" stroke-width="1.5"/>
+<line x1="40" y1="110" x2="250" y2="110" stroke="#e3e6ea" stroke-width="1.5"/>
+<line x1="250" y1="250" x2="250" y2="40" stroke="#e3e6ea" stroke-width="1.5"/>
+<line x1="40" y1="40" x2="250" y2="40" stroke="#e3e6ea" stroke-width="1.5"/>
+<rect x="40" y="180" width="70" height="70" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5"/>
+<rect x="110" y="40" width="140" height="140" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="1.5"/>
+<line x1="40" y1="250" x2="110" y2="180" stroke="#1f5fa8" stroke-width="3.5"/>
+<line x1="110" y1="180" x2="250" y2="40" stroke="#cd4b30" stroke-width="3.5"/>
+<circle cx="40" cy="250" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="110" cy="180" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="180" cy="110" r="3.5" fill="#cd4b30" stroke="none"/>
+<circle cx="250" cy="40" r="4" fill="#1f2328" stroke="none"/>
+<text x="87" y="235" fill="#1f5fa8" stroke="none" font-size="15">√2</text>
+<text x="227" y="95" fill="#cd4b30" stroke="none" font-size="15">√8</text>
+<text x="180" y="32" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">2</text>
+<text x="75" y="272" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">1</text>
+<text x="28" y="219" fill="#1f5fa8" stroke="none" text-anchor="end" font-size="12">1</text>
+</svg>

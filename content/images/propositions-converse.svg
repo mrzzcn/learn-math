@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 220" width="420" height="220" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="30" y1="70" x2="400" y2="70" stroke="#1f2328" stroke-width="2"/>
+<line x1="30" y1="170" x2="400" y2="170" stroke="#1f2328" stroke-width="2"/>
+<line x1="206.7" y1="28.2" x2="133.3" y2="211.8" stroke="#1f2328" stroke-width="2"/>
+<path d="M 212 70 A 22 22 0 0 0 198.2 49.6" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<path d="M 172 170 A 22 22 0 0 0 158.2 149.6" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<text x="220" y="58" fill="#cd4b30" stroke="none" text-anchor="middle">1</text>
+<text x="180" y="158" fill="#cd4b30" stroke="none" text-anchor="middle">2</text>
+<text x="406" y="75" fill="#1f2328" stroke="none" font-style="italic">a</text>
+<text x="406" y="175" fill="#1f2328" stroke="none" font-style="italic">b</text>
+<text x="212.7" y="28.2" fill="#1f2328" stroke="none" font-style="italic">c</text>
+</svg>

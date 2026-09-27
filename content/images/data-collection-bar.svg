@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 235" width="390" height="235" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="50" y1="186" x2="380" y2="186" stroke="#e3e6ea" stroke-width="1"/>
+<text x="44" y="190" fill="#57606a" stroke="none" text-anchor="end" font-size="11">2</text>
+<line x1="50" y1="162" x2="380" y2="162" stroke="#e3e6ea" stroke-width="1"/>
+<text x="44" y="166" fill="#57606a" stroke="none" text-anchor="end" font-size="11">4</text>
+<line x1="50" y1="138" x2="380" y2="138" stroke="#e3e6ea" stroke-width="1"/>
+<text x="44" y="142" fill="#57606a" stroke="none" text-anchor="end" font-size="11">6</text>
+<line x1="50" y1="114" x2="380" y2="114" stroke="#e3e6ea" stroke-width="1"/>
+<text x="44" y="118" fill="#57606a" stroke="none" text-anchor="end" font-size="11">8</text>
+<line x1="50" y1="90" x2="380" y2="90" stroke="#e3e6ea" stroke-width="1"/>
+<text x="44" y="94" fill="#57606a" stroke="none" text-anchor="end" font-size="11">10</text>
+<line x1="50" y1="66" x2="380" y2="66" stroke="#e3e6ea" stroke-width="1"/>
+<text x="44" y="70" fill="#57606a" stroke="none" text-anchor="end" font-size="11">12</text>
+<line x1="50" y1="42" x2="380" y2="42" stroke="#e3e6ea" stroke-width="1"/>
+<text x="44" y="46" fill="#57606a" stroke="none" text-anchor="end" font-size="11">14</text>
+<line x1="50" y1="210" x2="384" y2="210" stroke="#57606a" stroke-width="1.5"/>
+<line x1="50" y1="210" x2="50" y2="24" stroke="#57606a" stroke-width="1.5"/>
+<text x="44" y="214" fill="#57606a" stroke="none" text-anchor="end" font-size="11">0</text>
+<text x="56" y="22" fill="#57606a" stroke="none" font-size="12">人数</text>
+<polygon points="66,210 106,210 106,66 66,66" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="86" y="60" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">12</text>
+<text x="86" y="228" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">篮球</text>
+<polygon points="130,210 170,210 170,90 130,90" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="150" y="84" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">10</text>
+<text x="150" y="228" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">乒乓球</text>
+<polygon points="194,210 234,210 234,114 194,114" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="214" y="108" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">8</text>
+<text x="214" y="228" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">足球</text>
+<polygon points="258,210 298,210 298,138 258,138" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="278" y="132" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">6</text>
+<text x="278" y="228" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">跳绳</text>
+<polygon points="322,210 362,210 362,162 322,162" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="342" y="156" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">4</text>
+<text x="342" y="228" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">其他</text>
+</svg>

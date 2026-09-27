@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 290" width="320" height="290" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="14" y1="278" x2="14" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="48" y1="278" x2="48" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="82" y1="278" x2="82" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="116" y1="278" x2="116" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="184" y1="278" x2="184" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="218" y1="278" x2="218" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="252" y1="278" x2="252" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="286" y1="278" x2="286" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="278" x2="286" y2="278" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="244" x2="286" y2="244" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="176" x2="286" y2="176" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="142" x2="286" y2="142" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="108" x2="286" y2="108" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="74" x2="286" y2="74" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="40" x2="286" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="210" x2="286" y2="210" stroke="#57606a" stroke-width="1.5"/>
+<line x1="150" y1="278" x2="150" y2="40" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="294,210 286,206 286,214" fill="#57606a" stroke="none"/>
+<polygon points="150,32 146,40 154,40" fill="#57606a" stroke="none"/>
+<text x="290" y="228" fill="#57606a" stroke="none" font-style="italic">x</text>
+<text x="158" y="38" fill="#57606a" stroke="none" font-style="italic">y</text>
+<text x="144" y="226" fill="#57606a" stroke="none" text-anchor="end" font-style="italic" font-size="12">O</text>
+<text x="14" y="226" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−4</text>
+<text x="48" y="226" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−3</text>
+<text x="82" y="226" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−2</text>
+<text x="116" y="226" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−1</text>
+<text x="184" y="226" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">1</text>
+<text x="218" y="226" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">2</text>
+<text x="252" y="226" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">3</text>
+<text x="286" y="226" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">4</text>
+<text x="144" y="282" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−2</text>
+<text x="144" y="248" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−1</text>
+<text x="144" y="180" fill="#57606a" stroke="none" text-anchor="end" font-size="11">1</text>
+<text x="144" y="146" fill="#57606a" stroke="none" text-anchor="end" font-size="11">2</text>
+<text x="144" y="112" fill="#57606a" stroke="none" text-anchor="end" font-size="11">3</text>
+<text x="144" y="78" fill="#57606a" stroke="none" text-anchor="end" font-size="11">4</text>
+<text x="144" y="44" fill="#57606a" stroke="none" text-anchor="end" font-size="11">5</text>
+<polygon points="48,244 252,176 184,74" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="48" cy="244" r="3.5" fill="#1f2328" stroke="none"/>
+<circle cx="252" cy="176" r="3.5" fill="#1f2328" stroke="none"/>
+<circle cx="184" cy="74" r="3.5" fill="#1f2328" stroke="none"/>
+<text x="40" y="260" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">A</text>
+<text x="260" y="181" fill="#1f2328" stroke="none" font-style="italic">B</text>
+<text x="184" y="65" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+</svg>

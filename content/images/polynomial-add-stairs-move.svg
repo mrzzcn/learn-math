@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 220" width="340" height="220" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="50" y1="180" x2="290" y2="180" stroke="#1f5fa8" stroke-width="2.5"/>
+<line x1="50" y1="30" x2="50" y2="180" stroke="#cd4b30" stroke-width="2.5"/>
+<line x1="50" y1="30" x2="120" y2="30" stroke="#1f5fa8" stroke-width="2.5"/>
+<line x1="120" y1="70" x2="210" y2="70" stroke="#1f5fa8" stroke-width="2.5"/>
+<line x1="210" y1="130" x2="290" y2="130" stroke="#1f5fa8" stroke-width="2.5"/>
+<line x1="120" y1="30" x2="120" y2="70" stroke="#cd4b30" stroke-width="2.5"/>
+<line x1="210" y1="70" x2="210" y2="130" stroke="#cd4b30" stroke-width="2.5"/>
+<line x1="290" y1="130" x2="290" y2="180" stroke="#cd4b30" stroke-width="2.5"/>
+<g transform="translate(0 -40)"><line x1="120" y1="70" x2="210" y2="70" stroke="#1f5fa8" stroke-width="2.5" stroke-dasharray="6 4"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -40;0 -40;0 0" keyTimes="0;0.15;0.45;0.75;1" dur="8s" repeatCount="indefinite"/></g>
+<g transform="translate(0 -100)"><line x1="210" y1="130" x2="290" y2="130" stroke="#1f5fa8" stroke-width="2.5" stroke-dasharray="6 4"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -100;0 -100;0 0" keyTimes="0;0.15;0.45;0.75;1" dur="8s" repeatCount="indefinite"/></g>
+<g transform="translate(170 0)"><line x1="120" y1="30" x2="120" y2="70" stroke="#cd4b30" stroke-width="2.5" stroke-dasharray="6 4"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;170 0;170 0;0 0" keyTimes="0;0.15;0.45;0.75;1" dur="8s" repeatCount="indefinite"/></g>
+<g transform="translate(80 0)"><line x1="210" y1="70" x2="210" y2="130" stroke="#cd4b30" stroke-width="2.5" stroke-dasharray="6 4"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;80 0;80 0;0 0" keyTimes="0;0.15;0.45;0.75;1" dur="8s" repeatCount="indefinite"/></g>
+<text x="85" y="22" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="14"><tspan font-style="italic">x</tspan><tspan dy="4" font-size="10">1</tspan></text>
+<text x="165" y="62" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="14"><tspan font-style="italic">x</tspan><tspan dy="4" font-size="10">2</tspan></text>
+<text x="250" y="122" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="14"><tspan font-style="italic">x</tspan><tspan dy="4" font-size="10">3</tspan></text>
+<text x="112" y="55" fill="#cd4b30" stroke="none" text-anchor="end" font-size="14"><tspan font-style="italic">y</tspan><tspan dy="4" font-size="10">1</tspan></text>
+<text x="202" y="105" fill="#cd4b30" stroke="none" text-anchor="end" font-size="14"><tspan font-style="italic">y</tspan><tspan dy="4" font-size="10">2</tspan></text>
+<text x="298" y="160" fill="#cd4b30" stroke="none" text-anchor="start" font-size="14"><tspan font-style="italic">y</tspan><tspan dy="4" font-size="10">3</tspan></text>
+<text x="170" y="202" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">a</text>
+<text x="38" y="110" fill="#cd4b30" stroke="none" text-anchor="end" font-style="italic">b</text>
+</svg>

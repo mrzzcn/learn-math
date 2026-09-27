@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 240" width="380" height="240" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="50" y1="165" x2="349" y2="165" stroke="#e3e6ea" stroke-width="1"/>
+<text x="44" y="169" fill="#57606a" stroke="none" text-anchor="end" font-size="11">5</text>
+<line x1="50" y1="130" x2="349" y2="130" stroke="#e3e6ea" stroke-width="1"/>
+<text x="44" y="134" fill="#57606a" stroke="none" text-anchor="end" font-size="11">10</text>
+<line x1="50" y1="95" x2="349" y2="95" stroke="#e3e6ea" stroke-width="1"/>
+<text x="44" y="99" fill="#57606a" stroke="none" text-anchor="end" font-size="11">15</text>
+<line x1="50" y1="60" x2="349" y2="60" stroke="#e3e6ea" stroke-width="1"/>
+<text x="44" y="64" fill="#57606a" stroke="none" text-anchor="end" font-size="11">20</text>
+<line x1="50" y1="25" x2="349" y2="25" stroke="#e3e6ea" stroke-width="1"/>
+<text x="44" y="29" fill="#57606a" stroke="none" text-anchor="end" font-size="11">25</text>
+<text x="44" y="204" fill="#57606a" stroke="none" text-anchor="end" font-size="11">0</text>
+<text x="50" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">0</text>
+<text x="76" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">2</text>
+<text x="102" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">4</text>
+<text x="128" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">6</text>
+<text x="154" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">8</text>
+<text x="180" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">10</text>
+<text x="206" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">12</text>
+<text x="232" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">14</text>
+<text x="258" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">16</text>
+<text x="284" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">18</text>
+<text x="310" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">20</text>
+<text x="336" y="216" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">22</text>
+<line x1="50" y1="200" x2="355.5" y2="200" stroke="#57606a" stroke-width="1.5"/>
+<line x1="50" y1="200" x2="50" y2="11" stroke="#57606a" stroke-width="1.5"/>
+<text x="355.5" y="234" fill="#57606a" stroke="none" text-anchor="end" font-size="12">时刻（时）</text>
+<text x="56" y="9" fill="#57606a" stroke="none" font-size="12">气温（°C）</text>
+<polyline points="50,116 76,123 102,130 128,123 154,102 180,74 206,53 232,46 258,60 284,81 310,95 336,109" fill="none" stroke="#1f5fa8" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="50" cy="116" r="3.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="76" cy="123" r="3.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="102" cy="130" r="3.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="128" cy="123" r="3.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="154" cy="102" r="3.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="180" cy="74" r="3.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="206" cy="53" r="3.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="232" cy="46" r="3.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="258" cy="60" r="3.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="284" cy="81" r="3.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="310" cy="95" r="3.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="336" cy="109" r="3.5" fill="#1f5fa8" stroke="none"/>
+<circle cx="232" cy="46" r="5" fill="#cd4b30" stroke="none"/>
+<text x="232" y="36" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">最高 22</text>
+<circle cx="102" cy="130" r="5" fill="#cd4b30" stroke="none"/>
+<text x="102" y="150" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">最低 10</text>
+</svg>

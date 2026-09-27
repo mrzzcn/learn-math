@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 250" width="340" height="250" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<circle cx="170" cy="130" r="95" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<path d="M 80.7 162.5 A 95 95 0 0 0 259.3 162.5" stroke="#cd4b30" stroke-width="3.5" fill="none"/>
+<line x1="170" y1="130" x2="80.7" y2="162.5" stroke="#1f5fa8" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="170" y1="130" x2="259.3" y2="162.5" stroke="#1f5fa8" stroke-width="1.5" stroke-dasharray="5 4"/>
+<path d="M 156.8 134.8 A 14 14 0 0 0 183.2 134.8" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<line x1="231.1" y1="57.2" x2="80.7" y2="162.5" stroke="#1f2328" stroke-width="1.5"/>
+<line x1="231.1" y1="57.2" x2="259.3" y2="162.5" stroke="#1f2328" stroke-width="1.5"/>
+<path d="M 214.7 68.7 A 20 20 0 0 0 236.2 76.5" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<circle cx="231.1" cy="57.2" r="4" fill="#1f2328" stroke="none"/>
+<text x="240.7" y="50.7" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<line x1="170" y1="35" x2="80.7" y2="162.5" stroke="#1f2328" stroke-width="1.5"/>
+<line x1="170" y1="35" x2="259.3" y2="162.5" stroke="#1f2328" stroke-width="1.5"/>
+<path d="M 158.5 51.4 A 20 20 0 0 0 181.5 51.4" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<circle cx="170" cy="35" r="4" fill="#1f2328" stroke="none"/>
+<text x="170" y="25" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<line x1="108.9" y1="57.2" x2="80.7" y2="162.5" stroke="#1f2328" stroke-width="1.5"/>
+<line x1="108.9" y1="57.2" x2="259.3" y2="162.5" stroke="#1f2328" stroke-width="1.5"/>
+<path d="M 103.8 76.5 A 20 20 0 0 0 125.3 68.7" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<circle cx="108.9" cy="57.2" r="4" fill="#1f2328" stroke="none"/>
+<text x="99.3" y="50.7" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">E</text>
+<circle cx="80.7" cy="162.5" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="259.3" cy="162.5" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="170" cy="130" r="4" fill="#1f2328" stroke="none"/>
+<text x="66.6" y="172.6" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="273.4" y="172.6" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="170" y="120" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+</svg>

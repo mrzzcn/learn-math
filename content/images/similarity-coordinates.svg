@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 270" width="360" height="270" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="28" y1="254" x2="28" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="56" y1="254" x2="56" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="84" y1="254" x2="84" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="112" y1="254" x2="112" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="168" y1="254" x2="168" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="196" y1="254" x2="196" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="224" y1="254" x2="224" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="252" y1="254" x2="252" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="280" y1="254" x2="280" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="308" y1="254" x2="308" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="336" y1="254" x2="336" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="254" x2="336" y2="254" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="226" x2="336" y2="226" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="198" x2="336" y2="198" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="142" x2="336" y2="142" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="114" x2="336" y2="114" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="86" x2="336" y2="86" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="58" x2="336" y2="58" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="30" x2="336" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="14" y1="170" x2="336" y2="170" stroke="#57606a" stroke-width="1.5"/>
+<line x1="140" y1="254" x2="140" y2="30" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="344,170 336,166 336,174" fill="#57606a" stroke="none"/>
+<polygon points="140,22 136,30 144,30" fill="#57606a" stroke="none"/>
+<text x="340" y="188" fill="#57606a" stroke="none" font-style="italic">x</text>
+<text x="148" y="28" fill="#57606a" stroke="none" font-style="italic">y</text>
+<text x="134" y="186" fill="#57606a" stroke="none" text-anchor="end" font-style="italic" font-size="12">O</text>
+<text x="28" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−4</text>
+<text x="56" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−3</text>
+<text x="84" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−2</text>
+<text x="168" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">1</text>
+<text x="196" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">2</text>
+<text x="224" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">3</text>
+<text x="252" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">4</text>
+<text x="280" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">5</text>
+<text x="308" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">6</text>
+<text x="134" y="258" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−3</text>
+<text x="134" y="230" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−2</text>
+<text x="134" y="146" fill="#57606a" stroke="none" text-anchor="end" font-size="11">1</text>
+<text x="134" y="118" fill="#57606a" stroke="none" text-anchor="end" font-size="11">2</text>
+<text x="134" y="90" fill="#57606a" stroke="none" text-anchor="end" font-size="11">3</text>
+<text x="134" y="62" fill="#57606a" stroke="none" text-anchor="end" font-size="11">4</text>
+<text x="134" y="34" fill="#57606a" stroke="none" text-anchor="end" font-size="11">5</text>
+<line x1="112" y1="226" x2="196" y2="58" stroke="#57606a" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="56" y1="226" x2="308" y2="58" stroke="#57606a" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="84" y1="198" x2="252" y2="114" stroke="#57606a" stroke-width="1" stroke-dasharray="4 3"/>
+<polygon points="196,58 308,58 252,114" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="168,114 224,114 196,142" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="112,226 56,226 84,198" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="2" stroke-linejoin="round"/>
+<text x="188" y="50" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="318" y="54" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="256" y="132" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="160" y="106" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic" font-size="13">A′</text>
+<text x="218" y="107" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic" font-size="13">B′</text>
+<text x="200" y="160" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic" font-size="13">C′</text>
+<text x="118" y="244" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic" font-size="13">A″</text>
+<text x="50" y="244" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic" font-size="13">B″</text>
+<text x="72" y="200" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic" font-size="13">C″</text>
+</svg>

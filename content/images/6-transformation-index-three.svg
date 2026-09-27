@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 330" width="400" height="330" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="44" y1="313" x2="44" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="70" y1="313" x2="70" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="96" y1="313" x2="96" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="122" y1="313" x2="122" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="148" y1="313" x2="148" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="174" y1="313" x2="174" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="226" y1="313" x2="226" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="252" y1="313" x2="252" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="278" y1="313" x2="278" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="304" y1="313" x2="304" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="330" y1="313" x2="330" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="356" y1="313" x2="356" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="31" y1="300" x2="369" y2="300" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="31" y1="274" x2="369" y2="274" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="31" y1="248" x2="369" y2="248" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="31" y1="222" x2="369" y2="222" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="31" y1="196" x2="369" y2="196" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="31" y1="144" x2="369" y2="144" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="31" y1="118" x2="369" y2="118" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="31" y1="92" x2="369" y2="92" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="31" y1="66" x2="369" y2="66" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="31" y1="40" x2="369" y2="40" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="31" y1="170" x2="369" y2="170" stroke="#57606a" stroke-width="1.5"/>
+<line x1="200" y1="313" x2="200" y2="40" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="377,170 369,166 369,174" fill="#57606a" stroke="none"/>
+<polygon points="200,32 196,40 204,40" fill="#57606a" stroke="none"/>
+<text x="373" y="188" fill="#57606a" stroke="none" font-style="italic">x</text>
+<text x="208" y="38" fill="#57606a" stroke="none" font-style="italic">y</text>
+<text x="194" y="186" fill="#57606a" stroke="none" text-anchor="end" font-style="italic" font-size="12">O</text>
+<text x="44" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−6</text>
+<text x="70" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−5</text>
+<text x="96" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−4</text>
+<text x="122" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−3</text>
+<text x="148" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−2</text>
+<text x="174" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−1</text>
+<text x="226" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">1</text>
+<text x="252" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">2</text>
+<text x="278" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">3</text>
+<text x="304" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">4</text>
+<text x="330" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">5</text>
+<text x="356" y="186" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">6</text>
+<text x="194" y="304" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−5</text>
+<text x="194" y="278" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−4</text>
+<text x="194" y="252" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−3</text>
+<text x="194" y="226" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−2</text>
+<text x="194" y="200" fill="#57606a" stroke="none" text-anchor="end" font-size="11">−1</text>
+<text x="194" y="148" fill="#57606a" stroke="none" text-anchor="end" font-size="11">1</text>
+<text x="194" y="122" fill="#57606a" stroke="none" text-anchor="end" font-size="11">2</text>
+<text x="194" y="96" fill="#57606a" stroke="none" text-anchor="end" font-size="11">3</text>
+<text x="194" y="70" fill="#57606a" stroke="none" text-anchor="end" font-size="11">4</text>
+<text x="194" y="44" fill="#57606a" stroke="none" text-anchor="end" font-size="11">5</text>
+<polygon points="226,144 330,144 226,66" fill="rgba(31,35,40,0.08)" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="174,144 70,144 174,66" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="174,196 70,196 174,274" fill="rgba(87,96,106,0.12)" stroke="#57606a" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="226,274 330,274 226,196" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="2" stroke-linejoin="round"/>
+<text x="262.4" y="55.6" fill="#1f2328" stroke="none" text-anchor="start" font-size="13">原图形</text>
+<text x="137.6" y="55.6" fill="#cd4b30" stroke="none" text-anchor="end" font-size="13">关于 y 轴对称</text>
+<text x="137.6" y="297.4" fill="#57606a" stroke="none" text-anchor="end" font-size="13">绕原点旋转 180°</text>
+<text x="262.4" y="297.4" fill="#1f5fa8" stroke="none" text-anchor="start" font-size="13">向下平移 5 个单位</text>
+</svg>

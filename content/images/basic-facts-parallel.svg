@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 230" width="420" height="230" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="20" y1="170" x2="400" y2="170" stroke="#1f2328" stroke-width="2"/>
+<line x1="391.3" y1="5.5" x2="28.7" y2="174.5" stroke="#57606a" stroke-width="1.2" stroke-dasharray="5 4"/>
+<circle cx="38.4" cy="170" r="3.5" fill="#57606a" stroke="none"/>
+<line x1="391.3" y1="174.5" x2="28.7" y2="5.5" stroke="#57606a" stroke-width="1.2" stroke-dasharray="5 4"/>
+<circle cx="381.6" cy="170" r="3.5" fill="#57606a" stroke="none"/>
+<g transform="rotate(0 210 90)"><line x1="20" y1="90" x2="400" y2="90" stroke="#1f5fa8" stroke-width="1.5"/><animateTransform attributeName="transform" type="rotate" values="0 210 90;0 210 90;-25 210 90;-25 210 90;25 210 90;25 210 90;0 210 90" keyTimes="0;0.2;0.4;0.5;0.8;0.9;1" dur="9s" repeatCount="indefinite"/></g>
+<line x1="20" y1="90" x2="400" y2="90" stroke="#cd4b30" stroke-width="2.5"/>
+<circle cx="210" cy="90" r="4" fill="#1f2328" stroke="none"/>
+<text x="210" y="78" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">P</text>
+<text x="404" y="175" fill="#1f2328" stroke="none" font-style="italic">l</text>
+<text x="404" y="95" fill="#cd4b30" stroke="none" font-style="italic">m</text>
+</svg>

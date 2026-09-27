@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 555 290" width="555" height="290" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<rect x="20" y="20" width="150" height="54" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="95" y="44" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">几何图形初步</text>
+<text x="95" y="63" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">点、线、角</text>
+<rect x="205" y="20" width="150" height="54" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="280" y="44" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">相交线与平行线</text>
+<text x="280" y="63" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">由角判定平行</text>
+<rect x="390" y="20" width="150" height="54" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="465" y="44" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">三角形</text>
+<text x="465" y="63" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">三边关系、内角和</text>
+<rect x="205" y="118" width="150" height="54" rx="6" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="2"/>
+<text x="280" y="142" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="14">全等三角形</text>
+<text x="280" y="161" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">证明线段、角相等</text>
+<rect x="10" y="216" width="128" height="54" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="74" y="240" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">轴对称与等腰三角形</text>
+<text x="74" y="259" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">垂直平分线</text>
+<rect x="145" y="216" width="128" height="54" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="209" y="240" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">勾股定理</text>
+<text x="209" y="259" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">直角三角形的三边</text>
+<rect x="280" y="216" width="128" height="54" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="344" y="240" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">四边形</text>
+<text x="344" y="259" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">平行四边形家族</text>
+<rect x="415" y="216" width="128" height="54" rx="6" fill="none" stroke="#1f5fa8" stroke-width="1.5"/>
+<text x="479" y="240" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="13">尺规作图</text>
+<text x="479" y="259" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">作法的依据</text>
+<line x1="170" y1="47" x2="197" y2="47" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="205,47 197,51 197,43" fill="#57606a" stroke="none"/>
+<line x1="355" y1="47" x2="382" y2="47" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="390,47 382,51 382,43" fill="#57606a" stroke="none"/>
+<line x1="465" y1="74" x2="361.7" y2="140.7" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="355,145 359.5522717783894,137.30085578420045 363.8906784396733,144.0223308932318" fill="#57606a" stroke="none"/>
+<line x1="228.5" y1="172" x2="81.7" y2="213.8" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="74,216 80.59847256226782,209.96177510811341 82.78966345086995,217.6558431146823" fill="#57606a" stroke="none"/>
+<line x1="262.3" y1="172" x2="215.2" y2="210.9" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="209,216 212.61917597486624,207.8206622968023 217.7149757474779,213.98773815797438" fill="#57606a" stroke="none"/>
+<line x1="296" y1="172" x2="338.1" y2="210.6" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="344,216 335.3998683643247,213.5428195326642 340.8056653924634,207.64558641105825" fill="#57606a" stroke="none"/>
+<line x1="329.8" y1="172" x2="471.3" y2="213.7" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="479,216 470.1954095706692,217.5745435439314 472.45761090725637,209.9010537828942" fill="#57606a" stroke="none"/>
+</svg>

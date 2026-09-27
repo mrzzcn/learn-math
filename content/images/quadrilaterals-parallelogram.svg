@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 205" width="380" height="205" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="100,40 50,180 290,180 340,40" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="100" y1="40" x2="290" y2="180" stroke="#57606a" stroke-width="1.5" stroke-dasharray="6 4"/>
+<path d="M 124.2 57.8 A 30 30 0 0 1 89.9 68.3" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<path d="M 265.8 162.2 A 30 30 0 0 1 300.1 151.7" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<path d="M 122 40 A 22 22 0 0 1 117.7 53.1" stroke="#1f5fa8" stroke-width="1.5" fill="none"/><path d="M 126 40 A 26 26 0 0 1 120.9 55.4" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<path d="M 268 180 A 22 22 0 0 1 272.3 166.9" stroke="#1f5fa8" stroke-width="1.5" fill="none"/><path d="M 264 180 A 26 26 0 0 1 269.1 164.6" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<polyline points="214,45 220,40 214,35" stroke="#1f5fa8" stroke-width="1.8" fill="none"/>
+<polyline points="164,185 170,180 164,175" stroke="#1f5fa8" stroke-width="1.8" fill="none"/>
+<polyline points="76.7,120.2 74,112.8 67.3,116.8" stroke="#1f5fa8" stroke-width="1.8" fill="none"/><polyline points="78.7,114.5 76,107.2 69.3,111.1" stroke="#1f5fa8" stroke-width="1.8" fill="none"/>
+<polyline points="316.7,120.2 314,112.8 307.3,116.8" stroke="#1f5fa8" stroke-width="1.8" fill="none"/><polyline points="318.7,114.5 316,107.2 309.3,111.1" stroke="#1f5fa8" stroke-width="1.8" fill="none"/>
+<text x="92" y="32" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text><text x="40" y="196" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text><text x="300" y="196" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text><text x="348" y="32" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+</svg>

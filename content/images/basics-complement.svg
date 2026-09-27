@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" width="560" height="220" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="40" y1="170" x2="200" y2="170" stroke="#1f2328" stroke-width="2"/>
+<line x1="40" y1="170" x2="40" y2="20" stroke="#1f2328" stroke-width="2"/>
+<line x1="40" y1="170" x2="171.1" y2="78.2" stroke="#1f5fa8" stroke-width="2"/>
+<polyline points="52,170 52,158 40,158" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<path d="M 82 170 A 42 42 0 0 0 74.4 145.9" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<path d="M 67.9 150.5 A 34 34 0 0 0 40 136" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<text x="93.6" y="158.6" fill="#cd4b30" stroke="none" text-anchor="middle">1</text>
+<text x="61.9" y="130.1" fill="#1f5fa8" stroke="none" text-anchor="middle">2</text>
+<text x="30" y="186" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+<text x="200" y="190" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="181.1" y="78.2" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="30" y="24" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="110" y="205" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">互余</text>
+<line x1="240" y1="170" x2="540" y2="170" stroke="#1f2328" stroke-width="2"/>
+<line x1="390" y1="170" x2="470.3" y2="55.3" stroke="#1f5fa8" stroke-width="2"/>
+<path d="M 420 170 A 30 30 0 0 0 407.2 145.4" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<path d="M 403.8 150.3 A 24 24 0 0 0 366 170" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<text x="431" y="154.1" fill="#cd4b30" stroke="none" text-anchor="middle">3</text>
+<text x="371.2" y="139.7" fill="#1f5fa8" stroke="none" text-anchor="middle">4</text>
+<text x="390" y="190" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+<text x="540" y="190" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="240" y="190" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<text x="480.3" y="55.3" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="390" y="205" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">互补</text>
+</svg>

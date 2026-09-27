@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 250" width="420" height="250" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="20" y1="60" x2="400" y2="76" stroke="#1f2328" stroke-width="2"/>
+<line x1="20" y1="196" x2="400" y2="176" stroke="#1f2328" stroke-width="2"/>
+<line x1="150" y1="16" x2="290" y2="240" stroke="#1f2328" stroke-width="2"/>
+<text x="191.8" y="54.5" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">1</text>
+<text x="159.5" y="58.9" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">2</text>
+<text x="171.7" y="89.1" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">3</text>
+<text x="204" y="84.8" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">4</text>
+<text x="264" y="170.9" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">5</text>
+<text x="233.8" y="177.7" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">6</text>
+<text x="245.5" y="206.4" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">7</text>
+<text x="275.7" y="199.6" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">8</text>
+<circle cx="181.8" cy="66.8" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="254.8" cy="183.6" r="4" fill="#1f2328" stroke="none"/>
+<text x="406" y="81" fill="#1f2328" stroke="none" font-style="italic">a</text>
+<text x="406" y="181" fill="#1f2328" stroke="none" font-style="italic">b</text>
+<text x="296" y="240" fill="#1f2328" stroke="none" font-style="italic">c</text>
+</svg>

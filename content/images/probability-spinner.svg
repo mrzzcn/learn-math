@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 250" width="320" height="250" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<path d="M 160 125 L 160 30 A 95 95 0 0 1 242.3 172.5 Z" fill="rgba(205,75,48,0.12)" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="212" y="93" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="13">红</text>
+<text x="212" y="109" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">120°</text>
+<path d="M 160 125 L 242.3 172.5 A 95 95 0 0 1 112.5 207.3 Z" fill="rgba(31,95,168,0.10)" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="175.5" y="181" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="13">蓝</text>
+<text x="175.5" y="197" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">90°</text>
+<path d="M 160 125 L 112.5 207.3 A 95 95 0 0 1 160 30 Z" fill="none" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="102" y="107.5" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">白</text>
+<text x="102" y="123.5" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">150°</text>
+<g transform="rotate(35 160 125)"><line x1="160" y1="125" x2="160" y2="53" stroke="#1f2328" stroke-width="3"/><polygon points="160,41 154,55 166,55" fill="#1f2328" stroke="none"/><animateTransform attributeName="transform" type="rotate" values="35 160 125;1252 160 125;1252 160 125;1252 160 125" keyTimes="0;0.5;0.95;1" calcMode="spline" keySplines="0.1 0.6 0.3 1;0 0 1 1;0 0 1 1" dur="6s" repeatCount="indefinite"/></g>
+<circle cx="160" cy="125" r="5" fill="#1f2328" stroke="none"/>
+</svg>

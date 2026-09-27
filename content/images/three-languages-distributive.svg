@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<rect x="60" y="40" width="160" height="100" fill="rgba(31,95,168,0.10)" stroke="none"/>
+<rect x="220" y="40" width="110" height="100" fill="rgba(205,75,48,0.12)" stroke="none"/>
+<rect x="60" y="40" width="270" height="100" fill="none" stroke="#1f2328" stroke-width="2"/>
+<line x1="220" y1="40" x2="220" y2="140" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="48" y="95" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">a</text>
+<text x="140" y="30" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">b</text>
+<text x="275" y="30" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic">c</text>
+<text x="140" y="95" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic" font-size="16">ab</text>
+<text x="275" y="95" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic" font-size="16">ac</text>
+<line x1="60" y1="158" x2="167" y2="158" stroke="#57606a" stroke-width="1"/>
+<line x1="223" y1="158" x2="330" y2="158" stroke="#57606a" stroke-width="1"/>
+<line x1="60" y1="153" x2="60" y2="163" stroke="#57606a" stroke-width="1"/>
+<line x1="330" y1="153" x2="330" y2="163" stroke="#57606a" stroke-width="1"/>
+<text x="195" y="163" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">b + c</text>
+</svg>

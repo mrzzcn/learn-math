@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 300" width="320" height="300" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="160,150 32,150 96,86" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="160,150 160,278 96,214" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="160,150 288,150 224,214" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="160,150 160,22 224,86" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="2.5" stroke-linejoin="round"/>
+<g><polygon points="160,150 160,22 224,86" fill="none" stroke="#cd4b30" stroke-width="3" stroke-dasharray="6 4" stroke-linejoin="round"/><animateTransform attributeName="transform" type="rotate" values="0 160 150;0 160 150;-90 160 150;-90 160 150;-180 160 150;-180 160 150;-270 160 150;-270 160 150;-360 160 150" keyTimes="0;0.1;0.2;0.35;0.45;0.6;0.7;0.85;1" dur="10s" repeatCount="indefinite"/></g>
+<circle cx="160" cy="150" r="4" fill="#1f2328" stroke="none"/>
+<text x="172" y="148" fill="#1f2328" stroke="none" font-style="italic">O</text>
+</svg>

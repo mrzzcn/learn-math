@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 310" width="470" height="310" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="60" y1="25" x2="170" y2="95" stroke="#57606a" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="52" y="17" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text><text x="20" y="111" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text><text x="180" y="111" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text><text x="208" y="17" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<polygon points="60,25 30,95 170,95 200,25" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="130" y1="19" x2="130" y2="31" stroke="#cd4b30" stroke-width="2"/>
+<line x1="100" y1="89" x2="100" y2="101" stroke="#cd4b30" stroke-width="2"/>
+<line x1="51.5" y1="60.1" x2="40.5" y2="55.3" stroke="#1f5fa8" stroke-width="2"/><line x1="49.5" y1="64.7" x2="38.5" y2="59.9" stroke="#1f5fa8" stroke-width="2"/>
+<line x1="191.5" y1="60.1" x2="180.5" y2="55.3" stroke="#1f5fa8" stroke-width="2"/><line x1="189.5" y1="64.7" x2="178.5" y2="59.9" stroke="#1f5fa8" stroke-width="2"/>
+<text x="115" y="135" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">两组对边分别相等</text>
+<line x1="290" y1="25" x2="400" y2="95" stroke="#57606a" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="282" y="17" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text><text x="250" y="111" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text><text x="410" y="111" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text><text x="438" y="17" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<polygon points="290,25 260,95 400,95 430,25" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="290" y1="25" x2="430" y2="25" stroke="#cd4b30" stroke-width="2.5"/>
+<line x1="260" y1="95" x2="400" y2="95" stroke="#cd4b30" stroke-width="2.5"/>
+<polyline points="333,30 339,25 333,20" stroke="#1f5fa8" stroke-width="1.8" fill="none"/>
+<polyline points="303,100 309,95 303,90" stroke="#1f5fa8" stroke-width="1.8" fill="none"/>
+<line x1="360" y1="19" x2="360" y2="31" stroke="#cd4b30" stroke-width="2"/>
+<line x1="330" y1="89" x2="330" y2="101" stroke="#cd4b30" stroke-width="2"/>
+<text x="345" y="135" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">一组对边平行且相等</text>
+<text x="52" y="172" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text><text x="20" y="266" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text><text x="180" y="266" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text><text x="208" y="172" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<polygon points="60,180 30,250 170,250 200,180" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 53.7 194.7 A 16 16 0 0 0 76 180" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<path d="M 176.3 235.3 A 16 16 0 0 0 154 250" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<path d="M 46 250 A 16 16 0 0 0 36.3 235.3" stroke="#1f5fa8" stroke-width="1.5" fill="none"/><path d="M 50 250 A 20 20 0 0 0 37.9 231.6" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<path d="M 184 180 A 16 16 0 0 0 193.7 194.7" stroke="#1f5fa8" stroke-width="1.5" fill="none"/><path d="M 180 180 A 20 20 0 0 0 192.1 198.4" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<text x="115" y="290" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">两组对角分别相等</text>
+<text x="282" y="172" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text><text x="250" y="266" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text><text x="410" y="266" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text><text x="438" y="172" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<text x="345" y="233" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+<circle cx="345" cy="215" r="4" fill="#1f2328" stroke="none"/>
+<polygon points="290,180 260,250 400,250 430,180" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="290" y1="180" x2="400" y2="250" stroke="#1f2328" stroke-width="1.5"/>
+<line x1="260" y1="250" x2="430" y2="180" stroke="#1f2328" stroke-width="1.5"/>
+<line x1="320.7" y1="192.4" x2="314.3" y2="202.6" stroke="#cd4b30" stroke-width="2"/>
+<line x1="375.7" y1="227.4" x2="369.3" y2="237.6" stroke="#cd4b30" stroke-width="2"/>
+<line x1="297.9" y1="227.9" x2="302.5" y2="239" stroke="#1f5fa8" stroke-width="2"/><line x1="302.5" y1="226" x2="307.1" y2="237.1" stroke="#1f5fa8" stroke-width="2"/>
+<line x1="382.9" y1="192.9" x2="387.5" y2="204" stroke="#1f5fa8" stroke-width="2"/><line x1="387.5" y1="191" x2="392.1" y2="202.1" stroke="#1f5fa8" stroke-width="2"/>
+<text x="345" y="290" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">对角线互相平分</text>
+</svg>

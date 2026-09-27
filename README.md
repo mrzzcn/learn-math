@@ -1,6 +1,6 @@
-# （书名占位）
+# 初中数学的自然原理
 
-（副标题占位）。内容以 Markdown 编写，编译成 GitBook 风格的静态网站和 A4 纵向 PDF，网站发布在 Cloudflare，PDF 附在 GitHub Release 上。
+从本义出发，把代数和几何连成一个整体。面向中学生。内容以 Markdown 编写，编译成 GitBook 风格的静态网站和 A4 纵向 PDF，网站发布在 Cloudflare，PDF 附在 GitHub Release 上。
 
 书名、副标题、面向对象等配置集中在 `site.config.mjs`，改这一个文件即可，其他地方都从这里读取。
 

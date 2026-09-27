@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 536" width="540" height="536" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<rect x="30" y="16" width="480" height="50" rx="6" fill="none" stroke="#1f5fa8" stroke-width="1.5"/>
+<text x="270" y="38" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="14">第一部分　数学的语言与推理</text>
+<text x="270" y="56" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">三种语言 · 定义与命题 · 基本事实 · 证明：全书的工具</text>
+<text x="135" y="94" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">数 → 式 → 方程与函数</text>
+<text x="405" y="94" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">形 → 推理 → 变换</text>
+<rect x="30" y="110" width="210" height="50" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="135" y="132" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">第二部分　数</text>
+<text x="135" y="150" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">有理数、实数、数轴</text>
+<rect x="30" y="180" width="210" height="50" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="135" y="202" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">第三部分　式</text>
+<text x="135" y="220" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">整式、分式、二次根式</text>
+<rect x="30" y="250" width="210" height="50" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="135" y="272" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">第四部分　方程与不等式</text>
+<text x="135" y="290" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">等量关系、不等关系</text>
+<rect x="30" y="320" width="210" height="50" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="135" y="342" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">第七部分　函数</text>
+<text x="135" y="360" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">变化中的对应</text>
+<rect x="30" y="390" width="210" height="50" rx="6" fill="none" stroke="#57606a" stroke-width="1.5"/>
+<text x="135" y="412" fill="#57606a" stroke="none" text-anchor="middle" font-size="14">第十部分　统计与概率</text>
+<text x="135" y="430" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">用数描述数据和可能性</text>
+<rect x="300" y="110" width="210" height="50" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="405" y="132" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">第五部分　图形与推理</text>
+<text x="405" y="150" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">定义、性质、判定</text>
+<rect x="300" y="180" width="210" height="50" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="405" y="202" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">第六部分　坐标与图形的变化</text>
+<text x="405" y="220" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">坐标、平移、对称、旋转</text>
+<rect x="300" y="250" width="210" height="50" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="405" y="272" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">第八部分　相似与锐角三角函数</text>
+<text x="405" y="290" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">从全等到比</text>
+<rect x="300" y="320" width="210" height="50" rx="6" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="405" y="342" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">第九部分　圆</text>
+<text x="405" y="360" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">对称、位置关系、计算</text>
+<rect x="30" y="466" width="480" height="54" rx="6" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="2"/>
+<text x="270" y="488" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="14">第十一部分　数形结合</text>
+<text x="270" y="506" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">一体两面：以形助数、以数解形、动点与函数、通用的思想方法</text>
+<line x1="135" y1="66" x2="135" y2="72" stroke="#1f5fa8" stroke-width="1.5" stroke-dasharray="4 3"/>
+<polygon points="135,80 131,72 139,72" fill="#1f5fa8" stroke="none"/>
+<line x1="405" y1="66" x2="405" y2="72" stroke="#1f5fa8" stroke-width="1.5" stroke-dasharray="4 3"/>
+<polygon points="405,80 401,72 409,72" fill="#1f5fa8" stroke="none"/>
+<line x1="135" y1="160" x2="135" y2="172" stroke="#1f2328" stroke-width="1.5"/>
+<polygon points="135,180 131,172 139,172" fill="#1f2328" stroke="none"/>
+<line x1="135" y1="230" x2="135" y2="242" stroke="#1f2328" stroke-width="1.5"/>
+<polygon points="135,250 131,242 139,242" fill="#1f2328" stroke="none"/>
+<line x1="135" y1="300" x2="135" y2="312" stroke="#1f2328" stroke-width="1.5"/>
+<polygon points="135,320 131,312 139,312" fill="#1f2328" stroke="none"/>
+<line x1="405" y1="160" x2="405" y2="172" stroke="#1f2328" stroke-width="1.5"/>
+<polygon points="405,180 401,172 409,172" fill="#1f2328" stroke="none"/>
+<line x1="405" y1="230" x2="405" y2="242" stroke="#1f2328" stroke-width="1.5"/>
+<polygon points="405,250 401,242 409,242" fill="#1f2328" stroke="none"/>
+<line x1="405" y1="300" x2="405" y2="312" stroke="#1f2328" stroke-width="1.5"/>
+<polygon points="405,320 401,312 409,312" fill="#1f2328" stroke="none"/>
+<line x1="240" y1="135" x2="294.4" y2="191.3" stroke="#cd4b30" stroke-width="1.5" stroke-dasharray="5 3"/>
+<polygon points="300,197 291.6,194 297.3,188.5" fill="#cd4b30" stroke="none"/>
+<line x1="300" y1="213" x2="243.5" y2="329.8" stroke="#cd4b30" stroke-width="1.5" stroke-dasharray="5 3"/>
+<polygon points="240,337 239.9,328.1 247.1,331.5" fill="#cd4b30" stroke="none"/>
+<line x1="30" y1="135" x2="14" y2="135" stroke="#57606a" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="14" y1="135" x2="14" y2="415" stroke="#57606a" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="14" y1="415" x2="22" y2="415" stroke="#57606a" stroke-width="1.5" stroke-dasharray="4 3"/>
+<polygon points="30,415 22,419 22,411" fill="#57606a" stroke="none"/>
+<line x1="240" y1="353" x2="270" y2="353" stroke="#cd4b30" stroke-width="1.5"/>
+<line x1="270" y1="353" x2="270" y2="458" stroke="#cd4b30" stroke-width="1.5"/>
+<polygon points="270,466 266,458 274,458" fill="#cd4b30" stroke="none"/>
+<line x1="405" y1="370" x2="405" y2="458" stroke="#cd4b30" stroke-width="1.5"/>
+<polygon points="405,466 401,458 409,458" fill="#cd4b30" stroke="none"/>
+</svg>

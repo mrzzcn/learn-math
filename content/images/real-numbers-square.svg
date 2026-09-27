@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 270" width="340" height="270" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="170,25 280,135 170,245 60,135" fill="rgba(205,75,48,0.12)" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="60,25 170,25 60,135" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.2" stroke-linejoin="round"/>
+<g transform="rotate(180 115 80)"><polygon points="60,25 170,25 60,135" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="4 3" stroke-linejoin="round"/><animateTransform attributeName="transform" type="rotate" values="0 115 80;0 115 80;180 115 80;180 115 80;0 115 80;0 115 80" keyTimes="0;0.1;0.2;0.75;0.85;1" dur="9s" repeatCount="indefinite"/></g>
+<polygon points="280,25 280,135 170,25" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.2" stroke-linejoin="round"/>
+<g transform="rotate(180 225 80)"><polygon points="280,25 280,135 170,25" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="4 3" stroke-linejoin="round"/><animateTransform attributeName="transform" type="rotate" values="0 225 80;0 225 80;180 225 80;180 225 80;0 225 80;0 225 80" keyTimes="0;0.2;0.3;0.75;0.85;1" dur="9s" repeatCount="indefinite"/></g>
+<polygon points="280,245 170,245 280,135" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.2" stroke-linejoin="round"/>
+<g transform="rotate(180 225 190)"><polygon points="280,245 170,245 280,135" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="4 3" stroke-linejoin="round"/><animateTransform attributeName="transform" type="rotate" values="0 225 190;0 225 190;180 225 190;180 225 190;0 225 190;0 225 190" keyTimes="0;0.3;0.4;0.75;0.85;1" dur="9s" repeatCount="indefinite"/></g>
+<polygon points="60,245 60,135 170,245" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.2" stroke-linejoin="round"/>
+<g transform="rotate(180 115 190)"><polygon points="60,245 60,135 170,245" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="4 3" stroke-linejoin="round"/><animateTransform attributeName="transform" type="rotate" values="0 115 190;0 115 190;180 115 190;180 115 190;0 115 190;0 115 190" keyTimes="0;0.4;0.5;0.75;0.85;1" dur="9s" repeatCount="indefinite"/></g>
+<line x1="170" y1="25" x2="170" y2="245" stroke="#57606a" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="60" y1="135" x2="280" y2="135" stroke="#57606a" stroke-width="1" stroke-dasharray="4 4"/>
+<polygon points="60,25 280,25 280,245 60,245" fill="none" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="170,25 280,135 170,245 60,135" fill="none" stroke="#cd4b30" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="170" y="17" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="288" y="140" fill="#1f2328" stroke="none" font-style="italic">B</text>
+<text x="170" y="263" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="52" y="140" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">D</text>
+<text x="225" y="263" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">1</text>
+<text x="288" y="195" fill="#57606a" stroke="none" font-size="13">1</text>
+<circle cx="170" cy="135" r="2.5" fill="#57606a" stroke="none"/>
+</svg>

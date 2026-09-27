@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 330" width="320" height="330" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="70" y1="309" x2="70" y2="18" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="100" y1="309" x2="100" y2="18" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="130" y1="309" x2="130" y2="18" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="28" y1="270" x2="148" y2="270" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="28" y1="240" x2="148" y2="240" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="28" y1="210" x2="148" y2="210" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="28" y1="180" x2="148" y2="180" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="28" y1="150" x2="148" y2="150" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="28" y1="120" x2="148" y2="120" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="28" y1="90" x2="148" y2="90" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="28" y1="60" x2="148" y2="60" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="28" y1="30" x2="148" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="28" y1="300" x2="148" y2="300" stroke="#57606a" stroke-width="1.5"/>
+<line x1="40" y1="309" x2="40" y2="18" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="156,300 148,296 148,304" fill="#57606a" stroke="none"/>
+<polygon points="40,10 36,18 44,18" fill="#57606a" stroke="none"/>
+<text x="152" y="318" fill="#57606a" stroke="none" font-style="italic">x</text>
+<text x="48" y="16" fill="#57606a" stroke="none" font-style="italic">y</text>
+<text x="34" y="316" fill="#57606a" stroke="none" text-anchor="end" font-style="italic" font-size="12">O</text>
+<text x="70" y="316" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">1</text>
+<text x="100" y="316" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">2</text>
+<text x="130" y="316" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">3</text>
+<text x="34" y="274" fill="#57606a" stroke="none" text-anchor="end" font-size="11">1</text>
+<text x="34" y="244" fill="#57606a" stroke="none" text-anchor="end" font-size="11">2</text>
+<text x="34" y="214" fill="#57606a" stroke="none" text-anchor="end" font-size="11">3</text>
+<text x="34" y="184" fill="#57606a" stroke="none" text-anchor="end" font-size="11">4</text>
+<text x="34" y="154" fill="#57606a" stroke="none" text-anchor="end" font-size="11">5</text>
+<text x="34" y="124" fill="#57606a" stroke="none" text-anchor="end" font-size="11">6</text>
+<text x="34" y="94" fill="#57606a" stroke="none" text-anchor="end" font-size="11">7</text>
+<text x="34" y="64" fill="#57606a" stroke="none" text-anchor="end" font-size="11">8</text>
+<text x="34" y="34" fill="#57606a" stroke="none" text-anchor="end" font-size="11">9</text>
+<g><polyline points="40,300 40.5,300 40.9,300 41.4,299.9 41.8,299.9 42.3,299.8 42.7,299.7 43.2,299.7 43.7,299.6 44.1,299.4 44.6,299.3 45,299.2 45.5,299 45.9,298.8 46.4,298.6 46.9,298.4 47.3,298.2 47.8,298 48.2,297.7 48.7,297.5 49.1,297.2 49.6,296.9 50.1,296.6 50.5,296.3 51,296 51.4,295.6 51.9,295.3 52.4,294.9 52.8,294.5 53.3,294.1 53.7,293.7 54.2,293.3 54.6,292.9 55.1,292.4 55.6,291.9 56,291.5 56.5,291 56.9,290.4 57.4,289.9 57.8,289.4 58.3,288.8 58.8,288.3 59.2,287.7 59.7,287.1 60.1,286.5 60.6,285.9 61,285.2 61.5,284.6 62,283.9 62.4,283.2 62.9,282.6 63.3,281.9 63.8,281.1 64.2,280.4 64.7,279.7 65.2,278.9 65.6,278.1 66.1,277.3 66.5,276.5 67,275.7 67.5,274.9 67.9,274 68.4,273.2 68.8,272.3 69.3,271.4 69.7,270.5 70.2,269.6 70.7,268.7 71.1,267.7 71.6,266.8 72,265.8 72.5,264.8 72.9,263.8 73.4,262.8 73.9,261.8 74.3,260.8 74.8,259.7 75.2,258.6 75.7,257.6 76.1,256.5 76.6,255.3 77.1,254.2 77.5,253.1 78,251.9 78.4,250.8 78.9,249.6 79.3,248.4 79.8,247.2 80.3,246 80.7,244.7 81.2,243.5 81.6,242.2 82.1,240.9 82.5,239.7 83,238.4 83.5,237 83.9,235.7 84.4,234.4 84.8,233 85.3,231.6 85.8,230.2 86.2,228.8 86.7,227.4 87.1,226 87.6,224.5 88,223.1 88.5,221.6 89,220.1 89.4,218.6 89.9,217.1 90.3,215.6 90.8,214 91.2,212.5 91.7,210.9 92.2,209.3 92.6,207.7 93.1,206.1 93.5,204.5 94,202.9 94.4,201.2 94.9,199.5 95.4,197.9 95.8,196.2 96.3,194.4 96.7,192.7 97.2,191 97.6,189.2 98.1,187.5 98.6,185.7 99,183.9 99.5,182.1 99.9,180.3 100.4,178.4 100.8,176.6 101.3,174.7 101.8,172.8 102.2,171 102.7,169.1 103.1,167.1 103.6,165.2 104,163.3 104.5,161.3 105,159.3 105.4,157.3 105.9,155.3 106.3,153.3 106.8,151.3 107.3,149.2 107.7,147.2 108.2,145.1 108.6,143 109.1,140.9 109.5,138.8 110,136.7 110.5,134.5 110.9,132.4 111.4,130.2 111.8,128 112.3,125.8 112.7,123.6 113.2,121.4 113.7,119.2 114.1,116.9 114.6,114.6 115,112.3 115.5,110.1 115.9,107.7 116.4,105.4 116.9,103.1 117.3,100.7 117.8,98.4 118.2,96 118.7,93.6 119.1,91.2 119.6,88.8 120.1,86.3 120.5,83.9 121,81.4 121.4,78.9 121.9,76.5 122.4,73.9 122.8,71.4 123.3,68.9 123.7,66.4 124.2,63.8 124.6,61.2 125.1,58.6 125.6,56 126,53.4 126.5,50.8 126.9,48.1 127.4,45.5 127.8,42.8 128.3,40.1 128.8,37.4 129.2,34.7 129.7,32 130.1,29.2 130.6,26.5 131,23.7 131.5,20.9" fill="none" stroke="#1f5fa8" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.60;0.70;1" dur="10s" repeatCount="indefinite"/></g>
+<g><polygon points="40,300 70,300 70,270" fill="rgba(205,75,48,0.12)" stroke="none" stroke-width="0" stroke-linejoin="round"/><line x1="40" y1="300" x2="70" y2="300" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="4 3"/><line x1="70" y1="300" x2="70" y2="270" stroke="#cd4b30" stroke-width="2.5"/><text x="76" y="290" fill="#cd4b30" stroke="none">1</text><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.05;0.15;1" dur="10s" repeatCount="indefinite"/></g>
+<g><polygon points="70,270 100,270 100,180" fill="rgba(205,75,48,0.12)" stroke="none" stroke-width="0" stroke-linejoin="round"/><line x1="70" y1="270" x2="100" y2="270" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="4 3"/><line x1="100" y1="270" x2="100" y2="180" stroke="#cd4b30" stroke-width="2.5"/><text x="106" y="230" fill="#cd4b30" stroke="none">3</text><text x="85" y="264" fill="#1f2328" stroke="none" text-anchor="middle">1</text><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.20;0.30;1" dur="10s" repeatCount="indefinite"/></g>
+<g><polygon points="100,180 130,180 130,30" fill="rgba(205,75,48,0.12)" stroke="none" stroke-width="0" stroke-linejoin="round"/><line x1="100" y1="180" x2="130" y2="180" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="4 3"/><line x1="130" y1="180" x2="130" y2="30" stroke="#cd4b30" stroke-width="2.5"/><text x="136" y="110" fill="#cd4b30" stroke="none">5</text><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.35;0.45;1" dur="10s" repeatCount="indefinite"/></g>
+<circle cx="40" cy="300" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="70" cy="270" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="100" cy="180" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="130" cy="30" r="4" fill="#1f2328" stroke="none"/>
+<text x="122" y="34" fill="#1f5fa8" stroke="none" text-anchor="end" font-size="13">y = x²</text>
+</svg>

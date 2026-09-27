@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 190" width="340" height="190" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="150,92 150,134 268,134" fill="rgba(205,75,48,0.12)" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<circle cx="150" cy="92" r="72" fill="none" stroke="#1f2328" stroke-width="2"/>
+<line x1="30" y1="134" x2="320" y2="134" stroke="#1f2328" stroke-width="2"/>
+<text x="322" y="139" fill="#1f2328" stroke="none" font-style="italic" font-size="15">l</text>
+<line x1="150" y1="92" x2="150" y2="134" stroke="#1f5fa8" stroke-width="2.5"/>
+<polyline points="159,134 159,125 150,125" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<line x1="150" y1="92" x2="268" y2="134" stroke="#cd4b30" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="150" y1="134" x2="268" y2="134" stroke="#1f2328" stroke-width="3"/>
+<circle cx="150" cy="92" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="150" cy="134" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="268" cy="134" r="4" fill="#cd4b30" stroke="none"/>
+<text x="138" y="86" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+<text x="140" y="152" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">H</text>
+<text x="268" y="154" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic">P</text>
+<text x="142" y="118" fill="#1f5fa8" stroke="none" text-anchor="end" font-style="italic" font-size="15">d</text>
+<text x="242" y="154" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic" font-size="15">|t|</text>
+<text x="246" y="118" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic" font-size="13">OP</text>
+</svg>

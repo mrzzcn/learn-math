@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 120" width="170" height="120" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="18,100 150,100 150,34" fill="rgba(31,95,168,0.10)" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="18" y1="100" x2="150" y2="34" stroke="#cd4b30" stroke-width="2.5"/>
+<polyline points="142,100 142,92 150,92" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<path d="M 48 100 A 30 30 0 0 0 44.8 86.6" stroke="#1f5fa8" stroke-width="1.8" fill="none"/>
+<text x="52" y="95" fill="#1f5fa8" stroke="none" font-style="italic" font-size="12">α</text>
+<text x="155" y="71" fill="#1f2328" stroke="none" font-style="italic" font-size="13">h</text>
+<text x="84" y="115" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic" font-size="13">l</text>
+<text x="78" y="61" fill="#cd4b30" stroke="none" text-anchor="end" font-size="11">坡面</text>
+<text x="18" y="22" fill="#1f2328" stroke="none" font-size="12">i = h : l</text>
+</svg>

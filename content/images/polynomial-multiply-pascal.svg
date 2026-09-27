@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 220" width="420" height="220" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="258" y1="138" x2="280" y2="154" stroke="#cd4b30" stroke-width="1.5"/>
+<line x1="302" y1="138" x2="280" y2="154" stroke="#cd4b30" stroke-width="1.5"/>
+<text x="20" y="35" fill="#57606a" stroke="none" font-style="italic" font-size="13">(a + b)<tspan dy="-6" font-size="10">0</tspan></text>
+<text x="280" y="35" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">1</text>
+<text x="20" y="69" fill="#57606a" stroke="none" font-style="italic" font-size="13">(a + b)<tspan dy="-6" font-size="10">1</tspan></text>
+<text x="258" y="69" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">1</text>
+<text x="302" y="69" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">1</text>
+<text x="20" y="103" fill="#57606a" stroke="none" font-style="italic" font-size="13">(a + b)<tspan dy="-6" font-size="10">2</tspan></text>
+<text x="236" y="103" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">1</text>
+<text x="280" y="103" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">2</text>
+<text x="324" y="103" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">1</text>
+<text x="20" y="137" fill="#57606a" stroke="none" font-style="italic" font-size="13">(a + b)<tspan dy="-6" font-size="10">3</tspan></text>
+<text x="214" y="137" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">1</text>
+<text x="258" y="137" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="15">3</text>
+<text x="302" y="137" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="15">3</text>
+<text x="346" y="137" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">1</text>
+<text x="20" y="171" fill="#57606a" stroke="none" font-style="italic" font-size="13">(a + b)<tspan dy="-6" font-size="10">4</tspan></text>
+<text x="192" y="171" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">1</text>
+<text x="236" y="171" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">4</text>
+<text x="280" y="171" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="15">6</text>
+<text x="324" y="171" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">4</text>
+<text x="368" y="171" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">1</text>
+<text x="20" y="205" fill="#57606a" stroke="none" font-style="italic" font-size="13">(a + b)<tspan dy="-6" font-size="10">5</tspan></text>
+<text x="170" y="205" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">1</text>
+<text x="214" y="205" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">5</text>
+<text x="258" y="205" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">10</text>
+<text x="302" y="205" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">10</text>
+<text x="346" y="205" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">5</text>
+<text x="390" y="205" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">1</text>
+</svg>

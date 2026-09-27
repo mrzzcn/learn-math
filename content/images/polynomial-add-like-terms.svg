@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200" width="340" height="200" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="60,50 104,50 104,130 60,130" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="82" y="148" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">1</text>
+<polygon points="104,50 148,50 148,130 104,130" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="126" y="148" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">1</text>
+<polygon points="148,50 192,50 192,130 148,130" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="170" y="148" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">1</text>
+<polygon points="192,50 236,50 236,130 192,130" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="214" y="148" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">1</text>
+<polygon points="236,50 280,50 280,130 236,130" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="258" y="148" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">1</text>
+<text x="48" y="95" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">a</text>
+<line x1="62" y1="36" x2="190" y2="36" stroke="#1f5fa8" stroke-width="1.5"/><line x1="62" y1="31" x2="62" y2="41" stroke="#1f5fa8" stroke-width="1.5"/><line x1="190" y1="31" x2="190" y2="41" stroke="#1f5fa8" stroke-width="1.5"/>
+<text x="126" y="28" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">3a</text>
+<line x1="194" y1="36" x2="278" y2="36" stroke="#cd4b30" stroke-width="1.5"/><line x1="194" y1="31" x2="194" y2="41" stroke="#cd4b30" stroke-width="1.5"/><line x1="278" y1="31" x2="278" y2="41" stroke="#cd4b30" stroke-width="1.5"/>
+<text x="236" y="28" fill="#cd4b30" stroke="none" text-anchor="middle" font-style="italic">2a</text>
+<line x1="62" y1="164" x2="278" y2="164" stroke="#1f2328" stroke-width="1.5"/><line x1="62" y1="159" x2="62" y2="169" stroke="#1f2328" stroke-width="1.5"/><line x1="278" y1="159" x2="278" y2="169" stroke="#1f2328" stroke-width="1.5"/>
+<text x="170" y="186" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">5a</text>
+</svg>

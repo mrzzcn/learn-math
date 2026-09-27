@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 90" width="400" height="90" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="40" y1="60" x2="360" y2="60" stroke="#1f2328" stroke-width="2"/>
+<line x1="168" y1="60" x2="200" y2="60" stroke="#cd4b30" stroke-width="4"/>
+<circle cx="40" cy="60" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="168" cy="60" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="200" cy="60" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="360" cy="60" r="4" fill="#1f2328" stroke="none"/>
+<text x="40" y="48" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="168" y="48" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="200" y="48" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">M</text>
+<text x="360" y="48" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="184" y="82" fill="#cd4b30" stroke="none" text-anchor="middle">2</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" width="400" height="220" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="85.5,53.8 60,170 111,170" fill="rgba(31,95,168,0.10)" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<text x="64.8" y="111.9" fill="#1f2328" stroke="none" text-anchor="end" font-size="13">7</text>
+<text x="106.3" y="111.9" fill="#1f2328" stroke="none" font-size="13">7</text>
+<text x="85.5" y="188" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">3</text>
+<text x="85.5" y="206" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">腰 7，底 3</text>
+<line x1="200" y1="170" x2="319" y2="170" stroke="#1f2328" stroke-width="2"/>
+<path d="M 251 170 A 51 51 0 0 0 200 119" stroke="#57606a" stroke-width="1" stroke-dasharray="4 3" fill="none"/>
+<path d="M 319 119 A 51 51 0 0 0 268 170" stroke="#57606a" stroke-width="1" stroke-dasharray="4 3" fill="none"/>
+<line x1="200" y1="170" x2="229.3" y2="128.2" stroke="#cd4b30" stroke-width="2"/>
+<line x1="319" y1="170" x2="289.7" y2="128.2" stroke="#cd4b30" stroke-width="2"/>
+<text x="206.6" y="149.1" fill="#cd4b30" stroke="none" text-anchor="end" font-size="13">3</text>
+<text x="312.4" y="149.1" fill="#cd4b30" stroke="none" font-size="13">3</text>
+<text x="259.5" y="188" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">7</text>
+<text x="259.5" y="206" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">腰 3，底 7：围不成三角形</text>
+</svg>

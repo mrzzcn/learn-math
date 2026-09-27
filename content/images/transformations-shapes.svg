@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 165" width="520" height="165" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="50" y1="22" x2="50" y2="128" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="5 4"/>
+<polygon points="50,30 12,118 88,118" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<text x="50" y="150" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">等腰三角形</text>
+<polygon points="105,107 170,107 195,43 130,43" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="150" cy="75" r="4" fill="#cd4b30" stroke="none"/>
+<text x="150" y="150" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">平行四边形</text>
+<line x1="255" y1="29" x2="255" y2="121" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="199" y1="75" x2="311" y2="75" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="5 4"/>
+<polygon points="210,43 300,43 300,107 210,107" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="255" cy="75" r="4" fill="#cd4b30" stroke="none"/>
+<text x="255" y="150" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">矩形</text>
+<line x1="360" y1="28" x2="360" y2="132" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="310.5" y1="63.9" x2="409.5" y2="96.1" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="329.4" y1="122.1" x2="390.6" y2="37.9" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="390.6" y1="122.1" x2="329.4" y2="37.9" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="409.5" y1="63.9" x2="310.5" y2="96.1" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="5 4"/>
+<polygon points="360,38 320.1,67 335.3,114 384.7,114 399.9,67" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<text x="360" y="150" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">正五边形</text>
+<line x1="517" y1="78" x2="413" y2="78" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="510" y1="52" x2="420" y2="104" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="491" y1="33" x2="439" y2="123" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="465" y1="26" x2="465" y2="130" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="439" y1="33" x2="491" y2="123" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="420" y1="52" x2="510" y2="104" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="5 4"/>
+<polygon points="507,78 486,41.6 444,41.6 423,78 444,114.4 486,114.4" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="465" cy="78" r="4" fill="#cd4b30" stroke="none"/>
+<text x="465" y="150" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">正六边形</text>
+</svg>

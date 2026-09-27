@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 290" width="490" height="290" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<rect x="10" y="10" width="470" height="270" rx="12" fill="none" stroke="#1f2328" stroke-width="1.8"/>
+<text x="22" y="34" fill="#1f2328" stroke="none" font-size="15">实数</text>
+<rect x="24" y="46" width="336" height="222" rx="12" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.8"/>
+<text x="36" y="70" fill="#1f5fa8" stroke="none" font-size="15">有理数</text>
+<rect x="38" y="82" width="224" height="174" rx="12" fill="rgba(255,255,255,0.35)" stroke="#57606a" stroke-width="1.8"/>
+<text x="50" y="106" fill="#57606a" stroke="none" font-size="15">整数</text>
+<rect x="52" y="118" width="98" height="126" rx="12" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="1.8"/>
+<text x="64" y="142" fill="#cd4b30" stroke="none" font-size="15">自然数</text>
+<text x="101" y="176" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">0 和正整数</text>
+<text x="101" y="202" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">0, 1, 2</text>
+<text x="101" y="224" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">3, …</text>
+<text x="206" y="176" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">负整数</text>
+<text x="206" y="202" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">−1, −2</text>
+<text x="206" y="224" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">−3, …</text>
+<text x="311" y="176" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">分数</text>
+<text x="311" y="202" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">1/2, −3/4</text>
+<text x="311" y="224" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">0.5, −2.4</text>
+<text x="420" y="176" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">无理数</text>
+<text x="420" y="202" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">√2, −√3</text>
+<text x="420" y="224" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">π</text>
+<text x="420" y="246" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">0.1010010001…</text>
+</svg>

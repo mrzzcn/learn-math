@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 230" width="340" height="230" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="30" y1="40" x2="300" y2="40" stroke="#1f2328" stroke-width="2"/>
+<line x1="30" y1="200" x2="300" y2="200" stroke="#1f2328" stroke-width="2"/>
+<line x1="300" y1="40" x2="187" y2="134.8" stroke="#1f2328" stroke-width="2"/>
+<line x1="300" y1="200" x2="187" y2="134.8" stroke="#1f2328" stroke-width="2"/>
+<line x1="187" y1="134.8" x2="109.3" y2="200" stroke="#57606a" stroke-width="1.5" stroke-dasharray="6 4"/>
+<path d="M 274 40 A 26 26 0 0 0 280.1 56.7" stroke="#cd4b30" stroke-width="2" fill="none"/>
+<path d="M 135.3 200 A 26 26 0 0 0 129.2 183.3" stroke="#cd4b30" stroke-width="2" fill="none"/>
+<path d="M 270 200 A 30 30 0 0 1 274 185" stroke="#1f5fa8" stroke-width="2" fill="none"/>
+<text x="248" y="58" fill="#cd4b30" stroke="none" font-size="12">40°</text>
+<text x="240" y="194" fill="#1f5fa8" stroke="none" font-size="12">30°</text>
+<circle cx="30" cy="40" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="300" cy="40" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="30" cy="200" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="300" cy="200" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="187" cy="134.8" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="109.3" cy="200" r="3" fill="#1f2328" stroke="none"/>
+<text x="30" y="32" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="300" y="32" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="30" y="220" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="300" y="220" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<text x="175" y="128.8" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">E</text>
+<text x="109.3" y="220" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">G</text>
+</svg>

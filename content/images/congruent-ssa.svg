@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" width="360" height="200" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="40" y1="170" x2="330" y2="170" stroke="#1f2328" stroke-width="2"/>
+<path d="M 116.5 170 A 115 115 0 0 0 183.5 170" stroke="#57606a" stroke-width="1" stroke-dasharray="4 4"/>
+<polygon points="150,60 40,170 183.5,170" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="150" y1="60" x2="116.5" y2="170" stroke="#1f2328" stroke-width="2" stroke-dasharray="6 4"/>
+<path d="M 66 170 A 26 26 0 0 0 58.4 151.6" stroke="#cd4b30" stroke-width="2"/>
+<g transform="rotate(-17 150 60)"><line x1="150" y1="60" x2="150" y2="175" stroke="#cd4b30" stroke-width="3"/><circle cx="150" cy="175" r="4" fill="#cd4b30" stroke="none"/><animateTransform attributeName="transform" type="rotate" values="-17 150 60;-17 150 60;17 150 60;17 150 60;-17 150 60" keyTimes="0;0.2;0.5;0.7;1" dur="6s" repeatCount="indefinite"/></g>
+<circle cx="116.5" cy="170" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="183.5" cy="170" r="4" fill="#1f2328" stroke="none"/>
+<text x="150" y="50" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="34" y="188" fill="#1f2328" stroke="none" font-style="italic">B</text>
+<text x="116.5" y="190" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C′</text>
+<text x="183.5" y="190" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 225" width="340" height="225" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="40,200 304,47.6 304,200" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="304" y1="47.6" x2="216" y2="200" stroke="#cd4b30" stroke-width="2.5"/>
+<polyline points="294,200 294,190 304,190" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<path d="M 80 200 A 40 40 0 0 0 74.6 180" stroke="#1f2328" stroke-width="1.5" fill="none"/>
+<text x="86" y="194" fill="#1f2328" stroke="none" font-size="12">30°</text>
+<path d="M 281.5 60.6 A 26 26 0 0 0 291 70.1" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<path d="M 289 73.6 A 30 30 0 0 0 304 77.6" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<text x="30" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="314" y="43.6" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="314" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="216" y="218" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 245" width="420" height="245" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<rect x="20" y="110" width="380" height="40" fill="rgba(31,95,168,0.10)" stroke="none"/>
+<line x1="20" y1="110" x2="400" y2="110" stroke="#1f2328" stroke-width="1.5"/>
+<line x1="20" y1="150" x2="400" y2="150" stroke="#1f2328" stroke-width="1.5"/>
+<text x="392" y="135" fill="#1f5fa8" stroke="none" text-anchor="end" font-size="13">河</text>
+<line x1="70" y1="40" x2="70" y2="80" stroke="#1f5fa8" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="70" y1="80" x2="195.5" y2="150" stroke="#1f5fa8" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="70" y1="40" x2="195.5" y2="110" stroke="#cd4b30" stroke-width="2.5"/>
+<line x1="195.5" y1="110" x2="195.5" y2="150" stroke="#cd4b30" stroke-width="3"/>
+<line x1="195.5" y1="150" x2="330" y2="225" stroke="#cd4b30" stroke-width="2.5"/>
+<polyline points="203.5,150 203.5,142 195.5,142" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<circle cx="70" cy="40" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="330" cy="225" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="70" cy="80" r="4" fill="#1f5fa8" stroke="none"/>
+<circle cx="195.5" cy="110" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="195.5" cy="150" r="4" fill="#1f2328" stroke="none"/>
+<text x="58" y="40" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="342" y="229" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="56" y="86" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">A′</text>
+<text x="199.5" y="102" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">M</text>
+<text x="185.5" y="168" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">N</text>
+</svg>

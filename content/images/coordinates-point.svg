@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 270" width="360" height="270" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="16" y1="265.2" x2="16" y2="45.2" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="104" y1="265.2" x2="104" y2="45.2" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="148" y1="265.2" x2="148" y2="45.2" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="192" y1="265.2" x2="192" y2="45.2" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="236" y1="265.2" x2="236" y2="45.2" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="280" y1="265.2" x2="280" y2="45.2" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="16" y1="186" x2="302" y2="186" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="16" y1="142" x2="302" y2="142" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="16" y1="98" x2="302" y2="98" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="16" y1="54" x2="302" y2="54" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="16" y1="230" x2="302" y2="230" stroke="#57606a" stroke-width="1.5"/>
+<line x1="60" y1="265.2" x2="60" y2="45.2" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="310,230 302,226 302,234" fill="#57606a" stroke="none"/>
+<polygon points="60,37.2 56,45.2 64,45.2" fill="#57606a" stroke="none"/>
+<text x="306" y="248" fill="#57606a" stroke="none" font-style="italic">x</text>
+<text x="68" y="43.2" fill="#57606a" stroke="none" font-style="italic">y</text>
+<text x="54" y="246" fill="#57606a" stroke="none" text-anchor="end" font-style="italic" font-size="12">O</text>
+<text x="16" y="246" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">−1</text>
+<text x="104" y="246" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">1</text>
+<text x="148" y="246" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">2</text>
+<text x="192" y="246" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">3</text>
+<text x="236" y="246" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">4</text>
+<text x="280" y="246" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">5</text>
+<text x="54" y="190" fill="#57606a" stroke="none" text-anchor="end" font-size="11">1</text>
+<text x="54" y="146" fill="#57606a" stroke="none" text-anchor="end" font-size="11">2</text>
+<text x="54" y="102" fill="#57606a" stroke="none" text-anchor="end" font-size="11">3</text>
+<text x="54" y="58" fill="#57606a" stroke="none" text-anchor="end" font-size="11">4</text>
+<line x1="192" y1="142" x2="192" y2="230" stroke="#cd4b30" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="192" y1="142" x2="60" y2="142" stroke="#cd4b30" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="192" cy="142" r="5" fill="#cd4b30" stroke="none"/>
+<text x="200" y="158" fill="#cd4b30" stroke="none"><tspan font-style="italic">P</tspan>(3, 2)</text>
+<line x1="148" y1="98" x2="148" y2="230" stroke="#1f5fa8" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="148" y1="98" x2="60" y2="98" stroke="#1f5fa8" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="148" cy="98" r="5" fill="#1f5fa8" stroke="none"/>
+<text x="156" y="90" fill="#1f5fa8" stroke="none"><tspan font-style="italic">Q</tspan>(2, 3)</text>
+</svg>

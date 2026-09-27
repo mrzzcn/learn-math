@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 225" width="320" height="225" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="25" y1="205" x2="122.2" y2="-0.2" stroke="#57606a" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="25" y1="205" x2="122.2" y2="140.2" stroke="#57606a" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="25" y1="205" x2="251.8" y2="129.4" stroke="#57606a" stroke-width="1" stroke-dasharray="4 3"/>
+<polygon points="115,15 115,145 235,135" fill="none" stroke="#1f5fa8" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="70,110 70,175 130,170" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<g transform="translate(25 205)"><g><polygon points="45,-95 45,-30 105,-35" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="2" vector-effect="non-scaling-stroke"/><animateTransform attributeName="transform" type="scale" values="1;1;2;2;1" keyTimes="0;0.15;0.5;0.8;1" dur="7s" repeatCount="indefinite"/></g></g>
+<circle cx="25" cy="205" r="4" fill="#1f2328" stroke="none"/>
+<text x="15" y="221" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+<text x="60" y="108" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="60" y="189" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="136" y="188" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="103" y="21" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">A′</text>
+<text x="129" y="141" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">B′</text>
+<text x="245" y="153" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">C′</text>
+</svg>

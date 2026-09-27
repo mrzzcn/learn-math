@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 250" width="320" height="250" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<rect x="40" y="40" width="130" height="130" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5"/>
+<text x="105" y="111" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic" font-size="18">x²</text>
+<rect x="170" y="40" width="45" height="130" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+<text x="192.5" y="110" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">3x</text>
+<g><rect x="40" y="170" width="130" height="45" fill="none" stroke="#1f2328" stroke-width="1.5"/><text x="105" y="197.5" fill="#1f2328" stroke="none" text-anchor="middle" font-size="15">3x</text><animateTransform attributeName="transform" type="rotate" values="90 215 215;90 215 215;0 215 215;0 215 215;90 215 215" keyTimes="0;0.15;0.45;0.9;1" dur="8s" repeatCount="indefinite"/></g>
+<g><rect x="170" y="170" width="45" height="45" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="2" stroke-dasharray="5 3"/><text x="192.5" y="197.5" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="15">9</text><animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;0.15;0.45;0.55;0.9;1" dur="8s" repeatCount="indefinite"/></g>
+<text x="105" y="30" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">x</text>
+<text x="192.5" y="30" fill="#1f2328" stroke="none" text-anchor="middle">3</text>
+<text x="30" y="110" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">x</text>
+<text x="30" y="197.5" fill="#1f2328" stroke="none" text-anchor="end">3</text>
+</svg>

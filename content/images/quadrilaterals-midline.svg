@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 225" width="380" height="225" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<g transform="rotate(180 225 115)"><polygon points="150,30 100,115 225,115" fill="rgba(31,95,168,0.10)" stroke="none" stroke-width="0" stroke-linejoin="round"/><animateTransform attributeName="transform" type="rotate" values="0 225 115;0 225 115;180 225 115;180 225 115;0 225 115" keyTimes="0;0.15;0.5;0.85;1" dur="7s" repeatCount="indefinite"/></g>
+<polygon points="150,30 50,200 300,200" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="100" y1="115" x2="225" y2="115" stroke="#cd4b30" stroke-width="2.5"/>
+<line x1="225" y1="115" x2="350" y2="115" stroke="#57606a" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="300" y1="200" x2="350" y2="115" stroke="#57606a" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="130.2" y1="75.5" x2="119.8" y2="69.5" stroke="#cd4b30" stroke-width="2"/>
+<line x1="80.2" y1="160.5" x2="69.8" y2="154.5" stroke="#cd4b30" stroke-width="2"/>
+<line x1="190.3" y1="66.7" x2="181.3" y2="74.6" stroke="#1f5fa8" stroke-width="2"/><line x1="193.7" y1="70.4" x2="184.7" y2="78.3" stroke="#1f5fa8" stroke-width="2"/>
+<line x1="265.3" y1="151.7" x2="256.3" y2="159.6" stroke="#1f5fa8" stroke-width="2"/><line x1="268.7" y1="155.4" x2="259.7" y2="163.3" stroke="#1f5fa8" stroke-width="2"/>
+<circle cx="100" cy="115" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="225" cy="115" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="350" cy="115" r="4" fill="#57606a" stroke="none"/>
+<text x="150" y="22" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text><text x="40" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text><text x="310" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text><text x="88" y="115" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text><text x="223" y="105" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">E</text><text x="360" y="113" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">F</text>
+</svg>

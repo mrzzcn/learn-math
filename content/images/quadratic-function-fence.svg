@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 185" width="360" height="185" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="30" y1="40" x2="330" y2="40" stroke="#1f2328" stroke-width="3"/>
+<line x1="36" y1="40" x2="44" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="48" y1="40" x2="56" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="60" y1="40" x2="68" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="72" y1="40" x2="80" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="84" y1="40" x2="92" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="96" y1="40" x2="104" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="108" y1="40" x2="116" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="120" y1="40" x2="128" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="132" y1="40" x2="140" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="144" y1="40" x2="152" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="156" y1="40" x2="164" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="168" y1="40" x2="176" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="180" y1="40" x2="188" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="192" y1="40" x2="200" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="204" y1="40" x2="212" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="216" y1="40" x2="224" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="228" y1="40" x2="236" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="240" y1="40" x2="248" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="252" y1="40" x2="260" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="264" y1="40" x2="272" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="276" y1="40" x2="284" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="288" y1="40" x2="296" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="300" y1="40" x2="308" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="312" y1="40" x2="320" y2="30" stroke="#57606a" stroke-width="1"/>
+<line x1="324" y1="40" x2="332" y2="30" stroke="#57606a" stroke-width="1"/>
+<text x="318" y="24" fill="#57606a" stroke="none" text-anchor="end">墙</text>
+<polyline points="70,40 70,150 290,150 290,40" fill="none" stroke="#cd4b30" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="70" y="40" width="220" height="110" fill="rgba(205,75,48,0.12)" stroke="none"/>
+<text x="62" y="100" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">x</text>
+<text x="298" y="100" fill="#1f2328" stroke="none" font-style="italic">x</text>
+<text x="180" y="172" fill="#1f2328" stroke="none" text-anchor="middle">20 − 2x</text>
+<text x="180" y="100" fill="#57606a" stroke="none" text-anchor="middle">菜园</text>
+</svg>

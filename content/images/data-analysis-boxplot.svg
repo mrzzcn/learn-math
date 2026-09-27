@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 275" width="400" height="275" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="62" y1="250" x2="404" y2="250" stroke="#57606a" stroke-width="1.5"/><polygon points="412,250 404,246 404,254" fill="#57606a" stroke="none"/><line x1="72" y1="246" x2="72" y2="254" stroke="#57606a" stroke-width="1.2"/><text x="72" y="268" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">50</text><line x1="136" y1="246" x2="136" y2="254" stroke="#57606a" stroke-width="1.2"/><text x="136" y="268" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">60</text><line x1="200" y1="246" x2="200" y2="254" stroke="#57606a" stroke-width="1.2"/><text x="200" y="268" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">70</text><line x1="264" y1="246" x2="264" y2="254" stroke="#57606a" stroke-width="1.2"/><text x="264" y="268" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">80</text><line x1="328" y1="246" x2="328" y2="254" stroke="#57606a" stroke-width="1.2"/><text x="328" y="268" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">90</text><line x1="392" y1="246" x2="392" y2="254" stroke="#57606a" stroke-width="1.2"/><text x="392" y="268" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">100</text>
+<circle cx="84.8" cy="30" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="136" cy="30" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="168" cy="30" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="187.2" cy="30" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="200" cy="30" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="212.8" cy="30" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="232" cy="30" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="251.2" cy="30" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="264" cy="30" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="296" cy="30" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="315.2" cy="30" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="366.4" cy="30" r="4" fill="#1f2328" stroke="none"/>
+<text x="36" y="34" fill="#57606a" stroke="none" text-anchor="end" font-size="12">成绩</text>
+<line x1="84.8" y1="150" x2="177.6" y2="150" stroke="#1f5fa8" stroke-width="1.5"/><line x1="280" y1="150" x2="366.4" y2="150" stroke="#1f5fa8" stroke-width="1.5"/><line x1="84.8" y1="138" x2="84.8" y2="162" stroke="#1f5fa8" stroke-width="1.5"/><line x1="366.4" y1="138" x2="366.4" y2="162" stroke="#1f5fa8" stroke-width="1.5"/><polygon points="177.6,132 280,132 280,168 177.6,168" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5" stroke-linejoin="round"/><line x1="222.4" y1="132" x2="222.4" y2="168" stroke="#1f5fa8" stroke-width="2.5"/>
+<text x="84.8" y="78" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">最小值</text>
+<text x="84.8" y="94" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">52</text>
+<line x1="84.8" y1="100" x2="84.8" y2="130" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="222.4" y="78" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">中位数</text>
+<text x="222.4" y="94" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">73.5</text>
+<line x1="222.4" y1="100" x2="222.4" y2="130" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="366.4" y="78" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">最大值</text>
+<text x="366.4" y="94" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">96</text>
+<line x1="366.4" y1="100" x2="366.4" y2="130" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="177.6" y1="170" x2="177.6" y2="190" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="177.6" y="206" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">第一四分位数</text>
+<text x="177.6" y="222" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">66.5</text>
+<line x1="280" y1="170" x2="280" y2="190" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="280" y="206" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">第三四分位数</text>
+<text x="280" y="222" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">82.5</text>
+</svg>

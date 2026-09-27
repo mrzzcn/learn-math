@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<rect x="20" y="20" width="140" height="76" rx="8" fill="rgba(31,95,168,0.10)" stroke="#1f5fa8" stroke-width="1.5"/>
+<rect x="320" y="20" width="140" height="76" rx="8" fill="rgba(205,75,48,0.12)" stroke="#cd4b30" stroke-width="1.5"/>
+<text x="90" y="52" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="20">数</text>
+<text x="90" y="78" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">数、式、方程、函数</text>
+<text x="390" y="52" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="20">形</text>
+<text x="390" y="78" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">图形、位置、变换</text>
+<line x1="318" y1="42" x2="171" y2="42" stroke="#cd4b30" stroke-width="2"/><polygon points="162,42 171,37.5 171,46.5" fill="#cd4b30" stroke="none"/>
+<text x="240" y="34" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="13">以形助数</text>
+<line x1="162" y1="76" x2="309" y2="76" stroke="#1f5fa8" stroke-width="2"/><polygon points="318,76 309,80.5 309,71.5" fill="#1f5fa8" stroke="none"/>
+<text x="240" y="94" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="13">以数解形</text>
+<text x="240" y="60" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">数轴 · 坐标系</text>
+<rect x="160" y="130" width="160" height="40" rx="8" fill="#fff" stroke="#1f2328" stroke-width="1.5"/>
+<text x="240" y="155" fill="#1f2328" stroke="none" text-anchor="middle" font-size="14">动点与函数</text>
+<line x1="90" y1="98" x2="170" y2="130" stroke="#57606a" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="390" y1="98" x2="310" y2="130" stroke="#57606a" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="20" y1="200" x2="460" y2="200" stroke="#e3e6ea" stroke-width="1"/>
+<text x="240" y="194" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">贯穿各部分的方法</text>
+<rect x="20" y="212" width="140" height="40" rx="8" fill="#fff" stroke="#57606a" stroke-width="1.5"/>
+<text x="90" y="237" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">方程思想与建模</text>
+<rect x="170" y="212" width="140" height="40" rx="8" fill="#fff" stroke="#57606a" stroke-width="1.5"/>
+<text x="240" y="237" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">分类讨论</text>
+<rect x="320" y="212" width="140" height="40" rx="8" fill="#fff" stroke="#57606a" stroke-width="1.5"/>
+<text x="390" y="237" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">辅助线从哪里来</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 231.96152422706632" width="320" height="231.96152422706632" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="40,70 100,70 100,160 40,160" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="100,70 160,70 160,160 100,160" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="160,70 220,70 220,160 160,160" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="100,70 160,70 130,18" fill="rgba(31,95,168,0.10)" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="100,160 160,160 130,212" fill="rgba(31,95,168,0.10)" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<text x="70" y="178" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">4</text>
+<text x="32" y="119" fill="#57606a" stroke="none" text-anchor="end" font-size="12">6</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 220" width="420" height="220" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="30,190 140,190 140,80" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="130,190 130,180 140,180" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<path d="M 54 190 A 24 24 0 0 0 47 173" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<path d="M 123 97 A 24 24 0 0 0 140 104" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<text x="60" y="184" fill="#cd4b30" stroke="none" font-size="12">45°</text>
+<text x="134" y="120" fill="#cd4b30" stroke="none" text-anchor="end" font-size="12">45°</text>
+<text x="85" y="210" fill="#1f2328" stroke="none" text-anchor="middle">1</text>
+<text x="148" y="140" fill="#1f2328" stroke="none">1</text>
+<text x="77" y="131" fill="#1f2328" stroke="none" text-anchor="end">√2</text>
+<line x1="310" y1="34.1" x2="400" y2="190" stroke="#57606a" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="310" y1="190" x2="400" y2="190" stroke="#57606a" stroke-width="1.5" stroke-dasharray="6 4"/>
+<polygon points="220,190 310,190 310,34.1" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="300,190 300,180 310,180" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<path d="M 242 190 A 22 22 0 0 0 231 170.9" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<path d="M 297 56.6 A 26 26 0 0 0 310 60.1" stroke="#cd4b30" stroke-width="1.5" fill="none"/>
+<text x="246" y="184" fill="#cd4b30" stroke="none" font-size="12">60°</text>
+<text x="305" y="86.1" fill="#cd4b30" stroke="none" text-anchor="end" font-size="12">30°</text>
+<text x="265" y="210" fill="#1f2328" stroke="none" text-anchor="middle">1</text>
+<text x="318" y="117.1" fill="#1f2328" stroke="none">√3</text>
+<text x="257" y="108.1" fill="#1f2328" stroke="none" text-anchor="end">2</text>
+</svg>

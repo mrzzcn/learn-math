@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 265" width="340" height="265" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="170,120 90,180 170,180" fill="rgba(205,75,48,0.12)" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<circle cx="170" cy="120" r="100" fill="none" stroke="#1f2328" stroke-width="2"/>
+<line x1="170" y1="20" x2="170" y2="220" stroke="#57606a" stroke-width="1.5"/>
+<line x1="90" y1="180" x2="250" y2="180" stroke="#1f2328" stroke-width="2"/>
+<line x1="170" y1="120" x2="90" y2="180" stroke="#cd4b30" stroke-width="2.5"/>
+<line x1="170" y1="120" x2="170" y2="180" stroke="#1f5fa8" stroke-width="3"/>
+<polyline points="180,180 180,170 170,170" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<line x1="130" y1="174" x2="130" y2="186" stroke="#cd4b30" stroke-width="2"/>
+<line x1="210" y1="174" x2="210" y2="186" stroke="#cd4b30" stroke-width="2"/>
+<text x="126" y="144" fill="#cd4b30" stroke="none" text-anchor="end" font-style="italic" font-size="16">r</text>
+<text x="163" y="162" fill="#1f5fa8" stroke="none" text-anchor="end" font-style="italic" font-size="16">d</text>
+<line x1="90" y1="186" x2="90" y2="250" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="250" y1="186" x2="250" y2="250" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="90" y1="244" x2="250" y2="244" stroke="#57606a" stroke-width="1"/>
+<line x1="90" y1="239" x2="90" y2="249" stroke="#57606a" stroke-width="1"/>
+<line x1="250" y1="239" x2="250" y2="249" stroke="#57606a" stroke-width="1"/>
+<rect x="160" y="234" width="20" height="18" fill="#ffffff" stroke="none"/>
+<text x="170" y="250" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic" font-size="16">a</text>
+<circle cx="90" cy="180" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="250" cy="180" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="170" cy="20" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="170" cy="220" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="170" cy="180" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="170" cy="120" r="4" fill="#1f2328" stroke="none"/>
+<text x="170" y="10" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="182" y="236" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<text x="76" y="185" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="264" y="185" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="183" y="197" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">E</text>
+<text x="184" y="116" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+</svg>

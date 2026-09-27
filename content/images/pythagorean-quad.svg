@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 230" width="320" height="230" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="40,149 40,200 108,200 230.4,36.8" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="50,200 50,190 40,190" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<text x="28" y="149" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="30" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="118" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="240.4" y="32.8" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<text x="32" y="178.5" fill="#1f2328" stroke="none" text-anchor="end">3</text>
+<text x="74" y="218" fill="#1f2328" stroke="none" text-anchor="middle">4</text>
+<text x="179.2" y="126.4" fill="#1f2328" stroke="none">12</text>
+<text x="127.2" y="82.9" fill="#1f2328" stroke="none" text-anchor="end">13</text>
+</svg>

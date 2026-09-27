@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 250" width="320" height="250" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="70,205 205,205 205,160 70,160" fill="#ffffff" stroke="#1f2328" stroke-width="1.8" stroke-linejoin="round"/><polygon points="70,160 205,160 236.8,128.2 101.8,128.2" fill="#eef1f4" stroke="#1f2328" stroke-width="1.8" stroke-linejoin="round"/><polygon points="205,205 236.8,173.2 236.8,128.2 205,160" fill="#dde2e8" stroke="#1f2328" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="85.9,144.1 130.9,144.1 130.9,54.1 85.9,54.1" fill="#ffffff" stroke="#1f2328" stroke-width="1.8" stroke-linejoin="round"/><polygon points="85.9,54.1 130.9,54.1 146.8,38.2 101.8,38.2" fill="#eef1f4" stroke="#1f2328" stroke-width="1.8" stroke-linejoin="round"/><polygon points="130.9,144.1 146.8,128.2 146.8,38.2 130.9,54.1" fill="#dde2e8" stroke="#1f2328" stroke-width="1.8" stroke-linejoin="round"/>
+<line x1="107.5" y1="212.5" x2="129.1" y2="190.9" stroke="#cd4b30" stroke-width="2"/><polygon points="135.5,184.5 132,193.7 126.3,188" fill="#cd4b30" stroke="none"/>
+<text x="103.5" y="226.5" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">主视</text>
+<line x1="35.9" y1="166.6" x2="72.9" y2="166.6" stroke="#1f5fa8" stroke-width="2"/><polygon points="81.9,166.6 72.9,170.6 72.9,162.6" fill="#1f5fa8" stroke="none"/>
+<text x="31.9" y="170.6" fill="#1f5fa8" stroke="none" text-anchor="end" font-size="12">左视</text>
+<line x1="175.9" y1="84.1" x2="175.9" y2="131.1" stroke="#57606a" stroke-width="2"/><polygon points="175.9,140.1 171.9,131.1 179.9,131.1" fill="#57606a" stroke="none"/>
+<text x="181.9" y="94.1" fill="#57606a" stroke="none" font-size="12">俯视</text>
+</svg>

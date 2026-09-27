@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 180" width="340" height="180" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<path d="M 74 128 A 120 120 0 0 1 266 128" stroke="#1f2328" stroke-width="3" fill="none"/>
+<line x1="74" y1="128" x2="266" y2="128" stroke="#1f2328" stroke-width="2"/>
+<line x1="170" y1="80" x2="170" y2="128" stroke="#cd4b30" stroke-width="2.5"/>
+<polyline points="180,128 180,118 170,118" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<circle cx="74" cy="128" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="266" cy="128" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="170" cy="80" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="170" cy="128" r="4" fill="#1f2328" stroke="none"/>
+<text x="60" y="133" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="280" y="133" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="170" y="70" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="158" y="146" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<line x1="74" y1="166" x2="266" y2="166" stroke="#57606a" stroke-width="1"/>
+<line x1="74" y1="161" x2="74" y2="171" stroke="#57606a" stroke-width="1"/>
+<line x1="266" y1="161" x2="266" y2="171" stroke="#57606a" stroke-width="1"/>
+<rect x="150" y="157" width="40" height="16" fill="#ffffff" stroke="none"/>
+<text x="170" y="171" fill="#57606a" stroke="none" text-anchor="middle" font-size="13">16 m</text>
+<text x="178" y="109" fill="#cd4b30" stroke="none" font-size="13">4 m</text>
+</svg>

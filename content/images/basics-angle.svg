@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 190" width="380" height="190" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="180" y1="150" x2="320" y2="150" stroke="#1f2328" stroke-width="2"/>
+<line x1="180" y1="150" x2="180" y2="30" stroke="#57606a" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="180" y1="150" x2="60" y2="150" stroke="#57606a" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="186" y="38" fill="#57606a" stroke="none" font-size="12">直角</text>
+<text x="60" y="142" fill="#57606a" stroke="none" font-size="12">平角</text>
+<text x="328" y="154" fill="#57606a" stroke="none" font-size="12">周角</text>
+<g transform="translate(180 150) scale(1 -1)"><circle cx="0" cy="0" r="30" fill="none" stroke="#cd4b30" stroke-width="2" stroke-dasharray="188.5 188.5" stroke-dashoffset="162.3"><animate attributeName="stroke-dashoffset" values="162.3;162.3;141.4;141.4;94.2;94.2;0;0;162.3" keyTimes="0;0.1;0.22;0.32;0.47;0.57;0.8;0.93;1" dur="12s" repeatCount="indefinite"/></circle></g>
+<g transform="rotate(-50 180 150)"><line x1="180" y1="150" x2="320" y2="150" stroke="#1f5fa8" stroke-width="2.5"/><circle cx="300" cy="150" r="4" fill="#1f5fa8" stroke="none"/><g transform="rotate(50 300 136)"><text x="300" y="141" fill="#1f5fa8" stroke="none" text-anchor="middle" font-style="italic">B</text><animateTransform attributeName="transform" type="rotate" values="50 300 136;50 300 136;90 300 136;90 300 136;180 300 136;180 300 136;360 300 136;360 300 136;50 300 136" keyTimes="0;0.1;0.22;0.32;0.47;0.57;0.8;0.93;1" dur="12s" repeatCount="indefinite"/></g><animateTransform attributeName="transform" type="rotate" values="-50 180 150;-50 180 150;-90 180 150;-90 180 150;-180 180 150;-180 180 150;-360 180 150;-360 180 150;-50 180 150" keyTimes="0;0.1;0.22;0.32;0.47;0.57;0.8;0.93;1" dur="12s" repeatCount="indefinite"/></g>
+<circle cx="180" cy="150" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="300" cy="150" r="4" fill="#1f2328" stroke="none"/>
+<text x="176" y="170" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+<text x="300" y="170" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+</svg>

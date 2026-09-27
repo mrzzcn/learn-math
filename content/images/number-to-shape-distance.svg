@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 280" width="320" height="280" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="90" y1="250" x2="90" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="130" y1="250" x2="130" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="170" y1="250" x2="170" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="210" y1="250" x2="210" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="250" y1="250" x2="250" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="30" y1="190" x2="270" y2="190" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="30" y1="150" x2="270" y2="150" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="30" y1="110" x2="270" y2="110" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="30" y1="70" x2="270" y2="70" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="30" y1="30" x2="270" y2="30" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="30" y1="230" x2="270" y2="230" stroke="#57606a" stroke-width="1.5"/>
+<line x1="50" y1="250" x2="50" y2="30" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="278,230 270,226 270,234" fill="#57606a" stroke="none"/>
+<polygon points="50,22 46,30 54,30" fill="#57606a" stroke="none"/>
+<text x="274" y="248" fill="#57606a" stroke="none" font-style="italic">x</text>
+<text x="58" y="28" fill="#57606a" stroke="none" font-style="italic">y</text>
+<text x="44" y="246" fill="#57606a" stroke="none" text-anchor="end" font-style="italic" font-size="12">O</text>
+<text x="90" y="246" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">1</text>
+<text x="130" y="246" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">2</text>
+<text x="170" y="246" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">3</text>
+<text x="210" y="246" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">4</text>
+<text x="250" y="246" fill="#57606a" stroke="none" text-anchor="middle" font-size="11">5</text>
+<text x="44" y="194" fill="#57606a" stroke="none" text-anchor="end" font-size="11">1</text>
+<text x="44" y="154" fill="#57606a" stroke="none" text-anchor="end" font-size="11">2</text>
+<text x="44" y="114" fill="#57606a" stroke="none" text-anchor="end" font-size="11">3</text>
+<text x="44" y="74" fill="#57606a" stroke="none" text-anchor="end" font-size="11">4</text>
+<text x="44" y="34" fill="#57606a" stroke="none" text-anchor="end" font-size="11">5</text>
+<polygon points="90,190 210,150 50,70" fill="rgba(31,95,168,0.10)" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="90" y1="190" x2="210" y2="190" stroke="#cd4b30" stroke-width="1.5" stroke-dasharray="5 3"/>
+<line x1="210" y1="190" x2="210" y2="150" stroke="#cd4b30" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="150" y="206" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="13">3</text>
+<text x="218" y="175" fill="#cd4b30" stroke="none" font-size="13">1</text>
+<polyline points="100.4,186.5 97,176.1 86.5,179.6" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<circle cx="90" cy="190" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="210" cy="150" r="4" fill="#1f2328" stroke="none"/>
+<circle cx="50" cy="70" r="4" fill="#1f2328" stroke="none"/>
+<text x="82" y="208" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">A(1, 1)</text>
+<text x="218" y="144" fill="#1f2328" stroke="none" font-size="12">B(4, 2)</text>
+<text x="60" y="64" fill="#1f2328" stroke="none" font-size="12">C(0, 4)</text>
+</svg>

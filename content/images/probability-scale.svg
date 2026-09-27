@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 165" width="400" height="165" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="50" y1="90" x2="350" y2="90" stroke="#1f2328" stroke-width="2"/>
+<line x1="50" y1="85" x2="50" y2="95" stroke="#1f2328" stroke-width="1.5"/>
+<text x="50" y="110" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">0</text>
+<line x1="100" y1="85" x2="100" y2="95" stroke="#1f2328" stroke-width="1.5"/>
+<text x="100" y="110" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">1/6</text>
+<line x1="200" y1="85" x2="200" y2="95" stroke="#1f2328" stroke-width="1.5"/>
+<text x="200" y="110" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">1/2</text>
+<line x1="350" y1="85" x2="350" y2="95" stroke="#1f2328" stroke-width="1.5"/>
+<text x="350" y="110" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">1</text>
+<text x="50" y="40" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">不可能事件</text>
+<line x1="50" y1="46" x2="50" y2="82" stroke="#1f5fa8" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="350" y="40" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">必然事件</text>
+<line x1="350" y1="46" x2="350" y2="82" stroke="#1f5fa8" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="56" y1="64" x2="344" y2="64" stroke="#cd4b30" stroke-width="1.5"/>
+<line x1="56" y1="59" x2="56" y2="69" stroke="#cd4b30" stroke-width="1.5"/>
+<line x1="344" y1="59" x2="344" y2="69" stroke="#cd4b30" stroke-width="1.5"/>
+<text x="200" y="56" fill="#cd4b30" stroke="none" text-anchor="middle" font-size="12">随机事件</text>
+<circle cx="50" cy="90" r="5" fill="#1f5fa8" stroke="none"/>
+<line x1="50" y1="116" x2="50" y2="118" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="50" y="130" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">掷出 7 点</text>
+<circle cx="100" cy="90" r="5" fill="#cd4b30" stroke="none"/>
+<line x1="100" y1="116" x2="100" y2="138" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="100" y="150" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">掷出 6 点</text>
+<circle cx="200" cy="90" r="5" fill="#cd4b30" stroke="none"/>
+<line x1="200" y1="116" x2="200" y2="118" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="200" y="130" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">掷出偶数点</text>
+<circle cx="350" cy="90" r="5" fill="#1f5fa8" stroke="none"/>
+<line x1="350" y1="116" x2="350" y2="138" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="350" y="150" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">点数不超过 6</text>
+</svg>

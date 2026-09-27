@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 180" width="490" height="180" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="60,30 20,125 130,125" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="45.5" y1="79.8" x2="34.5" y2="75.2" stroke="#cd4b30" stroke-width="2"/>
+<line x1="72.5" y1="119" x2="72.5" y2="131" stroke="#cd4b30" stroke-width="2"/><line x1="77.5" y1="119" x2="77.5" y2="131" stroke="#cd4b30" stroke-width="2"/>
+<line x1="96.9" y1="69.9" x2="87.2" y2="77" stroke="#cd4b30" stroke-width="2"/><line x1="99.8" y1="73.9" x2="90.2" y2="81.1" stroke="#cd4b30" stroke-width="2"/><line x1="102.8" y1="78" x2="93.1" y2="85.1" stroke="#cd4b30" stroke-width="2"/>
+<text x="60" y="22" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="12" y="139" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">B</text>
+<text x="138" y="139" fill="#1f2328" stroke="none" font-style="italic">C</text>
+<text x="75" y="165" fill="#57606a" stroke="none" text-anchor="middle">SSS</text>
+<polygon points="225,30 185,125 295,125" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="210.5" y1="79.8" x2="199.5" y2="75.2" stroke="#cd4b30" stroke-width="2"/>
+<line x1="237.5" y1="119" x2="237.5" y2="131" stroke="#cd4b30" stroke-width="2"/><line x1="242.5" y1="119" x2="242.5" y2="131" stroke="#cd4b30" stroke-width="2"/>
+<path d="M 205 125 A 20 20 0 0 0 192.8 106.6" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<text x="225" y="22" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="177" y="139" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">B</text>
+<text x="303" y="139" fill="#1f2328" stroke="none" font-style="italic">C</text>
+<text x="240" y="165" fill="#57606a" stroke="none" text-anchor="middle">SAS</text>
+<polygon points="390,30 350,125 460,125" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="402.5" y1="119" x2="402.5" y2="131" stroke="#cd4b30" stroke-width="2"/><line x1="407.5" y1="119" x2="407.5" y2="131" stroke="#cd4b30" stroke-width="2"/>
+<path d="M 370 125 A 20 20 0 0 0 357.8 106.6" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<path d="M 448.1 108.9 A 20 20 0 0 0 440 125" stroke="#1f5fa8" stroke-width="1.5" fill="none"/><path d="M 445.8 105.7 A 24 24 0 0 0 436 125" stroke="#1f5fa8" stroke-width="1.5" fill="none"/>
+<text x="390" y="22" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="342" y="139" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">B</text>
+<text x="468" y="139" fill="#1f2328" stroke="none" font-style="italic">C</text>
+<text x="405" y="165" fill="#57606a" stroke="none" text-anchor="middle">ASA</text>
+</svg>
