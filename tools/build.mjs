@@ -395,6 +395,16 @@ function childList(page, pages) {
     kids.map(p => `<li><a href="${p.url}">${esc(p.label)}</a></li>`).join('')}</ol></div>`;
 }
 
+// 页面底部的版权提示和源码链接（和 PDF 末尾的文字一致，见 pdf.mjs）
+export const COPYRIGHT = `版权所有 © ${new Date().getFullYear()} ${config.author}，保留所有权利。未经书面许可，不得以任何形式复制全部或部分内容后公开发表。`;
+function siteFooter() {
+  if (!config.author) return '';
+  const repo = config.repo
+    ? ` <a href="${config.repo}/blob/main/LICENSE">版权说明</a> · <a href="${config.repo}">GitHub</a>`
+    : '';
+  return `<footer class="site-footer">${esc(COPYRIGHT)}${repo}</footer>`;
+}
+
 function layout({ page, body, groups, prev, next, pages }) {
   const title = page.url === '/' ? SITE_TITLE : `${page.title} · ${SITE_TITLE}`;
   const crumb = page.group.title ? `<div class="crumb">${esc(page.group.title)}</div>` : '';
@@ -429,6 +439,7 @@ function layout({ page, body, groups, prev, next, pages }) {
   <main class="main">
     <article class="markdown">${crumb}${body}${childList(page, pages)}</article>
     ${pager}
+    ${siteFooter()}
   </main>
   ${pageToc(page)}
 </div>

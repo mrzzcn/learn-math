@@ -9,7 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import MarkdownIt from 'markdown-it';
 import pdfmake from 'pdfmake';
-import { ROOT, CONTENT, SITE_TITLE, config, WEB_ONLY, readSummary, loadPages, makeXref, markInlineEmphasis, mergeFirstColumn, FIRST_COL_MAX, makePage } from './build.mjs';
+import { ROOT, CONTENT, SITE_TITLE, config, WEB_ONLY, readSummary, loadPages, makeXref, markInlineEmphasis, mergeFirstColumn, FIRST_COL_MAX, makePage, COPYRIGHT } from './build.mjs';
 import { ensureFonts } from './fonts.mjs';
 import { mathPlugin, texToSvg, texToRuns } from './math.mjs';
 import { createRequire } from 'node:module';
@@ -496,6 +496,16 @@ async function render({ pages, allPages, out, cover, toc = true, title = SITE_TI
       keepSpace.set(n.id, hasImage ? 150 : 80);
     });
     content.push(...nodes);
+  });
+
+  // 末尾：版权提示和源码链接（和网页底部一致）
+  if (config.author) content.push({
+    stack: [
+      { canvas: [{ type: 'line', x1: 0, y1: 0, x2: CONTENT_W, y2: 0, lineWidth: 0.5, lineColor: C.line }], margin: [0, 0, 0, 6] },
+      { text: COPYRIGHT, fontSize: 8.5, color: C.soft },
+      ...(config.repo ? [{ text: [{ text: '版权说明和源码：' }, { text: config.repo, link: config.repo, color: C.link }], fontSize: 8.5, color: C.soft, margin: [0, 2, 0, 0] }] : []),
+    ],
+    margin: [0, 24, 0, 0], unbreakable: true,
   });
 
   // ---------- 文档定义 ----------

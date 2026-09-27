@@ -4,6 +4,8 @@ export default {
   subtitle: '从本义出发，把代数和几何连成一个整体', // PDF 封面
   audience: '中学生',                           // PDF 封面、网页 meta description、PDF info.subject
   siteUrl: 'https://learn-math.gamelife.pro',  // 网站域名，生成 sitemap.xml 和 robots.txt 用
+  author: 'Jack',                               // 版权人，网页底部和 PDF 末尾的版权提示
+  repo: 'https://github.com/mrzzcn/learn-math', // 源码仓库，网页底部和 PDF 末尾的链接
   slug: 'learn-math',                           // Release 附件名 learn-math-guide-<标签>.pdf
   sample: '7-function',                         // pnpm pdf:sample 默认只排的路径前缀
   citePrefixes: ['依据', '出处', '考点', '真题'],  // 以这些词开头的段落在 PDF 里排成灰色小字（左对齐）
