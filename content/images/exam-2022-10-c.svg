@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 225" width="360" height="225" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="10,10 350,10 350,190 10,190" fill="none" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="180" y="40" fill="#1f2328" stroke="none" text-anchor="middle" font-size="17">信息窗</text>
+<text x="24" y="72" fill="#1f2328" stroke="none" font-size="13">M = 2200 × K × 10<tspan font-size="9" dy="-6">−3</tspan><tspan dy="6"> mg/100mL</tspan></text>
+<text x="24" y="98" fill="#1f2328" stroke="none" font-size="13">（M 为血液酒精浓度，K 为呼气酒精浓度）</text>
+<text x="24" y="124" fill="#1f2328" stroke="none" font-size="13">非酒驾（M &lt; 20 mg/100mL）</text>
+<text x="24" y="150" fill="#1f2328" stroke="none" font-size="13">酒驾（20 mg/100mL ≤ M ≤ 80 mg/100mL）</text>
+<text x="24" y="176" fill="#1f2328" stroke="none" font-size="13">醉驾（M &gt; 80 mg/100mL）</text>
+<text x="180" y="215" fill="#57606a" stroke="none" text-anchor="middle">图 3</text>
+</svg>

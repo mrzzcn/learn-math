@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 255" width="440" height="255" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<defs><pattern id="hatch2025" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="5" height="5" fill="#fff"/><line x1="0" y1="0" x2="0" y2="5" stroke="#1f2328" stroke-width="2"/></pattern></defs>
+<line x1="50" y1="200" x2="380" y2="200" stroke="#57606a" stroke-width="1.5"/>
+<line x1="50" y1="200" x2="50" y2="24" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="388,200 380,196 380,204" fill="#57606a" stroke="none"/>
+<polygon points="50,16 46,24 54,24" fill="#57606a" stroke="none"/>
+<line x1="46" y1="170" x2="50" y2="170" stroke="#57606a" stroke-width="1"/>
+<text x="42" y="174" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">5</text>
+<line x1="46" y1="140" x2="50" y2="140" stroke="#57606a" stroke-width="1"/>
+<text x="42" y="144" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">10</text>
+<line x1="46" y1="110" x2="50" y2="110" stroke="#57606a" stroke-width="1"/>
+<text x="42" y="114" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">15</text>
+<line x1="46" y1="80" x2="50" y2="80" stroke="#57606a" stroke-width="1"/>
+<text x="42" y="84" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">20</text>
+<line x1="46" y1="50" x2="50" y2="50" stroke="#57606a" stroke-width="1"/>
+<text x="42" y="54" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">25</text>
+<text x="42" y="204" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">0</text>
+<text x="46" y="18" fill="#1f2328" stroke="none" text-anchor="end" font-size="13">人数</text>
+<text x="392" y="218" fill="#1f2328" stroke="none" font-size="13">得分/分</text>
+<rect x="80" y="140" width="22" height="60" fill="url(#hatch2025)" stroke="#1f2328" stroke-width="1.2"/>
+<rect x="102" y="158" width="22" height="42" fill="#fff" stroke="#1f2328" stroke-width="1.2"/>
+<text x="91" y="135" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">10</text>
+<text x="113" y="153" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">7</text>
+<text x="102" y="218" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">6</text>
+<rect x="140" y="110" width="22" height="90" fill="url(#hatch2025)" stroke="#1f2328" stroke-width="1.2"/>
+<rect x="162" y="146" width="22" height="54" fill="#fff" stroke="#1f2328" stroke-width="1.2"/>
+<text x="151" y="105" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">15</text>
+<text x="173" y="141" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">9</text>
+<text x="162" y="218" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">7</text>
+<rect x="200" y="164" width="22" height="36" fill="url(#hatch2025)" stroke="#1f2328" stroke-width="1.2"/>
+<rect x="222" y="62" width="22" height="138" fill="#fff" stroke="#1f2328" stroke-width="1.2"/>
+<text x="211" y="159" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">6</text>
+<text x="233" y="57" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">23</text>
+<text x="222" y="218" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">8</text>
+<rect x="260" y="140" width="22" height="60" fill="url(#hatch2025)" stroke="#1f2328" stroke-width="1.2"/>
+<rect x="282" y="164" width="22" height="36" fill="#fff" stroke="#1f2328" stroke-width="1.2"/>
+<text x="271" y="135" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">10</text>
+<text x="293" y="159" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">6</text>
+<text x="282" y="218" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">9</text>
+<rect x="320" y="146" width="22" height="54" fill="url(#hatch2025)" stroke="#1f2328" stroke-width="1.2"/>
+<rect x="342" y="170" width="22" height="30" fill="#fff" stroke="#1f2328" stroke-width="1.2"/>
+<text x="331" y="141" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">9</text>
+<text x="353" y="165" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">5</text>
+<text x="342" y="218" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">10</text>
+<rect x="170" y="11" width="14" height="12" fill="url(#hatch2025)" stroke="#1f2328" stroke-width="1"/>
+<text x="188" y="22" fill="#1f2328" stroke="none" font-size="13">七年级</text>
+<rect x="250" y="11" width="14" height="12" fill="#fff" stroke="#1f2328" stroke-width="1"/>
+<text x="268" y="22" fill="#1f2328" stroke="none" font-size="13">八年级</text>
+<text x="225" y="244" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">得分统计图</text>
+</svg>

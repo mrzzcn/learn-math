@@ -97,6 +97,11 @@
 
 - [学习建议](appendix/index.md)
 - [公式与定理汇总](appendix/formulas.md)
+- [2026 年河南中考数学](appendix/exam-2026.md)
+- [2025 年河南中考数学](appendix/exam-2025.md)
+- [2024 年河南中考数学](appendix/exam-2024.md)
+- [2023 年河南中考数学](appendix/exam-2023.md)
+- [2022 年河南中考数学](appendix/exam-2022.md)
 
 ## 下载
 

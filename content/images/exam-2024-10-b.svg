@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="40" y1="150" x2="230" y2="150" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="238,150 230,154 230,146" fill="#57606a" stroke="none"/>
+<line x1="40" y1="150" x2="40" y2="20" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="40,12 44,20 36,20" fill="#57606a" stroke="none"/>
+<polyline points="40,150 42.5,150 45,149.9 47.5,149.7 50,149.4 52.5,149.1 55,148.8 57.5,148.3 60,147.8 62.5,147.2 65,146.5 67.5,145.8 70,145 72.5,144.1 75,143.2 77.5,142.2 80,141.1 82.5,140 85,138.8 87.5,137.5 90,136.1 92.5,134.7 95,133.2 97.5,131.6 100,130 102.5,128.3 105,126.5 107.5,124.7 110,122.8 112.5,120.8 115,118.8 117.5,116.6 120,114.4 122.5,112.2 125,109.9 127.5,107.5 130,105 132.5,102.5 135,99.9 137.5,97.2 140,94.4 142.5,91.6 145,88.8 147.5,85.8 150,82.8 152.5,79.7 155,76.5 157.5,73.3 160,70 162.5,66.6 165,63.2 167.5,59.7 170,56.1 172.5,52.5 175,48.8 177.5,45 180,41.1 182.5,37.2 185,33.2 187.5,29.1 190,25" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="32" y="168" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">O</text>
+<text x="236" y="172" fill="#1f2328" stroke="none"><tspan font-style="italic">I</tspan>/A</text>
+<text x="46" y="16" fill="#1f2328" stroke="none"><tspan font-style="italic">Q</tspan>/J</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 195" width="320" height="195" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="70,35 70,170 250,170" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="70,160 80,160 80,170" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<text x="60" y="33" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="60" y="186" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="260" y="186" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+</svg>

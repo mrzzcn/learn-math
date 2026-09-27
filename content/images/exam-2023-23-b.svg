@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 320" width="350" height="320" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="40,210 240,210 315,80.1 115,80.1" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="40" y1="210" x2="147.5" y2="293.5" stroke="#1f2328" stroke-width="2"/>
+<line x1="40" y1="210" x2="58.6" y2="75.2" stroke="#1f2328" stroke-width="2"/>
+<circle cx="147.5" cy="293.5" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="147.5" cy="126.5" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="58.6" cy="75.2" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="147.5" cy="33.7" r="3" fill="#1f2328" stroke="none"/>
+<text x="28" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="246" y="228" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="325" y="78.1" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="111" y="72.1" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<text x="159.5" y="301.5" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">P</text>
+<text x="161.5" y="140.5" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">P<tspan font-size="10" dy="4">1</tspan></text>
+<text x="44.6" y="73.2" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">P<tspan font-size="10" dy="4">2</tspan></text>
+<text x="161.5" y="29.7" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">P<tspan font-size="10" dy="4">3</tspan></text>
+</svg>

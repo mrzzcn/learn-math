@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 85" width="340" height="85" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="22" y1="50" x2="286" y2="50" stroke="#1f2328" stroke-width="1.5"/>
+<polygon points="294,50 286,54 286,46" fill="#1f2328" stroke="none"/>
+<circle cx="70" cy="50" r="3.5" fill="#1f2328" stroke="none"/>
+<text x="70" y="72" fill="#1f2328" stroke="none" text-anchor="middle">−1</text>
+<circle cx="130" cy="50" r="3.5" fill="#1f2328" stroke="none"/>
+<text x="130" y="72" fill="#1f2328" stroke="none" text-anchor="middle">0</text>
+<circle cx="190" cy="50" r="3.5" fill="#1f2328" stroke="none"/>
+<text x="190" y="72" fill="#1f2328" stroke="none" text-anchor="middle">1</text>
+<circle cx="250" cy="50" r="3.5" fill="#1f2328" stroke="none"/>
+<text x="250" y="72" fill="#1f2328" stroke="none" text-anchor="middle">2</text>
+<text x="70" y="38" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">P</text>
+</svg>

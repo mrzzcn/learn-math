@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 168" width="440" height="168" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<ellipse cx="55" cy="25" rx="34" ry="10" stroke="#1f2328" stroke-width="2" fill="none"/>
+<line x1="21" y1="25" x2="21" y2="125" stroke="#1f2328" stroke-width="2"/>
+<line x1="89" y1="25" x2="89" y2="125" stroke="#1f2328" stroke-width="2"/>
+<path d="M 21 125 A 34 10 0 0 0 89 125" stroke="#1f2328" stroke-width="2" fill="none"/>
+<path d="M 21 125 A 34 10 0 0 1 89 125" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<text x="55" y="158" fill="#1f2328" stroke="none" text-anchor="middle">A</text>
+<polygon points="130,30 190,30 190,130 130,130" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="130,30 152,16 212,16 190,30" stroke="#1f2328" stroke-width="2" fill="none" stroke-linejoin="round"/>
+<line x1="212" y1="16" x2="212" y2="116" stroke="#1f2328" stroke-width="2"/>
+<line x1="212" y1="116" x2="190" y2="130" stroke="#1f2328" stroke-width="2"/>
+<line x1="152" y1="16" x2="152" y2="116" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="152" y1="116" x2="130" y2="130" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="152" y1="116" x2="212" y2="116" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="168" y="158" fill="#1f2328" stroke="none" text-anchor="middle">B</text>
+<polygon points="245,25 300,25 275,39" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="245" y1="25" x2="245" y2="125" stroke="#1f2328" stroke-width="2"/>
+<line x1="300" y1="25" x2="300" y2="125" stroke="#1f2328" stroke-width="2"/>
+<line x1="275" y1="39" x2="275" y2="139" stroke="#1f2328" stroke-width="2"/>
+<line x1="245" y1="125" x2="275" y2="139" stroke="#1f2328" stroke-width="2"/>
+<line x1="275" y1="139" x2="300" y2="125" stroke="#1f2328" stroke-width="2"/>
+<line x1="245" y1="125" x2="300" y2="125" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="273" y="158" fill="#1f2328" stroke="none" text-anchor="middle">C</text>
+<line x1="385" y1="20" x2="353" y2="125" stroke="#1f2328" stroke-width="2"/>
+<line x1="385" y1="20" x2="417" y2="125" stroke="#1f2328" stroke-width="2"/>
+<path d="M 353 125 A 32 10 0 0 0 417 125" stroke="#1f2328" stroke-width="2" fill="none"/>
+<path d="M 353 125 A 32 10 0 0 1 417 125" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<text x="385" y="158" fill="#1f2328" stroke="none" text-anchor="middle">D</text>
+</svg>

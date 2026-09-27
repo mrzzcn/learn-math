@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 215" width="500" height="215" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="50" y1="152" x2="410.4" y2="152" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="50" y1="134" x2="410.4" y2="134" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="50" y1="116" x2="410.4" y2="116" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="50" y1="98" x2="410.4" y2="98" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="50" y1="80" x2="410.4" y2="80" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="50" y1="62" x2="410.4" y2="62" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="50" y1="44" x2="410.4" y2="44" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="50" y1="190" x2="417.2" y2="190" stroke="#1f2328" stroke-width="1.5"/>
+<line x1="50" y1="190" x2="50" y2="162" stroke="#1f2328" stroke-width="1.5"/>
+<line x1="50" y1="150" x2="50" y2="26" stroke="#1f2328" stroke-width="1.5"/>
+<polyline points="50,162 45,158 55,154 50,150" fill="none" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="425.2,190 417.2,186 417.2,194" fill="#1f2328" stroke="none"/>
+<polygon points="50,18 46,26 54,26" fill="#1f2328" stroke="none"/>
+<text x="42" y="195" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">0</text>
+<text x="42" y="156" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">4</text>
+<text x="42" y="120" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">6</text>
+<text x="42" y="84" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">8</text>
+<text x="42" y="48" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">10</text>
+<text x="84" y="208" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">1</text>
+<text x="118" y="208" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">2</text>
+<text x="152" y="208" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">3</text>
+<text x="186" y="208" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">4</text>
+<text x="220" y="208" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">5</text>
+<text x="254" y="208" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">6</text>
+<text x="288" y="208" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">7</text>
+<text x="322" y="208" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">8</text>
+<text x="356" y="208" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">9</text>
+<text x="390" y="208" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">10</text>
+<text x="42" y="20" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">得分</text>
+<text x="429.2" y="208" fill="#1f2328" stroke="none" font-size="12">种植户编号</text>
+<polyline points="84,98 118,80 152,116 186,80 220,98 254,134 288,80 322,116 356,80 390,98" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="84" cy="98" r="3.5" fill="#1f2328" stroke="none"/>
+<circle cx="118" cy="80" r="3.5" fill="#1f2328" stroke="none"/>
+<circle cx="152" cy="116" r="3.5" fill="#1f2328" stroke="none"/>
+<circle cx="186" cy="80" r="3.5" fill="#1f2328" stroke="none"/>
+<circle cx="220" cy="98" r="3.5" fill="#1f2328" stroke="none"/>
+<circle cx="254" cy="134" r="3.5" fill="#1f2328" stroke="none"/>
+<circle cx="288" cy="80" r="3.5" fill="#1f2328" stroke="none"/>
+<circle cx="322" cy="116" r="3.5" fill="#1f2328" stroke="none"/>
+<circle cx="356" cy="80" r="3.5" fill="#1f2328" stroke="none"/>
+<circle cx="390" cy="98" r="3.5" fill="#1f2328" stroke="none"/>
+<polyline points="84,152 118,80 152,44 186,116 220,62 254,134 288,98 322,134 356,44 390,116" fill="none" stroke="#1f5fa8" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="84,147 79.5,155.5 88.5,155.5" fill="#1f5fa8" stroke="none"/>
+<polygon points="118,75 113.5,83.5 122.5,83.5" fill="#1f5fa8" stroke="none"/>
+<polygon points="152,39 147.5,47.5 156.5,47.5" fill="#1f5fa8" stroke="none"/>
+<polygon points="186,111 181.5,119.5 190.5,119.5" fill="#1f5fa8" stroke="none"/>
+<polygon points="220,57 215.5,65.5 224.5,65.5" fill="#1f5fa8" stroke="none"/>
+<polygon points="254,129 249.5,137.5 258.5,137.5" fill="#1f5fa8" stroke="none"/>
+<polygon points="288,93 283.5,101.5 292.5,101.5" fill="#1f5fa8" stroke="none"/>
+<polygon points="322,129 317.5,137.5 326.5,137.5" fill="#1f5fa8" stroke="none"/>
+<polygon points="356,39 351.5,47.5 360.5,47.5" fill="#1f5fa8" stroke="none"/>
+<polygon points="390,111 385.5,119.5 394.5,119.5" fill="#1f5fa8" stroke="none"/>
+<text x="118" y="18" fill="#1f2328" stroke="none" font-size="13">甲</text>
+<line x1="136" y1="14" x2="176" y2="14" stroke="#1f2328" stroke-width="2"/>
+<circle cx="156" cy="14" r="3.5" fill="#1f2328" stroke="none"/>
+<text x="220" y="18" fill="#1f5fa8" stroke="none" font-size="13">乙</text>
+<line x1="238" y1="14" x2="278" y2="14" stroke="#1f5fa8" stroke-width="2" stroke-dasharray="6 4"/>
+<polygon points="258,9 253.5,17.5 262.5,17.5" fill="#1f5fa8" stroke="none"/>
+</svg>

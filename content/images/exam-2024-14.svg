@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 230" width="320" height="230" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="49" y1="200" x2="270" y2="200" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="278,200 270,204 270,196" fill="#57606a" stroke="none"/>
+<line x1="100" y1="210.2" x2="100" y2="9.6" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="100,1.6 104,9.6 96,9.6" fill="#57606a" stroke="none"/>
+<line x1="66" y1="200" x2="66" y2="30" stroke="#1f2328" stroke-width="2"/>
+<line x1="66" y1="30" x2="151" y2="30" stroke="#1f2328" stroke-width="2"/>
+<line x1="236" y1="200" x2="151" y2="30" stroke="#1f2328" stroke-width="2"/>
+<line x1="151" y1="30" x2="100" y2="98" stroke="#1f2328" stroke-width="2"/>
+<line x1="100" y1="98" x2="236" y2="200" stroke="#1f2328" stroke-width="2"/>
+<line x1="151" y1="30" x2="236" y2="30" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="236" y1="30" x2="236" y2="200" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="276" y="218" fill="#1f2328" stroke="none" font-style="italic">x</text>
+<text x="108" y="5.6" fill="#1f2328" stroke="none" font-style="italic">y</text>
+<text x="58" y="218" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="110" y="218" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+<text x="240" y="218" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="246" y="26" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="56" y="26" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<text x="151" y="22" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">E</text>
+<text x="90" y="102" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">F</text>
+</svg>

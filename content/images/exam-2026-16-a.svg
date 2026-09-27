@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" width="340" height="80" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="20" y1="50" x2="320" y2="50" stroke="#1f2328" stroke-width="1.5"/>
+<polygon points="330,50 320,45 320,55" fill="#1f2328" stroke="none"/>
+<line x1="50" y1="50" x2="50" y2="44" stroke="#1f2328" stroke-width="1.5"/>
+<text x="50" y="70" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">−3</text>
+<line x1="90" y1="50" x2="90" y2="44" stroke="#1f2328" stroke-width="1.5"/>
+<text x="90" y="70" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">−2</text>
+<line x1="130" y1="50" x2="130" y2="44" stroke="#1f2328" stroke-width="1.5"/>
+<text x="130" y="70" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">−1</text>
+<line x1="170" y1="50" x2="170" y2="44" stroke="#1f2328" stroke-width="1.5"/>
+<text x="170" y="70" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">0</text>
+<line x1="210" y1="50" x2="210" y2="44" stroke="#1f2328" stroke-width="1.5"/>
+<text x="210" y="70" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">1</text>
+<line x1="250" y1="50" x2="250" y2="44" stroke="#1f2328" stroke-width="1.5"/>
+<text x="250" y="70" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">2</text>
+<line x1="290" y1="50" x2="290" y2="44" stroke="#1f2328" stroke-width="1.5"/>
+<text x="290" y="70" fill="#1f2328" stroke="none" text-anchor="middle" font-size="13">3</text>
+</svg>

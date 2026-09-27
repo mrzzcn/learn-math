@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="90" y1="190" x2="90" y2="40" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="5 4"/>
+<polygon points="90,32 94,40 86,40" fill="#1f2328" stroke="none"/>
+<line x1="240" y1="150" x2="240" y2="20" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="5 4"/>
+<polygon points="240,12 244,20 236,20" fill="#1f2328" stroke="none"/>
+<line x1="90" y1="190" x2="240" y2="70" stroke="#1f2328" stroke-width="2"/>
+<path d="M 90 168 A 22 22 0 0 1 107.2 176.3" stroke="#1f2328" stroke-width="1.5" fill="none"/>
+<path d="M 225.9 81.2 A 18 18 0 0 0 240 88" stroke="#1f2328" stroke-width="1.5" fill="none"/>
+<text x="90" y="24" fill="#1f2328" stroke="none" text-anchor="middle">北</text>
+<text x="258" y="20" fill="#1f2328" stroke="none" text-anchor="middle">北</text>
+<text x="90" y="212" fill="#1f2328" stroke="none" text-anchor="middle">甲</text>
+<text x="250" y="74" fill="#1f2328" stroke="none">乙</text>
+<text x="96" y="160" fill="#1f2328" stroke="none" font-size="13">50°</text>
+<text x="224" y="104" fill="#1f2328" stroke="none" font-size="13">1</text>
+</svg>

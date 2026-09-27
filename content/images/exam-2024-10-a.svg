@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="40" y1="150" x2="260" y2="150" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="268,150 260,154 260,146" fill="#57606a" stroke="none"/>
+<line x1="40" y1="150" x2="40" y2="20" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="40,12 44,20 36,20" fill="#57606a" stroke="none"/>
+<line x1="40" y1="150" x2="250" y2="60" stroke="#1f2328" stroke-width="2"/>
+<line x1="40" y1="90" x2="180" y2="90" stroke="#1f2328" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="180" y1="90" x2="180" y2="150" stroke="#1f2328" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="32" y="95" fill="#1f2328" stroke="none" text-anchor="end">2</text>
+<text x="180" y="170" fill="#1f2328" stroke="none" text-anchor="middle">440</text>
+<text x="32" y="168" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic">O</text>
+<text x="272" y="170" fill="#1f2328" stroke="none"><tspan font-style="italic">P</tspan>/W</text>
+<text x="46" y="16" fill="#1f2328" stroke="none"><tspan font-style="italic">I</tspan>/A</text>
+</svg>

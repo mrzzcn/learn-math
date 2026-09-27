@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" width="360" height="200" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="180" y1="15" x2="180" y2="190" stroke="#1f2328" stroke-width="1.5"/>
+<polygon points="140,30 95,170 60,70" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="220,30 265,170 300,70" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="68.9,65.5 72.2,75 63.3,79.4" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<polyline points="291.1,65.5 287.8,75 296.7,79.4" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<text x="184" y="22" fill="#1f2328" stroke="none" font-style="italic">l</text>
+<text x="134" y="24" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="91" y="190" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="48" y="75" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="230" y="24" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A′</text>
+<text x="271" y="190" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B′</text>
+<text x="314" y="75" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C′</text>
+</svg>

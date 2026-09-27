@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 225" width="460" height="225" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="50" y1="170" x2="410.4" y2="170" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="42" y="174" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">2</text>
+<line x1="50" y1="140" x2="410.4" y2="140" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="42" y="144" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">4</text>
+<line x1="50" y1="110" x2="410.4" y2="110" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="42" y="114" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">6</text>
+<line x1="50" y1="80" x2="410.4" y2="80" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="42" y="84" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">8</text>
+<line x1="50" y1="50" x2="410.4" y2="50" stroke="#57606a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="42" y="54" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">10</text>
+<line x1="50" y1="200" x2="417.2" y2="200" stroke="#57606a" stroke-width="1.5"/>
+<line x1="50" y1="200" x2="50" y2="26" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="50,18 46,26 54,26" fill="#57606a" stroke="none"/>
+<polygon points="425.2,200 417.2,196 417.2,204" fill="#57606a" stroke="none"/>
+<text x="42" y="216" fill="#1f2328" stroke="none" text-anchor="end" font-size="12">0</text>
+<text x="56" y="28" fill="#1f2328" stroke="none" font-size="12">成绩/投进次数</text>
+<text x="429.2" y="216" fill="#1f2328" stroke="none" font-size="12">组别</text>
+<text x="84" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">1</text>
+<text x="118" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">2</text>
+<text x="152" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">3</text>
+<text x="186" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">4</text>
+<text x="220" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">5</text>
+<text x="254" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">6</text>
+<text x="288" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">7</text>
+<text x="322" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">8</text>
+<text x="356" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">9</text>
+<text x="390" y="216" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">10</text>
+<polyline points="84,110 118,110 152,95 186,110 220,80 254,80 288,95 322,80 356,95 390,80" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="84,140 118,65 152,110 186,125 220,65 254,65 288,110 322,65 356,95 390,95" fill="none" stroke="#1f5fa8" stroke-width="2" stroke-dasharray="5 3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="84" cy="110" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="118" cy="110" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="152" cy="95" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="186" cy="110" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="220" cy="80" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="254" cy="80" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="288" cy="95" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="322" cy="80" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="356" cy="95" r="3" fill="#1f2328" stroke="none"/>
+<circle cx="390" cy="80" r="3" fill="#1f2328" stroke="none"/>
+<rect x="81" y="137" width="6" height="6" fill="#1f5fa8" stroke="none"/>
+<rect x="115" y="62" width="6" height="6" fill="#1f5fa8" stroke="none"/>
+<rect x="149" y="107" width="6" height="6" fill="#1f5fa8" stroke="none"/>
+<rect x="183" y="122" width="6" height="6" fill="#1f5fa8" stroke="none"/>
+<rect x="217" y="62" width="6" height="6" fill="#1f5fa8" stroke="none"/>
+<rect x="251" y="62" width="6" height="6" fill="#1f5fa8" stroke="none"/>
+<rect x="285" y="107" width="6" height="6" fill="#1f5fa8" stroke="none"/>
+<rect x="319" y="62" width="6" height="6" fill="#1f5fa8" stroke="none"/>
+<rect x="353" y="92" width="6" height="6" fill="#1f5fa8" stroke="none"/>
+<rect x="387" y="92" width="6" height="6" fill="#1f5fa8" stroke="none"/>
+<text x="84" y="103" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">6</text>
+<text x="84" y="156" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">4</text>
+<text x="118" y="126" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">6</text>
+<text x="118" y="58" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">9</text>
+<text x="152" y="88" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">7</text>
+<text x="152" y="126" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">6</text>
+<text x="186" y="103" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">6</text>
+<text x="186" y="141" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">5</text>
+<text x="220" y="96" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">8</text>
+<text x="220" y="58" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">9</text>
+<text x="254" y="96" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">8</text>
+<text x="254" y="58" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">9</text>
+<text x="288" y="88" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">7</text>
+<text x="288" y="126" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">6</text>
+<text x="322" y="96" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">8</text>
+<text x="322" y="58" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">9</text>
+<text x="356" y="88" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">7</text>
+<text x="356" y="111" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">7</text>
+<text x="390" y="73" fill="#1f2328" stroke="none" text-anchor="middle" font-size="12">8</text>
+<text x="390" y="111" fill="#1f5fa8" stroke="none" text-anchor="middle" font-size="12">7</text>
+<line x1="152" y1="18" x2="180" y2="18" stroke="#1f2328" stroke-width="2"/>
+<circle cx="166" cy="18" r="3" fill="#1f2328" stroke="none"/>
+<text x="186" y="23" fill="#1f2328" stroke="none" font-size="13">甲</text>
+<line x1="220" y1="18" x2="248" y2="18" stroke="#1f5fa8" stroke-width="2" stroke-dasharray="5 3"/>
+<rect x="231" y="15" width="6" height="6" fill="#1f5fa8" stroke="none"/>
+<text x="254" y="23" fill="#1f5fa8" stroke="none" font-size="13">乙</text>
+</svg>

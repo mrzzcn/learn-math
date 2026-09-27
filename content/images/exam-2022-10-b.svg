@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 310" width="440" height="310" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<line x1="65" y1="245" x2="65" y2="45" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="80" y1="245" x2="80" y2="45" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="95" y1="245" x2="95" y2="45" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="110" y1="245" x2="110" y2="45" stroke="#57606a" stroke-width="1"/>
+<line x1="125" y1="245" x2="125" y2="45" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="140" y1="245" x2="140" y2="45" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="155" y1="245" x2="155" y2="45" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="170" y1="245" x2="170" y2="45" stroke="#57606a" stroke-width="1"/>
+<line x1="185" y1="245" x2="185" y2="45" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="200" y1="245" x2="200" y2="45" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="215" y1="245" x2="215" y2="45" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="230" y1="245" x2="230" y2="45" stroke="#57606a" stroke-width="1"/>
+<line x1="245" y1="245" x2="245" y2="45" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="260" y1="245" x2="260" y2="45" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="275" y1="245" x2="275" y2="45" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="290" y1="245" x2="290" y2="45" stroke="#57606a" stroke-width="1"/>
+<line x1="305" y1="245" x2="305" y2="45" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="320" y1="245" x2="320" y2="45" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="335" y1="245" x2="335" y2="45" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="350" y1="245" x2="350" y2="45" stroke="#57606a" stroke-width="1"/>
+<line x1="50" y1="235" x2="350" y2="235" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="50" y1="225" x2="350" y2="225" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="50" y1="215" x2="350" y2="215" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="50" y1="205" x2="350" y2="205" stroke="#57606a" stroke-width="1"/>
+<line x1="50" y1="195" x2="350" y2="195" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="50" y1="185" x2="350" y2="185" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="50" y1="175" x2="350" y2="175" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="50" y1="165" x2="350" y2="165" stroke="#57606a" stroke-width="1"/>
+<line x1="50" y1="155" x2="350" y2="155" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="50" y1="145" x2="350" y2="145" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="50" y1="135" x2="350" y2="135" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="50" y1="125" x2="350" y2="125" stroke="#57606a" stroke-width="1"/>
+<line x1="50" y1="115" x2="350" y2="115" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="50" y1="105" x2="350" y2="105" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="50" y1="95" x2="350" y2="95" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="50" y1="85" x2="350" y2="85" stroke="#57606a" stroke-width="1"/>
+<line x1="50" y1="75" x2="350" y2="75" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="50" y1="65" x2="350" y2="65" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="50" y1="55" x2="350" y2="55" stroke="#e3e6ea" stroke-width="1"/>
+<line x1="50" y1="45" x2="350" y2="45" stroke="#57606a" stroke-width="1"/>
+<line x1="50" y1="245" x2="398" y2="245" stroke="#57606a" stroke-width="1.5"/>
+<line x1="50" y1="245" x2="50" y2="21" stroke="#57606a" stroke-width="1.5"/>
+<polygon points="406,245 398,241 398,249" fill="#57606a" stroke="none"/>
+<polygon points="50,13 46,21 54,21" fill="#57606a" stroke="none"/>
+<text x="110" y="261" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">10</text>
+<text x="170" y="261" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">20</text>
+<text x="230" y="261" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">30</text>
+<text x="290" y="261" fill="#57606a" stroke="none" text-anchor="middle" font-size="12">40</text>
+<text x="44" y="209" fill="#57606a" stroke="none" text-anchor="end" font-size="12">20</text>
+<text x="44" y="169" fill="#57606a" stroke="none" text-anchor="end" font-size="12">40</text>
+<text x="44" y="129" fill="#57606a" stroke="none" text-anchor="end" font-size="12">60</text>
+<text x="44" y="89" fill="#57606a" stroke="none" text-anchor="end" font-size="12">80</text>
+<text x="44" y="49" fill="#57606a" stroke="none" text-anchor="end" font-size="12">100</text>
+<text x="44" y="261" fill="#57606a" stroke="none" text-anchor="end" font-size="12">0</text>
+<text x="56" y="23" fill="#1f2328" stroke="none" font-style="italic">R<tspan font-size="10" dy="3" font-style="normal">1</tspan><tspan dy="-3" font-style="normal">/Ω</tspan></text>
+<text x="406" y="279" fill="#1f2328" stroke="none" text-anchor="end" font-style="italic" font-size="12">K<tspan font-style="normal">/×10</tspan><tspan font-size="9" dy="-6" font-style="normal">−3</tspan><tspan dy="6" font-style="normal">mg/100mL</tspan></text>
+<polyline points="50,45 53,50.6 56,55.9 59,61.1 62,66 65,70.8 68,75.4 71,79.8 74,84 77,88.1 80,92.1 83,95.9 86,99.6 89,103.2 92,106.6 95,109.9 98,113.2 101,116.3 104,119.3 107,122.2 110,125 113,127.7 116,130.4 119,132.9 122,135.4 125,137.8 128,140.1 131,142.4 134,144.6 137,146.7 140,148.7 143,150.7 146,152.7 149,154.6 152,156.4 155,158.2 158,159.9 161,161.6 164,163.2 167,164.8 170,166.4 173,167.9 176,169.4 179,170.8 182,172.2 185,173.5 188,174.8 191,176.1 194,177.4 197,178.6 200,179.8 203,180.9 206,182.1 209,183.2 212,184.3 215,185.3 218,186.3 221,187.3 224,188.3 227,189.3 230,190.2 233,191.1 236,192 239,192.9 242,193.7 245,194.5 248,195.3 251,196.1 254,196.9 257,197.7 260,198.4 263,199.1 266,199.8 269,200.5 272,201.2 275,201.9 278,202.5 281,203.2 284,203.8 287,204.4 290,205 293,205.6 296,206.1 299,206.7 302,207.3 305,207.8 308,208.3 311,208.8 314,209.4 317,209.8 320,210.3 323,210.8 326,211.3 329,211.7 332,212.2 335,212.6 338,213.1" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="200" y="297" fill="#57606a" stroke="none" text-anchor="middle">图 2</text>
+</svg>

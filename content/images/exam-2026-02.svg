@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" width="220" height="160" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="30,20 70,20 70,60 30,60" fill="none" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/><text x="50" y="46" fill="#1f2328" stroke="none" text-anchor="middle" font-size="18">共</text>
+<polygon points="30,60 70,60 70,100 30,100" fill="none" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/><text x="50" y="86" fill="#1f2328" stroke="none" text-anchor="middle" font-size="18">建</text>
+<polygon points="70,60 110,60 110,100 70,100" fill="none" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/><text x="90" y="86" fill="#1f2328" stroke="none" text-anchor="middle" font-size="18">美</text>
+<polygon points="110,60 150,60 150,100 110,100" fill="none" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/><text x="130" y="86" fill="#1f2328" stroke="none" text-anchor="middle" font-size="18">丽</text>
+<polygon points="150,60 190,60 190,100 150,100" fill="none" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/><text x="170" y="86" fill="#1f2328" stroke="none" text-anchor="middle" font-size="18">中</text>
+<polygon points="150,100 190,100 190,140 150,140" fill="none" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/><text x="170" y="126" fill="#1f2328" stroke="none" text-anchor="middle" font-size="18">国</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 210" width="780" height="210" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="20,70 110,70 200,160 110,160" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="110" y1="70" x2="110" y2="160" stroke="#1f2328" stroke-width="2"/>
+<polyline points="100,70 100,80 110,80" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<polyline points="110,150 120,150 120,160" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<text x="110" y="195" fill="#1f2328" stroke="none" text-anchor="middle">①</text>
+<polygon points="260,160 260,97 314.6,65.5 369.1,160" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="260" y1="97" x2="369.1" y2="160" stroke="#1f2328" stroke-width="2"/>
+<polyline points="260,150 270,150 270,160" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<polyline points="305.9,70.5 310.9,79.2 319.6,74.2" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<text x="314.6" y="195" fill="#1f2328" stroke="none" text-anchor="middle">②</text>
+<polygon points="430,160 430,70 572,108 520,160" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="430" y1="70" x2="520" y2="160" stroke="#1f2328" stroke-width="2"/>
+<polyline points="430,150 440,150 440,160" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<polyline points="512.9,152.9 520,145.9 527.1,152.9" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<text x="501" y="195" fill="#1f2328" stroke="none" text-anchor="middle">③</text>
+<polygon points="650,160 650,97 736.1,73.9 759.1,160" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="650" y1="97" x2="759.1" y2="160" stroke="#1f2328" stroke-width="2"/>
+<polyline points="650,150 660,150 660,160" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<polyline points="726.4,76.5 729,86.2 738.6,83.6" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<text x="704.6" y="195" fill="#1f2328" stroke="none" text-anchor="middle">④</text>
+</svg>

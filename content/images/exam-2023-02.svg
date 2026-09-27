@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 225" width="160" height="225" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<path d="M 89 12 C 88.5 13 86.7 13.3 86 18 C 85.3 22.7 84.8 32.7 85 40 C 85.2 47.3 84.2 53.7 87 62 C 89.8 70.3 97.2 80.7 102 90 C 106.8 99.3 114 108.7 116 118 C 118 127.3 116.3 138.3 114 146 C 111.7 153.7 104.7 160 102 164 C 99.3 168 98.7 169 98 170" stroke="#1f2328" stroke-width="2" fill="none"/>
+<path d="M 71 12 C 71.5 13 73.3 13.3 74 18 C 74.7 22.7 75.2 32.7 75 40 C 74.8 47.3 75.8 53.7 73 62 C 70.2 70.3 62.8 80.7 58 90 C 53.2 99.3 46 108.7 44 118 C 42 127.3 43.7 138.3 46 146 C 48.3 153.7 55.3 160 58 164 C 60.7 168 61.3 169 62 170" stroke="#1f2328" stroke-width="2" fill="none"/>
+<ellipse cx="80" cy="12" rx="9" ry="2.5" stroke="#1f2328" stroke-width="1.5" fill="none"/>
+<line x1="62" y1="170" x2="98" y2="170" stroke="#1f2328" stroke-width="2"/>
+<line x1="60" y1="176" x2="100" y2="176" stroke="#1f2328" stroke-width="2"/>
+<line x1="62" y1="170" x2="60" y2="176" stroke="#1f2328" stroke-width="1.5"/>
+<line x1="98" y1="170" x2="100" y2="176" stroke="#1f2328" stroke-width="1.5"/>
+<line x1="40" y1="212" x2="46" y2="192" stroke="#1f2328" stroke-width="1.5"/>
+<polygon points="47,186 42,194 50,195" fill="#1f2328" stroke="none"/>
+<text x="52" y="210" fill="#1f2328" stroke="none" font-size="13">正面</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 215" width="320" height="215" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<path d="M 120 30 A 160 160 0 0 1 280 190 L 200 190 A 160 160 0 0 0 120 51.4 Z" fill="#57606a" stroke="none"/>
+<line x1="40" y1="190" x2="40" y2="30" stroke="#1f2328" stroke-width="2"/>
+<line x1="40" y1="190" x2="280" y2="190" stroke="#1f2328" stroke-width="2"/>
+<line x1="120" y1="190" x2="120" y2="30" stroke="#1f2328" stroke-width="2"/>
+<path d="M 40 30 A 160 160 0 0 1 200 190" stroke="#1f2328" stroke-width="2"/>
+<path d="M 120 30 A 160 160 0 0 1 280 190" stroke="#1f2328" stroke-width="2"/>
+<polyline points="40,180 50,180 50,190" stroke="#1f2328" stroke-width="1.2" fill="none"/>
+<text x="30" y="30" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="124" y="22" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A′</text>
+<text x="32" y="208" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+<text x="120" y="210" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O′</text>
+<text x="200" y="210" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="284" y="210" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B′</text>
+</svg>

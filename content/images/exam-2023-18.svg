@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 190" width="260" height="190" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="70,25 35,165 225,165" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="177.1" cy="121.7" r="3.5" fill="#1f2328" stroke="none"/>
+<text x="66" y="17" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="25" y="181" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="235" y="181" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="187.1" y="115.7" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+</svg>

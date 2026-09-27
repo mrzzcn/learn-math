@@ -51,6 +51,7 @@ python3 -m http.server 8788 --directory dist
 其他命令：
 
 - `pnpm pdf`：生成 A4 纵向 PDF，输出到 `output/<title>.pdf`。
+- `pnpm pdf:exams`：生成历年真题 PDF，每年一份，输出到 `output/exams/exam-<年份>.pdf`：前面是试卷（去掉考点、答案和思路），后面是参考答案与思路。
 - `pnpm pdf:sample`：只生成 `site.config.mjs` 里 `sample` 指定的几节，用来快速看版式。也可以用 `node tools/pdf.mjs --only <路径前缀>` 生成任意几节。
 - `pnpm merge`：按目录顺序把全部页面合并成一个 `guide.md`。
 - `python3 tools/zh_typeset.py content/**/*.md`：检查中文排版，加 `--write` 直接修改。
@@ -73,6 +74,7 @@ python3 -m http.server 8788 --directory dist
   - 标题下方空间不够时，标题会连同后面的内容一起移到下一页。
 - **交叉引用：** 变成 PDF 内部链接，后面加“（第 N 页）”。
 - **字体：** Noto Sans SC（思源黑体，SIL OFL 开源授权）的 Regular 和 Bold 静态 TTF。首次运行时，`tools/fonts.mjs` 通过 jsDelivr 下载到 `tools/fonts/`，约 20 MB，不提交到仓库。
+- **历年真题：** 附录里每年一页（`content/appendix/exam-<年份>.md`），每题标注“考点”。构建时按考点在对应正文页末尾自动加一行“真题：”链接；`pnpm build` 还会生成每年一份真题 PDF，放在下载页。
 - **网页下载页：** `content/download.md` 是网站最后一页“PDF 下载”，只在网页上出现，不排进 PDF。构建时，PDF 复制到 `dist/downloads/guide.pdf`，页面里的页数、大小、日期自动填好。
 - **两遍排版：** 为了让页眉和交叉引用的页码准确，脚本先排一遍拿到各节标题的页码，再正式输出。如果第二遍页码有变化，会打印警告。
 

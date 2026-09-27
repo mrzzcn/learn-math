@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 205" width="320" height="205" font-size="14" font-family="-apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="none">
+<polygon points="103.7,27.4 40,185 210,185 273.7,27.4" fill="none" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/>
+<line x1="103.7" y1="27.4" x2="210" y2="185" stroke="#1f2328" stroke-width="2"/>
+<line x1="40" y1="185" x2="273.7" y2="27.4" stroke="#1f2328" stroke-width="2"/>
+<line x1="156.8" y1="106.2" x2="241.8" y2="106.2" stroke="#1f2328" stroke-width="2"/>
+<text x="93.7" y="23.4" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">A</text>
+<text x="30" y="197" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">B</text>
+<text x="218" y="201" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">C</text>
+<text x="283.7" y="23.4" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">D</text>
+<text x="154.8" y="126.2" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">O</text>
+<text x="253.8" y="110.2" fill="#1f2328" stroke="none" text-anchor="middle" font-style="italic">E</text>
+</svg>
