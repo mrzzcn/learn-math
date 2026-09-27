@@ -12,6 +12,9 @@
   };
   btn.addEventListener('click', () => setNav(!body.classList.contains('nav-open')));
   scrim.addEventListener('click', () => setNav(false));
+  // 和 style.css 的抽屉断点一致；转成横屏、目录常驻显示时收起抽屉和遮罩
+  const drawer = matchMedia('(max-width: 1023px), (max-width: 1366px) and (orientation: portrait)');
+  drawer.addEventListener('change', e => { if (!e.matches) setNav(false); });
 
   // 当前页在侧栏里滚到可见处
   // 只滚动侧栏本身，不带动整个页面
