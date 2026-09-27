@@ -80,7 +80,7 @@ python3 -m http.server 8788 --directory dist
 
 ## 发布到 Cloudflare
 
-项目以 Cloudflare Workers 静态资源的方式部署，配置在 `wrangler.jsonc`：上传 `dist/`，找不到的页面返回 `404.html`。
+项目以 Cloudflare Workers 静态资源的方式部署，配置在 `wrangler.jsonc`：上传 `dist/`，找不到的页面返回 `404.html`。构建时按 `site.config.mjs` 的 `siteUrl` 生成 `sitemap.xml` 和 `robots.txt`，列出全部页面，`lastmod` 取页面文件最后一次提交的日期。
 
 **方式一：连接 Git 仓库（推荐）。** 在 Cloudflare 控制台依次进入 Workers & Pages → Create，导入 GitHub 仓库，并填写：
 

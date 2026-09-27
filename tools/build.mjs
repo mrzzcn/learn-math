@@ -5,6 +5,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execFileSync } from 'node:child_process';
 import MarkdownIt from 'markdown-it';
 import config from '../site.config.mjs';
 import { mathPlugin, mathHtmlRules } from './math.mjs';
@@ -537,6 +538,26 @@ function copyDir(from, to) {
   }
 }
 
+// sitemap.xml 和 robots.txt：列出全部页面，lastmod 取页面文件最后一次提交的日期（未提交的取今天）
+function writeSitemap(pages) {
+  if (!config.siteUrl) return console.log('warning: site.config.mjs 没有 siteUrl，不生成 sitemap.xml');
+  const base = config.siteUrl.replace(/\/$/, '');
+  const today = new Date().toISOString().slice(0, 10);
+  const lastmod = file => {
+    try {
+      const out = execFileSync('git', ['log', '-1', '--format=%cs', '--', path.join(CONTENT, file)], { cwd: ROOT, encoding: 'utf8' }).trim();
+      const dirty = execFileSync('git', ['status', '--porcelain', '--', path.join(CONTENT, file)], { cwd: ROOT, encoding: 'utf8' }).trim();
+      return dirty || !out ? today : out;
+    } catch { return today; }
+  };
+  // 页面都输出成 <路径>/index.html，规范地址以 / 结尾
+  const loc = url => base + (url.endsWith('/') ? url : url + '/');
+  const urls = pages.map(p => `  <url>\n    <loc>${loc(p.url)}</loc>\n    <lastmod>${lastmod(p.file)}</lastmod>\n  </url>`);
+  fs.writeFileSync(path.join(DIST, 'sitemap.xml'),
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join('\n')}\n</urlset>\n`);
+  fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${base}/sitemap.xml\n`);
+}
+
 function build() {
   const groups = readSummary();
   const pages = loadPages(groups);
@@ -573,6 +594,8 @@ function build() {
   const nf = { ...pages[0], title: '页面不存在', url: '/404', headings: [], group: { title: null }, first: false };
   fs.writeFileSync(path.join(DIST, '404.html'),
     layout({ page: nf, body: '<h1>页面不存在</h1><p>这个地址没有内容。可以从左侧目录找，或者<a href="/">回到首页</a>。</p>', groups, pages }));
+
+  writeSitemap(pages);
 
   console.log(`built ${pages.length} pages → dist/ (search index ${index.length} entries)`);
   const problems = [...unresolved, ...makeXrefProbe(pages)];
