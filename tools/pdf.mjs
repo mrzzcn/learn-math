@@ -9,8 +9,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import MarkdownIt from 'markdown-it';
 import pdfmake from 'pdfmake';
-import { ROOT, CONTENT, SITE_TITLE, config, WEB_ONLY, readSummary, loadPages, makeXref, markInlineEmphasis } from './build.mjs';
+import { ROOT, CONTENT, SITE_TITLE, config, WEB_ONLY, readSummary, loadPages, makeXref, markInlineEmphasis, mergeFirstColumn, FIRST_COL_MAX, makePage } from './build.mjs';
 import { ensureFonts } from './fonts.mjs';
+import { mathPlugin, texToSvg, texToRuns } from './math.mjs';
+import { createRequire } from 'node:module';
 
 // ---------- 参数 ----------
 
@@ -23,7 +25,7 @@ const OUT = path.resolve(ROOT, opt('--out') || path.join('output', ONLY ? `样�
 
 const MM = 2.835;
 const PAGE = { width: 595.28, height: 841.89 };               // A4 纵向
-const MARGIN = [18 * MM, 15 * MM, 12 * MM, 12 * MM];            // 左 上 右 下：左边保留装订余量，其余收窄
+const MARGIN = [15 * MM, 10 * MM, 9 * MM, 10 * MM];             // 左 上 右 下：左边比右边宽，留出装订余量
 const CONTENT_W = PAGE.width - MARGIN[0] - MARGIN[2];
 const C = {
   text: '#1f2328', soft: '#57606a', line: '#d9dde3', fill: '#f4f5f7', head: '#eef0f3',
@@ -34,6 +36,55 @@ const C = {
 // ---------- 字体 ----------
 
 const FONT = 'Noto Sans SC';
+const MATH_FONT = 'STIX Two Text';
+const FIG_FONT = 'Figure';          // 图里的文字：中文用思源黑体，斜体的点名用 STIX Two Text 斜体   // 行内公式的字母、数字；它没有的符号（≤、√、∠ 等）退回思源黑体
+let mathGlyphs = null;
+const hasMathGlyph = ch => {
+  if (!mathGlyphs) {
+    const fontkit = createRequire(createRequire(import.meta.url).resolve('pdfmake'))('fontkit');
+    mathGlyphs = fontkit.openSync(path.join(ROOT, 'tools/fonts/STIXTwoText_400Regular.ttf'));
+  }
+  return mathGlyphs.hasGlyphForCodePoint(ch.codePointAt(0));
+};
+
+// 行内公式 → 文字片段：按字符是否在 STIX 里切分字体
+function mathRuns(tex) {
+  const out = [];
+  const all = texToRuns(tex);
+  // 短公式内部用不换行空格，不被拆到两行；长公式（如连等式）允许在运算符旁换行，
+  // 否则整个公式挤到下一行，上一行两端对齐时字距会被拉得很开
+  const short = textWidthUnits(all.map(r => r.text).join('')) <= 14;
+  for (const r of all) {
+    let buf = '', inMath = null;
+    const flush = () => {
+      if (!buf) return;
+      // 公式内部用不换行空格，避免一个式子被拆到两行
+      const piece = { text: r.plain || !short ? buf : buf.replace(/ /g, '\u00a0'), font: inMath ? MATH_FONT : FONT };
+      if (inMath && r.italics) piece.italics = true;
+      if (r.sup) piece.sup = true;
+      if (r.sub) piece.sub = true;
+      out.push(piece); buf = '';
+    };
+    for (const ch of r.text) {
+      const m = !r.plain && (ch === ' ' ? inMath ?? true : hasMathGlyph(ch));
+      if (inMath !== null && m !== inMath) flush();
+      inMath = m; buf += ch;
+    }
+    flush();
+  }
+  return out;
+}
+
+// 独立公式 → pdfmake 的 svg 节点（MathJax 的 ex 单位换算成 pt）
+const EX = 4.9;
+function mathBlock(tex) {
+  let svg = texToSvg(tex, true);
+  const w = parseFloat(svg.match(/width="([\d.]+)ex"/)[1]) * EX;
+  const h = parseFloat(svg.match(/height="([\d.]+)ex"/)[1]) * EX;
+  svg = svg.replace(/ style="[^"]*"/, '').replace(/width="[\d.]+ex"/, `width="${w}"`).replace(/height="[\d.]+ex"/, `height="${h}"`)
+    .replace(/currentColor/g, C.text);
+  return { svg, width: Math.min(w, CONTENT_W), alignment: 'center', margin: [0, 2, 0, 8], font: FONT };
+}
 
 // ---------- 小工具 ----------
 
@@ -47,6 +98,8 @@ const decode = s => { try { return decodeURIComponent(s); } catch { return s; } 
 
 function makeMd() {
   const md = new MarkdownIt({ html: true, linkify: false, typographer: false });
+  md.use(mathPlugin);
+  md.core.ruler.push('merge_first_column', mergeFirstColumn);
   md.core.ruler.push('emphasis_color', markInlineEmphasis);
   return md;
 }
@@ -72,6 +125,7 @@ function inlineToRuns(children, ctx) {
       case 'code_inline': push(t.content, { background: C.fill }); break;
       case 'softbreak': push(' '); break;
       case 'hardbreak': push('\n'); break;
+      case 'math_inline': for (const r of mathRuns(t.content)) { const { text, ...extra } = r; push(text, extra); } break;
       case 'strong_open': bold++; if ((t.attrGet('class') || '').includes('hl')) hl++; break;
       case 'strong_close': bold--; if (hl > bold) hl = bold; break;
       case 'em_open': em++; break;
@@ -128,7 +182,15 @@ function tokensToContent(tokens, ctx) {
         const level = +t.tag.slice(1);
         const inline = tokens[i + 1];
         i += 3;
-        return ctx.heading(level, inlineToRuns(inline.children, ctx).runs);
+        const runs = inlineToRuns(inline.children, ctx).runs;
+        // 真题的“第 N 题”标题后面紧跟“考点：”一段时，把考点接在题号后面，排成灰色小字
+        const next = tokens[i + 1];
+        if (level === 2 && /^第\s*\d+\s*题$/.test(inline.content.trim()) && tokens[i]?.type === 'paragraph_open' && next?.content.startsWith('考点：')) {
+          const tags = inlineToRuns(next.children, ctx).runs.map(r => ({ ...r, fontSize: 8.5, bold: false, color: r.color || C.soft }));
+          i += 3;
+          return ctx.heading(level, [...runs, { text: '　　' }, ...tags]);
+        }
+        return ctx.heading(level, runs);
       }
       case 'paragraph_open': {
         const inline = tokens[i + 1];
@@ -145,7 +207,12 @@ function tokensToContent(tokens, ctx) {
         for (const img of images) nodes.push({ ...img, margin: [0, 4, 0, 10] });
         return nodes;
       }
-      case 'bullet_list_open':
+      case 'bullet_list_open': {
+        const choice = choiceOptions();
+        if (choice) return choice;
+      }
+      // 不是选择题选项的，按普通列表处理
+      // falls through
       case 'ordered_list_open': {
         const ordered = t.type === 'ordered_list_open';
         const start = +(t.attrGet('start') || 1);
@@ -182,10 +249,37 @@ function tokensToContent(tokens, ctx) {
         };
       }
       case 'table_open': return table();
+      case 'math_block': i++; return mathBlock(t.content);
       case 'hr': i++; return { canvas: [{ type: 'line', x1: 0, y1: 0, x2: CONTENT_W, y2: 0, lineWidth: 0.6, lineColor: C.line }], margin: [0, 8, 0, 12] };
       case 'html_block': i++; return null;
       default: i++; return null;
     }
+  };
+
+  // 选择题选项：列表的每一项都是“A. …”这样的一段文字（没有图）时，不排成列表，
+  // 按最长选项的宽度排成一行 4 个、一行 2 个或一行 1 个
+  const choiceOptions = () => {
+    let j = i + 1;
+    const items = [];
+    while (tokens[j]?.type === 'list_item_open') {
+      const [po, inl, pc, lc] = [tokens[j + 1], tokens[j + 2], tokens[j + 3], tokens[j + 4]];
+      if (po?.type !== 'paragraph_open' || pc?.type !== 'paragraph_close' || lc?.type !== 'list_item_close') return null;
+      if (!/^[A-H][.．]\s*/.test(inl.content) || inl.children.some(c => c.type === 'image')) return null;
+      items.push(inlineToRuns(inl.children, ctx).runs);
+      j += 5;
+    }
+    if (tokens[j]?.type !== 'bullet_list_close' || items.length < 2) return null;
+    i = j + 1;
+    const GAP = 10;
+    const widest = Math.max(...items.map(r => textWidthUnits(r.map(runText).join('')))) * 10.5 + 6;
+    const perRow = widest <= (CONTENT_W - 3 * GAP) / 4 ? 4 : widest <= (CONTENT_W - GAP) / 2 ? 2 : 1;
+    const rows = [];
+    for (let k = 0; k < items.length; k += perRow) {
+      const cells = items.slice(k, k + perRow).map(runs => ({ text: runs, width: '*' }));
+      while (cells.length < perRow) cells.push({ text: '', width: '*' });
+      rows.push({ columns: cells, columnGap: GAP, margin: [0, 0, 0, 3] });
+    }
+    return { stack: rows, margin: [0, 0, 0, 6] };
   };
 
   const table = () => {
@@ -201,12 +295,15 @@ function tokensToContent(tokens, ctx) {
         const inline = tokens[i + 1];
         const { runs, images } = inlineToRuns(inline.children, ctx);
         const align = (t.attrGet('style') || '').match(/text-align:(\w+)/)?.[1];
-        rows.at(-1).cells.push({ runs, images, head: t.type === 'th_open', align });
+        const rowSpan = +(t.attrGet('rowspan') || 1);
+        rows.at(-1).cells.push({ runs, images, head: t.type === 'th_open', align, rowSpan, merged: t.hidden });
         i += 2;
       }
       i++;
     }
     i++;
+
+    rows.forEach((r, k) => { const c = r.cells[0]; if (c?.merged && !rows[k + 1]?.cells[0]?.merged) c.lastMerged = true; });
 
     // 列宽：按每列最长一行的显示宽度分配，图片列给够图片宽度
     const ncol = Math.max(...rows.map(r => r.cells.length));
@@ -226,6 +323,11 @@ function tokensToContent(tokens, ctx) {
         minPt[k] = Math.max(minPt[k], word.length * (run.bold || c.head ? 5.9 : 5.4) + 12);
       }
     }));
+    // 第一列（主题、名称）尽量不换行：最多约 FIRST_COL_MAX 个汉字宽
+    if (ncol > 1) {
+      const first = Math.max(...rows.map(r => Math.max(...(r.cells[0]?.runs.map(runText).join('').split('\n') || ['']).map(textWidthUnits))));
+      minPt[0] = Math.max(minPt[0], Math.min(first, FIRST_COL_MAX) * 9.6 + 2);
+    }
     const total = need.reduce((a, b) => a + b, 0);
     const avail = CONTENT_W - ncol * 12;   // 减去内边距
     // 先按需要分配，再把低于最小宽度的列补足，差额从其他列按比例扣
@@ -242,11 +344,15 @@ function tokensToContent(tokens, ctx) {
 
     const body = rows.map(r => {
       const cells = r.cells.map(c => {
+        // 合并单元格：不用 rowSpan（pdfmake 在需要重排版时会把合并行的高度算大），
+        // 改成上面一格写字、下面几格留空，并去掉它们之间的横线
+        if (c.merged) return { text: '', border: [true, false, true, c.lastMerged] };
         const stack = [];
         if (c.runs.length) stack.push({ text: c.runs, alignment: c.align });
         for (const im of c.images) stack.push({ ...im, margin: [0, 3, 0, 0] });
         const cell = stack.length === 1 ? stack[0] : { stack };
         if (c.head) { cell.style = 'th'; cell.fillColor = C.head; }
+        if (c.rowSpan > 1) cell.border = [true, true, true, false];
         return cell;
       });
       while (cells.length < ncol) cells.push({ text: '' });
@@ -269,17 +375,13 @@ function tokensToContent(tokens, ctx) {
 
 // ---------- 组装全书 ----------
 
-async function main() {
-  await ensureFonts();
-
-  const groups = readSummary();
-  let pages = loadPages(groups).filter(p => !WEB_ONLY.has(p.file));   // 下载页等只在网页上出现
-  const allPages = pages;
-  if (ONLY) pages = pages.filter(p => p.file.startsWith(ONLY));
-  if (!pages.length) throw new Error(`--only ${ONLY} 没有匹配的页面`);
+// opts：pages 要排的页面；allPages 全书页面（解析交叉引用用）；out 输出文件；
+//       cover 封面（'image' 用封面图，或 { title, lines } 文字封面）；toc 是否排目录；title PDF 文档标题
+async function render({ pages, allPages, out, cover, toc = true, title = SITE_TITLE }) {
 
   const xref = makeXref(allPages);
   const byUrl = Object.fromEntries(allPages.map(p => [p.url, p]));
+  const byFile = Object.fromEntries(allPages.map(p => [p.file, p]));
   const included = new Set(pages.map(p => p.file));
   const md = makeMd();
 
@@ -290,16 +392,23 @@ async function main() {
 
   const content = [];
 
-  // 封面
-  content.push(
-    { text: SITE_TITLE, style: 'coverTitle', margin: [0, 230, 0, 12] },
-    { text: config.subtitle, style: 'coverSub' },
-    { text: ONLY ? `样张：${pages.map(p => p.label).join('、')}` : config.audience, style: 'coverSub', margin: [0, 6, 0, 0] },
+  // 封面：配置了封面图就整页铺满。图要事先裁成 A4 比例（宽:高 = 1:1.414），不能超出页面，
+  // 否则有的阅读器缩放后不再显示。样张和没有封面图时用文字封面
+  const coverFile = config.cover && path.join(ROOT, config.cover);
+  if (cover === 'image' && coverFile && fs.existsSync(coverFile)) {
+    content.push(
+      { image: coverFile, width: PAGE.width, height: PAGE.height, absolutePosition: { x: 0, y: 0 } },
+      { text: '', pageBreak: 'after' },
+    );
+  } else content.push(
+    { text: cover.title || SITE_TITLE, style: 'coverTitle', margin: [0, 230, 0, 12] },
+    ...(cover.lines || [config.subtitle, `面向${config.audience}`]).map((t, k) => ({ text: t, style: 'coverSub', margin: [0, k ? 6 : 0, 0, 0] })),
     { text: `生成日期：${new Date().toISOString().slice(0, 10)}`, style: 'coverDate', absolutePosition: { x: MARGIN[0], y: PAGE.height - 110 } },
     { text: '', pageBreak: 'after' },
   );
 
   // 目录：手工表格，页码用 pageReference 自动回填，每行下面一条点线
+  if (toc) {
   const tocRows = [];
   let lastGroup = null;
   for (const p of pages) {
@@ -326,6 +435,7 @@ async function main() {
       pageBreak: 'after',
     },
   );
+  }
 
   // 正文
   let prevGroup = null;
@@ -353,7 +463,8 @@ async function main() {
       resolveLink(href) {
         if (/^https?:\/\//.test(href)) return { attrs: { link: href, color: C.link } };
         const [u, hash] = href.split('#');
-        const target = byUrl[u];
+        // 普通 Markdown 链接（如 ../index.md）按页面文件解析
+        const target = u.endsWith('.md') ? byFile[path.posix.normalize(path.posix.join(path.posix.dirname(page.file), u))] : byUrl[u];
         if (!target || !included.has(target.file)) return { attrs: {} };   // 样张里不包含的页，当普通文字
         const id = hash ? `${pageKey(target.file)}--${decode(hash)}` : pageKey(target.file);
         return {
@@ -371,7 +482,7 @@ async function main() {
           const vb = svg.match(/viewBox="[\d.\s-]+ ([\d.]+) ([\d.]+)"/);
           const natural = vb ? +vb[1] : 180;
           const width = natural > 300 ? Math.min(CONTENT_W, natural * 0.75) : inCellWidth;
-          return { svg, width, font: FONT };
+          return { svg, width, font: FIG_FONT };
         }
         return { image: file, width: inCellWidth };
       },
@@ -391,12 +502,12 @@ async function main() {
 
   // ---------- 文档定义 ----------
 
-  const firstBodyPage = 3;   // 1 封面，2 起目录（目录可能不止一页，页眉页脚从正文所在页判断）
+  const firstBodyPage = toc ? 3 : 2;   // 1 封面，2 起目录（目录可能不止一页，页眉页脚从正文所在页判断）
   const docDefinition = {
     pageSize: 'A4',
     pageOrientation: 'portrait',
     pageMargins: MARGIN,
-    info: { title: SITE_TITLE, author: SITE_TITLE, subject: config.audience },
+    info: { title, author: SITE_TITLE, subject: config.audience },
     defaultStyle: { font: FONT, fontSize: 10.5, lineHeight: 1.22, color: C.text },
     styles: {
       coverTitle: { fontSize: 30, bold: true, alignment: 'center' },
@@ -436,18 +547,31 @@ async function main() {
           { text: cur.part, alignment: 'left' },
           { text: cur.title, alignment: 'right' },
         ],
-        fontSize: 8.5, color: C.soft, margin: [MARGIN[0], 7 * MM, MARGIN[2], 0],
+        // 页眉必须放得进上边距，放不下 pdfmake 会整个丢掉；思源黑体行高偏大，这里把行高设为 1
+        fontSize: 8.5, lineHeight: 1, color: C.soft, margin: [MARGIN[0], 4 * MM, MARGIN[2], 0],
       };
     },
     footer(currentPage) {
       if (currentPage === 1) return null;
-      return { text: String(currentPage), alignment: 'center', fontSize: 9, color: C.soft, margin: [0, 4 * MM, 0, 0] };
+      return { text: String(currentPage), alignment: 'center', fontSize: 9, color: C.soft, margin: [0, 3.5 * MM, 0, 0] };
     },
   };
   return { docDefinition, content };
   };
 
   pdfmake.setFonts({
+    [FIG_FONT]: {
+      normal: path.join(ROOT, 'tools/fonts/NotoSansSC-Regular.ttf'),
+      bold: path.join(ROOT, 'tools/fonts/NotoSansSC-Bold.ttf'),
+      italics: path.join(ROOT, 'tools/fonts/STIXTwoText_400Regular_Italic.ttf'),
+      bolditalics: path.join(ROOT, 'tools/fonts/STIXTwoText_700Bold_Italic.ttf'),
+    },
+    [MATH_FONT]: {
+      normal: path.join(ROOT, 'tools/fonts/STIXTwoText_400Regular.ttf'),
+      bold: path.join(ROOT, 'tools/fonts/STIXTwoText_700Bold.ttf'),
+      italics: path.join(ROOT, 'tools/fonts/STIXTwoText_400Regular_Italic.ttf'),
+      bolditalics: path.join(ROOT, 'tools/fonts/STIXTwoText_700Bold_Italic.ttf'),
+    },
     [FONT]: {
       normal: path.join(ROOT, 'tools/fonts/NotoSansSC-Regular.ttf'),
       bold: path.join(ROOT, 'tools/fonts/NotoSansSC-Bold.ttf'),
@@ -465,20 +589,89 @@ async function main() {
     },
   });
 
-  fs.mkdirSync(path.dirname(OUT), { recursive: true });
+  fs.mkdirSync(path.dirname(out), { recursive: true });
   const t0 = Date.now();
-  // 第一遍：只为拿到各节标题的页码
-  const first = buildDoc({});
-  await pdfmake.createPdf(first.docDefinition).getBuffer();
-  const headingPage = {};
-  for (const n of first.content) if (n.id && n.positions?.length) headingPage[n.id] = n.positions[0].pageNumber;
-  // 第二遍：带页眉正式输出
-  const second = buildDoc(headingPage);
-  await pdfmake.createPdf(second.docDefinition).write(OUT);
-  // 核对：第二遍的实际页码要和填进去的页码一致（填入的数字比占位短，极少数情况下会让排版挪动）
-  const moved = second.content.filter(n => n.id && n.positions?.length && n.positions[0].pageNumber !== headingPage[n.id]);
-  if (moved.length) console.warn(`警告：${moved.length} 个标题的页码在第二遍发生变化，交叉引用页码可能差一页：`, moved.slice(0, 5).map(n => n.id));
-  console.log(`pdf: ${pages.length} 节内容 → ${path.relative(ROOT, OUT)}（${((Date.now() - t0) / 1000).toFixed(1)} s）`);
+  // 反复排版，直到各节标题的页码不再变化：第一遍页码用占位，之后每遍用上一遍排出的页码
+  // （填入的页码长短不同、页眉内容不同，都可能让后面的内容挪动，全书页数多时要多排几遍）
+  let headingPage = {}, buf = null, moved = [];
+  for (let pass = 1; pass <= 5; pass++) {
+    const doc = buildDoc(headingPage);
+    buf = await pdfmake.createPdf(doc.docDefinition).getBuffer();
+    const got = {};
+    for (const n of doc.content) if (n.id && n.positions?.length) got[n.id] = n.positions[0].pageNumber;
+    moved = Object.keys(got).filter(id => got[id] !== headingPage[id]);
+    headingPage = got;
+    if (pass > 1 && !moved.length) break;
+  }
+  fs.writeFileSync(out, buf);
+  if (moved.length) console.warn(`警告：排了 5 遍仍有 ${moved.length} 个标题的页码在变化，交叉引用页码可能差一页：`, moved.slice(0, 5));
+  console.log(`pdf: ${pages.length} 节内容 → ${path.relative(ROOT, out)}（${((Date.now() - t0) / 1000).toFixed(1)} s）`);
+}
+
+// ---------- 真题：答案排得紧凑些 ----------
+// 1. 只有“**答案：**”的一段，和后面的文字段合并，“答案：”不单独占一行；
+// 2. 答案很短（选择题、填空题）时，和后面的“**思路：**”排在同一段。
+// 只用于 PDF，网页上保持原样
+function compactAnswers(src) {
+  src = src.replace(/^\*\*答案：\*\*[ \t]*\n\n(?!\$\$|[-*] |\d+\. |!\[|\||#|\*\*思路)/gm, '**答案：** ');
+  return src.replace(/^(\*\*答案：\*\* [^\n]+)\n\n(?=\*\*思路：\*\*)/gm, (all, ans) => {
+    const plainAns = ans.replace(/\$([^$]*)\$/g, (_, t) => t.replace(/\\[a-z]+|[{}^_\s]/gi, '')).replace(/\*\*/g, '');
+    return textWidthUnits(plainAns) <= 30 ? `${ans}　　` : all;
+  });
+}
+const isExamFile = f => /^appendix\/exam-\d{4}(-answers)?\.md$/.test(f);
+
+// ---------- 真题：每年一份，前面是试卷，后面是参考答案与思路 ----------
+
+// 把真题页拆成试卷和答案两段：试卷去掉每题的“考点”和从“**答案：**”起的部分；答案只留题号、答案和思路
+function splitExam(src) {
+  const [head, ...blocks] = src.split(/^(?=## 第\s*\d+\s*题)/m);
+  const intro = head.replace(/^# .*\n/, '').trim();
+  const paper = [], answers = [];
+  for (const b of blocks) {
+    const lines = b.replace(/\s+$/, '').split('\n');
+    const h = lines[0];
+    const body = lines.slice(1).join('\n').replace(/^\s*考点：.*\n/, '');
+    const k = body.search(/^\*\*答案：\*\*/m);
+    paper.push(`${h}\n${k < 0 ? body : body.slice(0, k)}`.trimEnd());
+    // 答案部分不单独占一行写题号：题号并进“答案：”标签，如“**第 1 题　答案：** A　　**思路：** …”
+    const n = h.match(/\d+/)[0];
+    const ans = compactAnswers(k < 0 ? '**答案：** （暂缺）' : body.slice(k).trim());
+    answers.push(ans.replace(/^\*\*答案：\*\*/, `**第 ${n} 题　答案：**`));
+  }
+  return { intro, paper: paper.join('\n\n'), answers: answers.join('\n\n') };
+}
+
+async function main() {
+  await ensureFonts();
+  const allPages = loadPages(readSummary()).filter(p => !WEB_ONLY.has(p.file));   // 下载页等只在网页上出现
+
+  if (args.includes('--exams')) {
+    for (const exam of allPages.filter(p => /^appendix\/exam-\d{4}\.md$/.test(p.file))) {
+      const year = exam.file.match(/(\d{4})/)[1];
+      const name = exam.title;
+      const { intro, paper, answers } = splitExam(exam.src);
+      const part1 = { title: `${name} · 试卷` }, part2 = { title: `${name} · 参考答案与思路` };
+      const pages = [
+        makePage(`appendix/exam-${year}-paper.md`, '试卷', `# 试卷\n\n${intro}\n\n${paper}\n`, part1),
+        makePage(`appendix/exam-${year}-answers.md`, '参考答案与思路', `# 参考答案与思路\n\n${answers}\n`, part2),
+      ];
+      await render({
+        pages, allPages, toc: false, title: name,
+        out: path.join(ROOT, 'output', 'exams', `exam-${year}.pdf`),
+        cover: { title: name, lines: [intro.replace(/^>\s*/, ''), `${SITE_TITLE} · 附录`] },
+      });
+    }
+    return;
+  }
+
+  let pages = allPages.map(p => (isExamFile(p.file) ? { ...p, src: compactAnswers(p.src) } : p));
+  if (ONLY) pages = pages.filter(p => p.file.startsWith(ONLY));
+  if (!pages.length) throw new Error(`--only ${ONLY} 没有匹配的页面`);
+  await render({
+    pages, allPages, out: OUT,
+    cover: ONLY ? { lines: [config.subtitle, `样张：${pages.map(p => p.label).join('、')}`] } : 'image',
+  });
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

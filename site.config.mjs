@@ -6,4 +6,5 @@ export default {
   slug: 'learn-math',                           // Release 附件名 learn-math-guide-<标签>.pdf
   sample: '7-function',                         // pnpm pdf:sample 默认只排的路径前缀
   citePrefixes: ['依据', '出处'],  // 以这些词开头的段落在 PDF 里排成灰色小字（左对齐）
+  cover: 'content/images/cover.jpg',            // PDF 封面图，A4 比例，已含书名等文字（原图 cover.png）；删掉这一行就用文字封面
 };
