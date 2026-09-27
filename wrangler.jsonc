@@ -8,5 +8,9 @@
     "directory": "./dist",
     // 找不到页面时返回 dist/404.html
     "not_found_handling": "404-page"
+  },
+  // 在 Cloudflare 控制台查看请求日志和指标
+  "observability": {
+    "enabled": true
   }
 }
