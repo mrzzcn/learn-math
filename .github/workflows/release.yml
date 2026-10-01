@@ -44,7 +44,9 @@ jobs:
 
       # 附件名用英文：GitHub 会把附件名里的中文替换掉
       - name: 整理附件
-        run: cp "output/${TITLE}.pdf" "${SLUG}-guide-${TAG}.pdf"
+        run: |
+          cp "output/${TITLE}.pdf" "${SLUG}-guide-${TAG}.pdf"
+          cp "output/${TITLE}-打印版.pdf" "${SLUG}-guide-${TAG}-print.pdf"
 
       - uses: softprops/action-gh-release@v2
         with:
@@ -52,5 +54,9 @@ jobs:
           name: ${{ env.TITLE }} ${{ env.TAG }}
           body: |
             A4 纵向 PDF，内容和网页版相同，带目录、页码和可点击的交叉引用。
-          files: ${{ env.SLUG }}-guide-${{ env.TAG }}.pdf
+            - `*-guide-*.pdf`：阅读版，适合在屏幕上看。
+            - `*-guide-*-print.pdf`：打印版，装订边距左右镜像、各部分从正面开始，适合双面打印后装订。
+          files: |
+            ${{ env.SLUG }}-guide-${{ env.TAG }}.pdf
+            ${{ env.SLUG }}-guide-${{ env.TAG }}-print.pdf
           fail_on_unmatched_files: true

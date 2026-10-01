@@ -4,6 +4,7 @@
 //   node tools/pdf.mjs --only 1-part      只排文件名以此开头的页面（出样张）
 //   node tools/pdf.mjs --sample           同 --only，路径前缀取 site.config.mjs 的 sample
 //   node tools/pdf.mjs --out 文件名.pdf          指定输出文件
+//   node tools/pdf.mjs --print            双面打印版 → output/<书名>-打印版.pdf（可和 --only 一起用）
 // 渲染规则和网站一致：交叉引用、句中加粗上色都复用 tools/build.mjs。
 import fs from 'node:fs';
 import path from 'node:path';
@@ -19,13 +20,19 @@ import { createRequire } from 'node:module';
 const args = process.argv.slice(2);
 const opt = k => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] : null; };
 const ONLY = opt('--only') || (args.includes('--sample') ? config.sample : null);
-const OUT = path.resolve(ROOT, opt('--out') || path.join('output', ONLY ? `样张-${ONLY.replace(/\W+/g, '-')}.pdf` : `${SITE_TITLE}.pdf`));
+// --print：双面打印版。装订边距左右镜像、偶数页页眉小节名在外侧、封面背面留白、各部分从奇数页开始
+const PRINT = args.includes('--print') && !args.includes('--exams');
+const SUFFIX = PRINT ? '-打印版' : '';
+const OUT = path.resolve(ROOT, opt('--out') || path.join('output', ONLY ? `样张-${ONLY.replace(/\W+/g, '-')}${SUFFIX}.pdf` : `${SITE_TITLE}${SUFFIX}.pdf`));
 
 // ---------- 版式常量（单位 pt，1 mm ≈ 2.835 pt） ----------
 
 const MM = 2.835;
 const PAGE = { width: 595.28, height: 841.89 };               // A4 纵向
-const MARGIN = [15 * MM, 10 * MM, 9 * MM, 10 * MM];             // 左 上 右 下：左边比右边宽，留出装订余量
+// 左 上 右 下。阅读版（和每年真题）左右都是 9 mm；打印版左边是装订侧（内侧）18 mm、右边外侧 12 mm（和 learn-english 一致），
+// 偶数页在绘制时整体左移 6 mm，内外侧就左右对调了（见 mirrorEvenPages）
+const MARGIN = PRINT ? [18 * MM, 10 * MM, 12 * MM, 10 * MM] : [9 * MM, 10 * MM, 9 * MM, 10 * MM];
+const MIRROR_DX = PRINT ? -(MARGIN[0] - MARGIN[2]) : 0;
 const CONTENT_W = PAGE.width - MARGIN[0] - MARGIN[2];
 const C = {
   text: '#1f2328', soft: '#57606a', line: '#d9dde3', fill: '#f4f5f7', head: '#eef0f3',
@@ -386,7 +393,8 @@ async function render({ pages, allPages, out, cover, toc = true, title = SITE_TI
   const md = makeMd();
 
   // 排两遍：第一遍排版后从节点上读出每节标题落在哪一页，第二遍据此画页眉
-  const buildDoc = (headingPage) => {
+  // blankPages：上一遍排出的空白页（打印版为了让新部分从奇数页开始空出的页），不印页眉页脚
+  const buildDoc = (headingPage, blankPages = new Set()) => {
   const sections = [];      // { id, part, title }
   const keepSpace = new Map();   // 标题 id → 标题下方至少要留的空间（pt）
 
@@ -397,12 +405,14 @@ async function render({ pages, allPages, out, cover, toc = true, title = SITE_TI
   // 样张和没有封面图时用文字封面
   const coverFile = config.cover && path.join(ROOT, config.cover);
   const coverImage = cover === 'image' && coverFile && fs.existsSync(coverFile) ? coverFile : null;
-  if (coverImage) content.push({ text: ' ', pageBreak: 'after' });
+  // 打印版不在封面后分页：目录用 beforeEven 从第 3 页（正面）开始，封面背面留白
+  const afterCover = PRINT && toc ? undefined : 'after';
+  if (coverImage) content.push({ text: ' ', pageBreak: afterCover });
   else content.push(
     { text: cover.title || SITE_TITLE, style: 'coverTitle', margin: [0, 230, 0, 12] },
     ...(cover.lines || [config.subtitle, `面向${config.audience}`]).map((t, k) => ({ text: t, style: 'coverSub', margin: [0, k ? 6 : 0, 0, 0] })),
     { text: `生成日期：${new Date().toISOString().slice(0, 10)}`, style: 'coverDate', absolutePosition: { x: MARGIN[0], y: PAGE.height - 110 } },
-    { text: '', pageBreak: 'after' },
+    { text: '', pageBreak: afterCover },
   );
 
   // 目录：手工表格，页码用 pageReference 自动回填，每行下面一条点线
@@ -421,7 +431,8 @@ async function render({ pages, allPages, out, cover, toc = true, title = SITE_TI
     ]);
   }
   content.push(
-    { text: '目录', style: 'tocTitle' },
+    // pdfmake 的 beforeEven 按从 0 开始的页序数，实际效果是从奇数页码（正面）开始
+    { text: '目录', style: 'tocTitle', pageBreak: PRINT ? 'beforeEven' : undefined },
     {
       table: { widths: ['*', 36], body: tocRows },
       layout: {
@@ -430,7 +441,7 @@ async function render({ pages, allPages, out, cover, toc = true, title = SITE_TI
         hLineStyle: () => ({ dash: { length: 1, space: 2 } }),
         vLineWidth: () => 0, paddingLeft: () => 0, paddingRight: () => 0, paddingTop: () => 3, paddingBottom: () => 3,
       },
-      pageBreak: 'after',
+      pageBreak: PRINT ? undefined : 'after',
     },
   );
   }
@@ -452,7 +463,8 @@ async function render({ pages, allPages, out, cover, toc = true, title = SITE_TI
           prevGroup = page.group;
           return {
             text, id, style: startsPart && page.first ? 'partTitle' : 'h1',
-            pageBreak: startsPart && pi > 0 ? 'before' : undefined,
+            // 新的部分另起一页；打印版另起奇数页（右手页），需要时 pdfmake 自动空出一页
+            pageBreak: startsPart && (pi > 0 || (PRINT && toc)) ? (PRINT ? 'beforeEven' : 'before') : undefined,
             headlineLevel: 1,
           };
         }
@@ -549,12 +561,12 @@ async function render({ pages, allPages, out, cover, toc = true, title = SITE_TI
       // 本页有新开始的节，取第一个；否则取之前最后开始的节
       let cur = sections.find(s => headingPage[s.id] === currentPage) || null;
       if (!cur) for (const s of sections) { const pg = headingPage[s.id]; if (pg && pg < currentPage) cur = s; }
-      if (!cur) return null;
+      if (!cur || blankPages.has(currentPage)) return null;
+      // 打印版偶数页：小节名放在外侧（左边）
+      const cols = [{ text: cur.part, alignment: 'left' }, { text: cur.title, alignment: 'right' }];
+      if (PRINT && currentPage % 2 === 0) cols.reverse().forEach((c, k) => { c.alignment = k ? 'right' : 'left'; });
       return {
-        columns: [
-          { text: cur.part, alignment: 'left' },
-          { text: cur.title, alignment: 'right' },
-        ],
+        columns: cols,
         // 页眉必须放得进上边距，放不下 pdfmake 会整个丢掉；思源黑体行高偏大，这里把行高设为 1
         fontSize: 8.5, lineHeight: 1, color: C.soft, margin: [MARGIN[0], 4 * MM, MARGIN[2], 0],
       };
@@ -564,7 +576,7 @@ async function render({ pages, allPages, out, cover, toc = true, title = SITE_TI
       return [{ image: coverImage, width: PAGE.width, height: PAGE.height, absolutePosition: { x: 0, y: 0 } }];
     },
     footer(currentPage) {
-      if (currentPage === 1) return null;
+      if (currentPage === 1 || blankPages.has(currentPage)) return null;
       return { text: String(currentPage), alignment: 'center', fontSize: 9, color: C.soft, margin: [0, 3.5 * MM, 0, 0] };
     },
   };
@@ -605,19 +617,26 @@ async function render({ pages, allPages, out, cover, toc = true, title = SITE_TI
   const t0 = Date.now();
   // 反复排版，直到各节标题的页码不再变化：第一遍页码用占位，之后每遍用上一遍排出的页码
   // （填入的页码长短不同、页眉内容不同，都可能让后面的内容挪动，全书页数多时要多排几遍）
-  let headingPage = {}, buf = null, moved = [];
+  let headingPage = {}, blankPages = new Set(), buf = null, moved = [];
   for (let pass = 1; pass <= 5; pass++) {
-    const doc = buildDoc(headingPage);
+    const doc = buildDoc(headingPage, blankPages);
     buf = await pdfmake.createPdf(doc.docDefinition).getBuffer();
     const got = {};
     for (const n of doc.content) if (n.id && n.positions?.length) got[n.id] = n.positions[0].pageNumber;
     moved = Object.keys(got).filter(id => got[id] !== headingPage[id]);
     headingPage = got;
-    if (pass > 1 && !moved.length) break;
+    // 没有任何内容落在上面的页就是空白页（封面除外）；下一遍不给它们印页眉页脚
+    const used = new Set([1]);
+    for (const n of doc.content) for (const q of n.positions || []) used.add(q.pageNumber);
+    const blank = new Set();
+    for (let i = 1; i <= Math.max(...used); i++) if (!used.has(i)) blank.add(i);
+    const blankChanged = blank.size !== blankPages.size || [...blank].some(i => !blankPages.has(i));
+    blankPages = blank;
+    if (pass > 1 && !moved.length && !blankChanged) break;
   }
   fs.writeFileSync(out, buf);
   if (moved.length) console.warn(`警告：排了 5 遍仍有 ${moved.length} 个标题的页码在变化，交叉引用页码可能差一页：`, moved.slice(0, 5));
-  console.log(`pdf: ${pages.length} 节内容 → ${path.relative(ROOT, out)}（${((Date.now() - t0) / 1000).toFixed(1)} s）`);
+  console.log(`pdf: ${pages.length} 节内容 → ${path.relative(ROOT, out)}（${((Date.now() - t0) / 1000).toFixed(1)} s${PRINT ? `，空白页 ${blankPages.size} 张` : ''}）`);
 }
 
 // ---------- 真题：答案排得紧凑些 ----------
@@ -686,4 +705,22 @@ async function main() {
   });
 }
 
+// 打印版：偶数页在绘制时整体平移，让装订侧的宽边距落在右边。
+// 排版只按奇数页的边距做一次，正文、表格、页眉页脚的相对位置都不变，链接的点击区域跟着平移。
+// 不在 pdfmake 排版阶段按页改边距：表格的列位置在整张表开始时就定了，跨页的表会错位
+function mirrorEvenPages() {
+  if (!MIRROR_DX) return;
+  const require = createRequire(import.meta.url);
+  const PMDoc = require('pdfmake/js/PDFDocument.js').default;
+  const kit = Object.getPrototypeOf(PMDoc.prototype);
+  const addPage = kit.addPage;
+  kit.addPage = function (...a) {
+    const r = addPage.apply(this, a);
+    this._pageNo = (this._pageNo || 0) + 1;
+    if (this._pageNo % 2 === 0) this.translate(MIRROR_DX, 0);
+    return r;
+  };
+}
+
+mirrorEvenPages();
 main().catch(e => { console.error(e); process.exit(1); });

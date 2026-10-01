@@ -50,7 +50,7 @@ python3 -m http.server 8788 --directory dist
 
 其他命令：
 
-- `pnpm pdf`：生成 A4 纵向 PDF，输出到 `output/<title>.pdf`。
+- `pnpm pdf`：生成两个 A4 纵向 PDF：阅读版 `output/<title>.pdf` 和双面打印版 `output/<title>-打印版.pdf`。单独生成打印版用 `node tools/pdf.mjs --print`。
 - `pnpm pdf:exams`：生成历年真题 PDF，每年一份，输出到 `output/exams/exam-<年份>.pdf`：前面是试卷（去掉考点、答案和思路），后面是参考答案与思路。
 - `pnpm pdf:sample`：只生成 `site.config.mjs` 里 `sample` 指定的几节，用来快速看版式。也可以用 `node tools/pdf.mjs --only <路径前缀>` 生成任意几节。
 - `pnpm merge`：按目录顺序把全部页面合并成一个 `guide.md`。
@@ -69,13 +69,14 @@ python3 -m http.server 8788 --directory dist
 ## PDF
 
 - **生成方式：** `tools/pdf.mjs` 用 pdfmake 生成 PDF。它和网站共用 `tools/build.mjs` 的交叉引用和句中加粗上色规则，所以两边的强调色、链接一致。
-- **版式：** 页边距左 15 mm（留装订余量）、上 10 mm、右 9 mm、下 10 mm。封面、带页码的目录；每个部分从新的一页开始；页眉左边是部分名、右边是本节标题；页脚是页码。
+- **两个版本：** 阅读版和每年的真题 PDF 左右边距都是 9 mm。打印版按双面打印装订排：内侧（装订侧）18 mm、外侧 12 mm，偶数页左右镜像；偶数页页眉的小节名在外侧；封面背面留白；每个部分从奇数页开始，需要时自动空出一页，空白页不印页眉页脚。
+- **版式：** 上 10 mm、下 10 mm。封面、带页码的目录；每个部分从新的一页开始；页眉左边是部分名、右边是本节标题；页脚是页码。
   - 表格跨页时重复表头，一行不会拆到两页。
   - 标题下方空间不够时，标题会连同后面的内容一起移到下一页。
 - **交叉引用：** 变成 PDF 内部链接，后面加“（第 N 页）”。
 - **字体：** Noto Sans SC（思源黑体，SIL OFL 开源授权）的 Regular 和 Bold 静态 TTF。首次运行时，`tools/fonts.mjs` 通过 jsDelivr 下载到 `tools/fonts/`，约 20 MB，不提交到仓库。
 - **历年真题：** 附录里每年一页（`content/appendix/exam-<年份>.md`），每题标注“考点”。构建时按考点在对应正文页末尾自动加一行“真题：”链接；`pnpm build` 还会生成每年一份真题 PDF，放在下载页。
-- **网页下载页：** `content/download.md` 是网站最后一页“PDF 下载”，只在网页上出现，不排进 PDF。构建时，PDF 复制到 `dist/downloads/guide.pdf`，页面里的页数、大小、日期自动填好。
+- **网页下载页：** `content/download.md` 是网站最后一页“PDF 下载”，只在网页上出现，不排进 PDF。构建时，两个版本复制到 `dist/downloads/guide.pdf` 和 `guide-print.pdf`，页面里的页数、大小、日期自动填好。
 - **两遍排版：** 为了让页眉和交叉引用的页码准确，脚本先排一遍拿到各节标题的页码，再正式输出。如果第二遍页码有变化，会打印警告。
 
 ## 发布到 Cloudflare
@@ -107,7 +108,7 @@ pnpm dlx wrangler deploy
 
 ## 发布 PDF 到 GitHub Release
 
-推送版本标签后，GitHub Actions（`.github/workflows/release.yml`）会生成 PDF，建一个 Release，并把 PDF 作为附件上传。Release 标题取 `site.config.mjs` 的 `title`，附件名为 `<slug>-guide-<标签>.pdf`（附件名用英文，GitHub 会替换掉附件名里的中文）。
+推送版本标签后，GitHub Actions（`.github/workflows/release.yml`）会生成 PDF，建一个 Release，并把两个 PDF 作为附件上传。Release 标题取 `site.config.mjs` 的 `title`，附件名为阅读版 `<slug>-guide-<标签>.pdf`、打印版 `<slug>-guide-<标签>-print.pdf`（附件名用英文，GitHub 会替换掉附件名里的中文）。
 
 ```bash
 git tag v1.0.0
